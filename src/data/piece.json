@@ -1,0 +1,235 @@
+{
+    "play_name": "Texte Pièce Gpe 7 - musique et folie",
+    "lines": [
+      {
+        "character": "Simon",
+        "line": "Olalala... Mais c’est quoi, cette musique ? C'est sinistre.", 
+        "line_number": 1
+      },
+      {
+        "character": "Carole", 
+        "line": "Moi, je ne trouve pas ça sinistre du tout.",
+        "line_number": 2
+      },
+      {
+        "character": "Simon",
+        "line": "Ah ben, qu'est-ce qu'il vous faut ? Faut pas s'étonner si les gens se jettent sous les trains, après.",
+        "line_number": 3
+      },
+      {
+        "character": "Carole",
+        "line": "Vous énervez pas comme ça. Y a pas de quoi vous mettre dans cet état. Et puis si la musique vous dérange, allez dans le hall.",
+        "line_number": 4
+      },
+      {
+        "character": "Simon",
+        "line": "On l’entend aussi dans le hall, la musique ! On l’entend partout ! Même aux toilettes !",
+        "line_number": 5
+      },
+      {
+        "character": "Pauline",
+        "line": "C'est parce que le train a du retard que vous vous énervez comme ça ?",
+        "line_number": 6
+      },
+      {
+        "character": "Bernadette",
+        "line": "Il a raison. C’est quand inadmissible, ce retard !",
+        "line_number": 7
+      },
+      {
+        "character": "Ludovic",
+        "line": "Faut relativiser, un peu. Y a pas mort d'homme.",
+        "line_number": 8
+      },
+      {
+        "character": "Simon",
+        "line": "Non pas encore, mais ça va pas tarder ! S’ils n’arrêtent pas cette musique, je sans que je vais tuer quelqu’un, moi ! (la musique s’arrête) Aaaaaaaaaaaaahhhhhhhhhhhhhhhh...",
+        "line_number": 9
+      },
+      {
+        "character": "Sally",
+        "line": "Ben voilà, y a qu’à demander.",
+        "line_number": 10
+      },
+      {
+        "character": "Simon",
+        "line": "Meeeeeeeeeeeeeeeeerci...",
+        "line_number": 11
+      },
+      {
+        "character": "Delphine",
+        "line": "Qu'est-ce qui te prend Simon ? Je ne t'avais jamais vu élever la voix comme ça.",
+        "line_number": 12
+      },
+      {
+        "character": "Simon",
+        "line": "Ben, y a un début à tout. T'as qu'à considérer que c'est une crise.",
+        "line_number": 13
+      },
+      {
+        "character": "Delphine",
+        "line": "Une crise ? Une crise de quoi ?",
+        "line_number": 14
+      },
+      {
+        "character": "Simon",
+        "line": "J'en sais rien ! D'adolescence ! Un peu tardive, certes, mais bon, chacun son rythme. Toi, tu l'as faite à l'adolescence. Maman, elle l’a fait à plus de 50 ans ! Ben moi, je la fais maintenant ! C’est comme ça ! On est tous différents !",
+        "line_number": 15
+      },
+      {
+        "character": null,
+        "line": "(on entend un morceau encore plus tragique ; les autres passagers reviennent)",
+        "line_number": 16
+      },
+      {
+        "character": "Simon", 
+        "line": "Mais ils le font exprès, c’est pas possible ! Il est encore pire que l'autre, ce morceau !",
+        "line_number": 17
+      },
+      {
+        "character": "Sofia",
+        "line": "Mais non, elle n'est pas si triste que ça, cette musique. Ça dépend comme on l'entend, c'est tout.",
+        "line_number": 18
+      },
+      {
+        "character": "Simon",
+        "line": "Ah ben, je ne sais pas comment vous faites pour pas l'entendre triste, vous. Moi, je l'entends sinistre, je l'entends amère, je l'entends morose !", 
+        "line_number": 19
+      },
+      {
+        "character": "La SDF",
+        "line": "Il a raison. C'est dangereux de balancer une musique comme ça dans un quai de gare !",
+        "line_number": 20
+      },
+      {
+        "character": "Fabienne",
+        "line": "Absolument !",
+        "line_number": 21
+      },
+      {
+        "character": "Bernadette", 
+        "line": "On comprend les types qui se jettent sous les trains, après !",
+        "line_number": 22
+      },
+      {
+        "character": "Simon",
+        "line": "Voilà ! C’est exactement ce que je disais ! On est bien d’accord !",
+        "line_number": 23
+      },
+      {
+        "character": "Nathalie",
+        "line": "En même temps, je vois pas sous quoi on pourrait se jeter... Il n’y a aucun train qui est passé depuis six heures...",
+        "line_number": 24
+      },
+      {
+        "character": "Lucile",
+        "line": "C'est vrai...",
+        "line_number": 25
+      },
+      {
+        "character": "La Mère", 
+        "line": "Pourquoi vous iriez vous jeter sous un train ? Vous êtes malheureux, dans la vie ?",
+        "line_number": 26
+      },
+      {
+        "character": "Bernadette",
+        "line": "Non, ça va. Mais justement, j'anticipe ! On ne sait jamais ce qui va écorcher notre bonheur. Nous faire basculer dans la déprime. La dépression. Le désespoir.",
+        "line_number": 27
+      },
+      {
+        "character": "Ludovic",
+        "line": "Un recommandé avec A/R.",
+        "line_number": 28
+      },
+      {
+        "character": "Carole",
+        "line": "Mon vélo, encore volé.",  
+        "line_number": 29
+      },
+      {
+        "character": "Bernadette", 
+        "line": "Une musique de Beethoven.",
+        "line_number": 30
+      },
+      {
+        "character": "Delphine",
+        "line": "La météo qui change.",
+        "line_number": 31
+      },  
+      {
+        "character": "Sally",
+        "line": "Le regard triste d'un chien.",
+        "line_number": 32
+      },
+      {
+        "character": "Arthur", 
+        "line": "Un coup de téléphone.",
+        "line_number": 33
+      },
+      {
+        "character": "Sofia",
+        "line": "Se réveiller avant que le réveil sonne.",
+        "line_number": 34 
+      },
+      {
+        "character": "La Mère",
+        "line": "Une chanson de Barbara.", 
+        "line_number": 35
+      },
+      {
+        "character": "Nathalie",
+        "line": "Mais non ! Quand même... Barbara, c'est sublime.",
+        "line_number": 36
+      },
+      {
+        "character": "La Mère",
+        "line": "Je ne dis pas le contraire. C'est trop beau ! Mais moi, au bout de 5 minutes, ça me donne envie de me tirer une balle... Je suis désolée...",
+        "line_number": 37
+      },
+      {
+        "character": "La SDF",
+        "line": "Un pigeon !",
+        "line_number": 38
+      },
+      {
+        "character": "Pauline",
+        "line": "Les vieux qui attendent devant la porte, l'ouverture du Supermarché à 9h moins dix.",
+        "line_number": 39
+      },
+      {
+        "character": "Fabienne", 
+        "line": "Un cri dans la nuit.",
+        "line_number": 40
+      },
+      {
+        "character": "Arthur",
+        "line": "Un enfant handicapé.",
+        "line_number": 41
+      },
+      {
+        "character": "Lucile",
+        "line": "Une blague de Cyril Hanouna.",
+        "line_number": 42
+      },
+      {
+        "character": "Simon",
+        "line": "Voilà ! Exactement ! Tout est bon pour nous empêcher d'être heureux. Et la liste est loin d'être finie, croyez-moi ! Alors, arrêtez de diffuser cette musique !",
+        "line_number": 43
+      },
+      {
+        "character": null,
+        "line": "(la musique s’arrête)",
+        "line_number": 44
+      },
+      {
+        "character": "Pauline", 
+        "line": "Peut-être que c’est cela qu’ils cherchent. A tous nous rendre dingues...",
+        "line_number": 45
+      },
+      {
+        "character": null,
+        "line": "(musique folie ; choré)",
+        "line_number": 46
+      }
+    ]
+  }
