@@ -1,4 +1,4 @@
-{
+[{
     "play_name": "Texte Pièce Gpe 7 - musique et folie",
     "lines": [
       {
@@ -232,4 +232,39 @@
         "line_number": 46
       }
     ]
-  }
+  },
+{
+    "play_name": "Texte Pièce le rainbow",
+    "lines": [
+      {
+        "character": "Charles-henry",
+        "line": "Olalala... Mais c’est quoi, cette musique ? C'est sinistre.", 
+        "line_number": 1,
+        "textShadow":true
+      },
+      {
+        "character": "Carole", 
+        "line": "Moi, je ne trouve pas ça sinistre du tout.",
+        "line_number": 2,
+        "textShadow":true
+      },
+      {
+        "character": "Simon",
+        "line": "Ah ben, qu'est-ce qu'il vous faut ? Faut pas s'étonner si les gens se jettent sous les trains, après.",
+        "line_number": 3,
+        "textShadow":true
+      },
+      {
+        "character": "Carole",
+        "line": "Vous énervez pas comme ça. Y a pas de quoi vous mettre dans cet état. Et puis si la musique vous dérange, allez dans le hall.",
+        "line_number": 4,
+        "textShadow":true
+      },
+      {
+        "character": "Simon",
+        "line": "On l’entend aussi dans le hall, la musique ! On l’entend partout ! Même aux toilettes !",
+        "line_number": 5
+      }
+     
+    ]
+  }]
