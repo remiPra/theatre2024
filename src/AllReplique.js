@@ -53,10 +53,10 @@ function AllReplique() {
 
 
     return (<>
-        <div>AllReplique</div>
+        <h1 className='text-center   mt-5'>Toutes les répliques de la pièce</h1>
         {characterPlay == '' &&
             <div>
-                <p className='flex justify-center text-center mt-5'> Choisissez le personnage que vous voulez incarner </p>
+                <p className='flex justify-center mb-14 text-2xl text-center mt-5'> Choisissez le personnage que vous voulez incarner </p>
                 <div className='flex flex-wrap justify-center mt-5' >
 
                     {characters.map((el, index) => (<>

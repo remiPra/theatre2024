@@ -11,18 +11,20 @@ import {
 } from "react-router-dom";
 import PlayComponent from './PlayScene';
 import AllReplique from './AllReplique';
-import Dictaphone from './Speech';
+import Dictaphone from './Dictaphone'
+import PlayComponentAudio from './PlaySceneAudio';
 
 function App() {
   return (<>
     <BrowserRouter>
     <NavBar />
-    <div className='mt-[100px]'>
+    <div className='mt-[100px]'>  
 
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/about" element={<Dictaphone />} />
         <Route path="/play" element={<PlayComponent />} />
+        <Route path="/audio" element={<PlayComponentAudio />} />
         <Route path="/allsentences" element={<AllReplique />} />
         {/* Ajoutez d'autres routes ici */}
       </Routes>

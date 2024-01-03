@@ -7,3 +7,12 @@ h1 {
     font-size: 30px;
     font-family: 'Rubik Doodle Shadow', sans-serif;
 }
+
+.custom-ciel {
+
+    background-image: url('https://media.discordapp.net/attachments/1064968678640201758/1192192648052740146/remiange_the_sky_is_full_of_stars_in_the_style_of_zeiss_otus_85_1794ccd0-206d-491d-a1c0-59008cd69424.png');
+    background-size: cover; /* ou toute autre propriété de taille de fond souhaitée */
+    background-position: center; /* ou toute autre propriété de position de fond souhaitée */
+
+
+}
