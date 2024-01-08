@@ -1,13 +1,14 @@
-[{
+[
+  {
     "play_name": "Texte Pièce Gpe 7 - musique et folie",
     "lines": [
       {
         "character": "Simon",
-        "line": "Olalala... Mais c’est quoi, cette musique ? C'est sinistre.", 
+        "line": "Olalala... Mais c’est quoi, cette musique ? C'est sinistre.",
         "line_number": 1
       },
       {
-        "character": "Carole", 
+        "character": "Carole",
         "line": "Moi, je ne trouve pas ça sinistre du tout.",
         "line_number": 2
       },
@@ -82,7 +83,7 @@
         "line_number": 16
       },
       {
-        "character": "Simon", 
+        "character": "Simon",
         "line": "Mais ils le font exprès, c’est pas possible ! Il est encore pire que l'autre, ce morceau !",
         "line_number": 17
       },
@@ -93,7 +94,7 @@
       },
       {
         "character": "Simon",
-        "line": "Ah ben, je ne sais pas comment vous faites pour pas l'entendre triste, vous. Moi, je l'entends sinistre, je l'entends amère, je l'entends morose !", 
+        "line": "Ah ben, je ne sais pas comment vous faites pour pas l'entendre triste, vous. Moi, je l'entends sinistre, je l'entends amère, je l'entends morose !",
         "line_number": 19
       },
       {
@@ -107,7 +108,7 @@
         "line_number": 21
       },
       {
-        "character": "Bernadette", 
+        "character": "Bernadette",
         "line": "On comprend les types qui se jettent sous les trains, après !",
         "line_number": 22
       },
@@ -127,7 +128,7 @@
         "line_number": 25
       },
       {
-        "character": "La Mère", 
+        "character": "La Mère",
         "line": "Pourquoi vous iriez vous jeter sous un train ? Vous êtes malheureux, dans la vie ?",
         "line_number": 26
       },
@@ -143,11 +144,11 @@
       },
       {
         "character": "Carole",
-        "line": "Mon vélo, encore volé.",  
+        "line": "Mon vélo, encore volé.",
         "line_number": 29
       },
       {
-        "character": "Bernadette", 
+        "character": "Bernadette",
         "line": "Une musique de Beethoven.",
         "line_number": 30
       },
@@ -155,25 +156,25 @@
         "character": "Delphine",
         "line": "La météo qui change.",
         "line_number": 31
-      },  
+      },
       {
         "character": "Sally",
         "line": "Le regard triste d'un chien.",
         "line_number": 32
       },
       {
-        "character": "Arthur", 
+        "character": "Arthur",
         "line": "Un coup de téléphone.",
         "line_number": 33
       },
       {
         "character": "Sofia",
         "line": "Se réveiller avant que le réveil sonne.",
-        "line_number": 34 
+        "line_number": 34
       },
       {
         "character": "La Mère",
-        "line": "Une chanson de Barbara.", 
+        "line": "Une chanson de Barbara.",
         "line_number": 35
       },
       {
@@ -197,7 +198,7 @@
         "line_number": 39
       },
       {
-        "character": "Fabienne", 
+        "character": "Fabienne",
         "line": "Un cri dans la nuit.",
         "line_number": 40
       },
@@ -222,7 +223,7 @@
         "line_number": 44
       },
       {
-        "character": "Pauline", 
+        "character": "Pauline",
         "line": "Peut-être que c’est cela qu’ils cherchent. A tous nous rendre dingues...",
         "line_number": 45
       },
@@ -233,38 +234,140 @@
       }
     ]
   },
-{
-    "play_name": "Texte Pièce le rainbow",
+  {
+    "play_name": "Texte Pièce scene 1 - ",
+    "position_scene":2,
     "lines": [
       {
-        "character": "Charles-henry",
-        "line": "Olalala... Mais c’est quoi, cette musique ? C'est sinistre.", 
-        "line_number": 1,
-        "textShadow":true
+        "character": "La SDF",
+        "line": "Mais je t'emm*rde toi, avec ta valise de merde ! Même pas mal, espèce de nazi !",
+        "line-number": 1
       },
       {
-        "character": "Carole", 
-        "line": "Moi, je ne trouve pas ça sinistre du tout.",
-        "line_number": 2,
-        "textShadow":true
+        "character": "La SDF",
+        "line": "C'est à cause de connards comme toi que je suis obligée de manger au restaurant social et que je peux pas vivre avec mon mec ! Même pas mal ! Ouais ! C'est à cause de toi que je peux pas avoir mon fric et que je suis obligée de me toucher la nuit ! M'en fous... Même pas mal...",
+        "line-number": 2
       },
       {
-        "character": "Simon",
-        "line": "Ah ben, qu'est-ce qu'il vous faut ? Faut pas s'étonner si les gens se jettent sous les trains, après.",
-        "line_number": 3,
-        "textShadow":true
+        "character": "La SDF",
+        "line": "Tout le monde est coupable depuis l'an 2000 ! Tout le monde ! Ah, ça, vous aimez pas entendre la vérité, hein ? Vous aimez pas ! Vous voulez m'entraîner au fascisme mais je le suis pas fasciste, c'est vous !",
+        "line-number": 3
       },
       {
-        "character": "Carole",
-        "line": "Vous énervez pas comme ça. Y a pas de quoi vous mettre dans cet état. Et puis si la musique vous dérange, allez dans le hall.",
-        "line_number": 4,
-        "textShadow":true
+        "character": "La SDF",
+        "line": "(elle s'assoit près de Victor) Eh ! Y a pas marqué malade sur ma gueule ! Tu crois que t'as affaire à une petite malade ? Non, non... (elle éclate de rire) (un temps elle le regarde attentivement) Eh ! Si ça se trouve, t'es l'homme que j'aime et ils t'ont tellement changé, que je te reconnais même plus. (elle éclate de rire) Alors, dis-moi ? T'as bien baisé depuis plus de sept ans, ? Tu peux pas aller voir mon mec, parce qu'ils l'ont torturé. Ouais... Même pas mal !",
+        "line-number": 4
       },
       {
-        "character": "Simon",
-        "line": "On l’entend aussi dans le hall, la musique ! On l’entend partout ! Même aux toilettes !",
-        "line_number": 5
+        "character": "La SDF",
+        "line": "Tu sais moi, je peux pas le la à la mer. Non... Je peux pas... Je peux pas aller à l'océan. J'ai pas de bagnoles ! Même pas mal ! (elle éclate de rire) Les gens de couleur, ils essaient de faire passer les blancs pour des fachos, mais... Même pas mal ! Et puis moi, je suis pas comme toi ! J'ai pas un téléphone portable pour téléguider le cerveau des gens !",
+        "line-number": 5
+      },
+      {
+        "character": "La SDF",
+        "line": "(un temps ; elle se rapproche et lui chuchote à l'oreille) Tu sais quoi ? Ils font tout ça sur leur compte bancaire... Ouais... Même pas mal... Moi, je sais tout sur tout ! Attention, tu m'auras pas comme ça, je te préviens ! Même pas mal !",
+        "line-number": 6
+      },
+      {
+        "character": "La SDF",
+        "line": "(un temps) Eh... T'es pas psy, au moins ? Non, parce que les psys, ils m'ont niq*** la gueule en 2000 avec leurs médicaments. Mais... Tu sais quoi ? ... Même pas mal...",
+        "line-number": 7
+      },
+      {
+        "character": "La SDF",
+        "line": "(à Delphine) Tu sais quoi ? Je ne supporte pas ceux qui s'en prennent à des petits enfants qui n'ont rien demandé à personne pour naître. Ces gens-là, il faut les décapiter vivants ! Il faut les lapider à coups de hache ! Et en faire du pâté ! Du pâté ! (elle s'assoit) Tu sais, moi, je comprends pas comment ça marche, la société, les règles.",
+        "line-number": 8
+      },
+      {
+        "character": "Delphine",
+        "line": "Ah... C’est pourtant pas compliqué de savoir comment ça marche.",
+        "line-number": 9
+      },
+      {
+        "character": "La SDF",
+        "line": "Ah bon ? Ben moi, je comprends pas.",
+        "line-number": 10
+      },
+      {
+        "character": "Delphine",
+        "line": "Bon. Par exemple, c'est quoi notre régime, en France ? Vous savez, ça ?",
+        "line-number": 11
+      },
+      {
+        "character": "La SDF",
+        "line": "Un régime ? J'en fais plus de régime.",
+        "line-number": 12
+      },
+      {
+        "character": "Delphine",
+        "line": "Non... Je ne vous parle pas de celui-là. Je parle du régime qui nous gouverne. Est-ce que c’est un Roi, un Prince, une Princesse, une Fée, un Dragon, ou la Démocratie avec un Président.",
+        "line-number": 13
+      },
+      {
+        "character": "La SDF",
+        "line": "Euh... Le dernier, ça me dit bien quelque chose...",
+        "line-number": 14
+      },
+      {
+        "character": "Delphine",
+        "line": "Ah, ben voilà...",
+        "line-number": 15
+      },
+      {
+        "character": "La SDF",
+        "line": "C’est un Président, alors ? Ah, d’accord...",
+        "line-number": 16
+      },
+      {
+        "character": "Pauline",
+        "line": "Je t'ai dit que j'ai rêvé de Maman, l'autre nuit ?",
+        "line-number": 17
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ah non. Tu ne m'as rien dit, non.",
+        "line-number": 18
+      },
+      {
+        "character": "Pauline",
+        "line": "Ben voilà, j'ai rêvé d'elle. Elle n'était pas malade, enfin, elle était bien, comme avant, quoi. Et toi, t'étais assise sur ses genoux mais t'avais, genre, dix-onze ans. Et elle te caressait les cheveux, tout doucement. Et moi, elle me regardait fixement, avec un regard dur, que je ne lui avais jamais vu.",
+        "line-number": 19
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ah ouais ? C'est exactement le contraire de ce qui s’est passé dans la vie, quoi.",
+        "line-number": 20
+      },
+      {
+        "character": "Pauline",
+        "line": "Voilà, si tu veux.",
+        "line-number": 21
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ah mais non, pas « si je veux ». C'est vrai. C'est avec moi qu'elle était dure. Avec moi seule. Tu ne peux pas dire le contraire.",
+        "line-number": 22
+      },
+      {
+        "character": "Pauline",
+        "line": "Admettons.",
+        "line-number": 23
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ne dis pas « admettons ». C'est la vérité ! C'est comme ça que ça s'est passé, c'est tout.",
+        "line-number": 24
+      },
+      {
+        "character": "Pauline",
+        "line": "D'accord, c'était plus facile pour moi, mais tu ne peux pas passer à autre chose maintenant ? Tu vas passer ta vie à te lamenter, comme ça, sur le passé ? Ça fait quinze ans, Nathalie ! Quinze ans ! On a tous des traumatismes ! On a tous des problèmes ! Mais il y a un moment où c'est bien de passer à autre chose, non ? Tu comprends ce que je veux dire ?",
+        "line-number": 18
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ben oui, je comprends, ça va, je suis pas débile.",
+        "line-number": 19
       }
-     
     ]
-  }]
+  }
+]

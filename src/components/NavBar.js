@@ -18,7 +18,7 @@ function NavBar() {
         <li><Link className='px-2' to="/">Home</Link></li>
         <li><Link className='px-2' to="/allsentences">Phrases</Link></li>
         <li><Link className='px-2' to="/audio">Audio</Link></li>
-        <li><Link className='px-2' to="/play">playScene</Link></li>
+        {/* <li><Link className='px-2' to="/play">playScene</Link></li> */}
       </ul>
 
       <div className='flex'>
