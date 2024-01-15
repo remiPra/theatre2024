@@ -144,13 +144,13 @@ function PlayComponentAudio() {
                             </div>
                         }
                         {(line.character == characterPlay && line.textShadow) &&
-                            <div className='flex justify-between p-2 bg-green-800'>
+                            <div className='flex flex-wrap justify-between p-2 bg-green-800'>
                                 <div>
                                     <strong>{line.character}</strong> : <span className='text-white'>
                                         {line.line}
                                     </span>
                                 </div>
-                                <div>
+                                <div className='flex justify-end w-full '>
                                     <button className='flex text-red-100 bg-red-700 rounded-lg m-2 p-2'
                                         onClick={() => { openAudio(line) }}>
                                         <MdOutlineSpatialAudioOff />

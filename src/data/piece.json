@@ -236,7 +236,7 @@
   },
   {
     "play_name": "Texte Pièce scene 1 - ",
-    "position_scene":2,
+    "position_scene": 2,
     "lines": [
       {
         "character": "La SDF",
@@ -368,6 +368,107 @@
         "line": "Ben oui, je comprends, ça va, je suis pas débile.",
         "line-number": 19
       }
+    ]
+  },
+  {
+    "play_name": "Texte Pièce scene 2 - ",
+    "lines": [
+      [
+        {
+          "character": "La SDF",
+          "line": "Bonjour.",
+          "line-number": 1
+        },
+        {
+          "character": "Arthur",
+          "line": "...",
+          "line-number": 2
+        },
+        {
+          "character": "La SDF",
+          "line": "BONJOUR !",
+          "line-number": 3
+        },
+        {
+          "character": "Arthur",
+          "line": "Oh, ça va, pas la peine de gueuler ! Bonjour !",
+          "line-number": 4
+        },
+        {
+          "character": "La SDF",
+          "line": "Est-ce que tu sais où est posé ton cul ?",
+          "line-number": 5
+        },
+        {
+          "character": "Arthur",
+          "line": "Pardon ?",
+          "line-number": 6
+        },
+        {
+          "character": "La SDF",
+          "line": "Est-ce que tu sais où est posé ton joli petit cul, jeune homme?",
+          "line-number": 7
+        },
+        {
+          "character": "Arthur",
+          "line": "Ben, sur un banc.",
+          "line-number": 8
+        },
+        {
+          "character": "La SDF",
+          "line": "Non, non, non, non, non... Il est posé là où j'ai dormi cette nuit. Tu es chez moi, ici ! Qu'est-ce que tu fous chez moi ?",
+          "line-number": 9
+        },
+        {
+          "character": "Arthur",
+          "line": "Chez vous ?",
+          "line-number": 10
+        },
+        {
+          "character": "La SDF",
+          "line": "Ouais ! Est-ce que je viens poser mon cul sur ton canapé, moi, hein ? En plus, t'as même pas sonné ! Tu rentres, tranquille, et t'installes, peinard. Oh ! On rentre pas chez les gens, comme ça !",
+          "line-number": 11
+        },
+        {
+          "character": "Arthur",
+          "line": "Alors, maintenant on va se calmer, OK ? D'abord, parce que les bancs sont à tout le monde !",
+          "line-number": 12
+        },
+        {
+          "character": "La SDF",
+          "line": "Non ! Celui là, il est à moi ! Et si tu veux t'asseoir dessus, tu demandes la permission.",
+          "line-number": 13
+        },
+        {
+          "character": "Arthur",
+          "line": "Mais je ne pouvais pas la demander, la permission, vous n'étiez pas là.",
+          "line-number": 14
+        },
+        {
+          "character": "La SDF",
+          "line": "(elle réfléchit) Juste. (un temps) Très juste. (un temps) Mais maintenant que je suis là, faut demander.","line-number": 15
+        },
+        {
+          "character": "Arthur",
+          "line": "Ah... OK... Vous permettez que je reste assis sur votre banc ?",
+          "line-number": 16
+        },
+        {
+          "character": "La SDF",
+          "line": "Mais bien sûr, avec plaisir.",
+          "line-number": 17
+        },
+        {
+          "character": "Arthur",
+          "line": "Merci beaucoup.",
+          "line-number": 18
+        },
+        {
+          "character": "La SDF",
+          "line": "(elle s'assoit près de lui)",
+          "line-number": 19
+        }
+      ]
     ]
   }
 ]
