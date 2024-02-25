@@ -14,6 +14,7 @@ function PlayComponentAudio() {
     const [characters, setCharacters] = useState([]);
     const [characterPlay, setCharacterPlay] = useState("")
     const [scene, setScene] = useState("")
+    const [description, setDescription] = useState("")
     const [specificScene, setSpecificScene] = useState({})
 
     const [showAudio, setShowAudio] = useState(false)
@@ -44,9 +45,10 @@ function PlayComponentAudio() {
 
 
 
-
-    const sceneChoose = async (el) => {
-        setScene(el);
+        
+    const sceneChoose = async (title,description) => {
+        setScene(title);
+        setDescription(description)
         console.log(scene)
 
         setTimeout(() => { console.log(specificScene) }, 3000)
@@ -88,22 +90,28 @@ function PlayComponentAudio() {
     return (<>
         {(characterPlay == '' && scene == "") && (
             <><h1 className='text-center mt-6 mb-6'>Choisissez votre scene :</h1>
-                <div className='flex justify-center'>
+                <div className='flex justify-center flex-wrap'>
 
                     {
                         playLines.map((el, index) => (<>
                             <button
-                                onClick={() => (sceneChoose(el.play_name))} key={index}
-                                className='rubik text-black text-[30px] max-w-[200px] border border-2 rounded-lg m-2 p-2'>{el.play_name}</button>
+                                onClick={() => (sceneChoose(el.play_name,el.description))} key={index}
+                                className=' rubik text-black text-[26px] max-w-[250px] min-h-[200px] border-2 rounded-lg m-2 p-2'>{el.play_name}</button>
                         </>))
                     }
                 </div>
             </>
         )}
         {(characterPlay == "" && scene != "" && !continuer) && <>
-            <p className='text-center mt-6 mb-6'>Vous avez chosi votre piece maintenat passons au personnage</p>
+        <h3 className='text-center mt-6 mb-6'>Vous avez choisi la scène : 
+        <span className='block text-center text-2xl '>{scene}</span> 
+        <span className='block text-center text-xl '>{description}</span> 
+
+        </h3>
+
+            <p className='text-center mt-6 mb-6'>Maintenant passons au choix du personnage que vous voulez travailler</p>
             <div className='flex justify-center'>
-                <button className='text-red-100 max-w-[200px] bg-red-700 rounded-lg m-2 p-2' onClick={caractersChoose}>Continuer </button>
+                <button className='text-red-100 max-w-[200px] bg-red-700 rounded-lg m-2 p-2' onClick={caractersChoose}>Cliquer pour Continuer </button>
             </div>
         </>}
         {(characterPlay == '' && scene != "" && continuer) &&

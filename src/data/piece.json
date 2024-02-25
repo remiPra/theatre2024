@@ -1,474 +1,839 @@
 [
   {
-    "play_name": "Texte Pièce Gpe 7 - musique et folie",
+    "play_name": "Les Philosophes du Quotidien part1",
+    "position": 0,
     "lines": [
       {
-        "character": "Simon",
-        "line": "Olalala... Mais c’est quoi, cette musique ? C'est sinistre.",
-        "line_number": 1
+        "character": "Florence",
+        "line": "Un jour, un certain Président de la République (français… élu récemment… et toujours en fonction, en fait…) a dit : \"Dans une gare, on croise des gens qui réussissent et des gens qui ne sont rien\".",
+        "line-number": 1
       },
       {
-        "character": "Carole",
-        "line": "Moi, je ne trouve pas ça sinistre du tout.",
-        "line_number": 2
+        "character": "Pierre-Etienne",
+        "line": "De la philosophie de haut-vol, n’est-ce pas ? Le très célèbre philosophe Franck Ribéry (et footballeur à ces heures perdues), aurait très certainement pu dire cette phrase, je crois. C’est vrai, quelqu’un qui en interview a affirmé :",
+        "line-number": 2
       },
       {
-        "character": "Simon",
-        "line": "Ah ben, qu'est-ce qu'il vous faut ? Faut pas s'étonner si les gens se jettent sous les trains, après.",
-        "line_number": 3
+        "character": "Sylvie",
+        "line": "Inconsciemment, il faut pas s'endormir.",
+        "line-number": 3
       },
       {
-        "character": "Carole",
-        "line": "Vous énervez pas comme ça. Y a pas de quoi vous mettre dans cet état. Et puis si la musique vous dérange, allez dans le hall.",
-        "line_number": 4
+        "character": "Béné",
+        "line": "C’est beau ce Stade Vélodrome qui est toujours plein, à domicile comme à l’extérieur.",
+        "line-number": 4
       },
       {
-        "character": "Simon",
-        "line": "On l’entend aussi dans le hall, la musique ! On l’entend partout ! Même aux toilettes !",
-        "line_number": 5
+        "character": "Rémi",
+        "line": "Au niveau des sensations, je n’ai rien ressenti.",
+        "line-number": 5
       },
       {
-        "character": "Pauline",
-        "line": "C'est parce que le train a du retard que vous vous énervez comme ça ?",
-        "line_number": 6
+        "character": "Benoît",
+        "line": "J’espère que la routourne va vite tourner.",
+        "line-number": 6
       },
       {
-        "character": "Bernadette",
-        "line": "Il a raison. C’est quand inadmissible, ce retard !",
-        "line_number": 7
+        "character": "Béné",
+        "line": "J’ai couru jusqu’à quand ce que je pouvais.",
+        "line-number": 7
       },
       {
-        "character": "Ludovic",
-        "line": "Faut relativiser, un peu. Y a pas mort d'homme.",
-        "line_number": 8
+        "character": "Rémi",
+        "line": "C’est un match qui se joue en deux matchs.",
+        "line-number": 8
       },
       {
-        "character": "Simon",
-        "line": "Non pas encore, mais ça va pas tarder ! S’ils n’arrêtent pas cette musique, je sans que je vais tuer quelqu’un, moi ! (la musique s’arrête) Aaaaaaaaaaaaahhhhhhhhhhhhhhhh...",
-        "line_number": 9
+        "character": "Benoît",
+        "line": "Chaque année, je vieillis d’un an.",
+        "line-number": 9
       },
       {
-        "character": "Sally",
-        "line": "Ben voilà, y a qu’à demander.",
-        "line_number": 10
+        "character": "Sylvie",
+        "line": "Demain est un autre jour, faut avancer de l’avant.",
+        "line-number": 10
       },
       {
-        "character": "Simon",
-        "line": "Meeeeeeeeeeeeeeeeerci...",
-        "line_number": 11
+        "character": "Florence",
+        "line": "Je ne sais pas pour vous, mais je crois que c’est celle-la, ma préférée : « Demain est un autre jour, faut avancer de l’avant. » Voilà une phrase qu’un certain Président de La République aurait également pu dire après deux ou trois bières bues cul sec dans le vestiaire du Stade Toulousain, un soir de finale du Top 14. Non ?",
+        "line-number": 11
       },
       {
-        "character": "Delphine",
-        "line": "Qu'est-ce qui te prend Simon ? Je ne t'avais jamais vu élever la voix comme ça.",
-        "line_number": 12
+        "character": "Pierre-Etienne",
+        "line": "Tu t’égares un peu non ?",
+        "line-number": 12
       },
       {
-        "character": "Simon",
-        "line": "Ben, y a un début à tout. T'as qu'à considérer que c'est une crise.",
-        "line_number": 13
+        "character": "Florence",
+        "line": "Tu as raison. Revenons à notre gare et à cette première citation : \"Dans une gare, on croise des gens qui réussissent et des gens qui ne sont rien\".",
+        "line-number": 13
       },
       {
-        "character": "Delphine",
-        "line": "Une crise ? Une crise de quoi ?",
-        "line_number": 14
+        "character": "Pierre-Etienne",
+        "line": "Mais qu’est-ce que c’est quelqu’un qui n’est rien ?",
+        "line-number": 14
       },
       {
-        "character": "Simon",
-        "line": "J'en sais rien ! D'adolescence ! Un peu tardive, certes, mais bon, chacun son rythme. Toi, tu l'as faite à l'adolescence. Maman, elle l’a fait à plus de 50 ans ! Ben moi, je la fais maintenant ! C’est comme ça ! On est tous différents !",
-        "line_number": 15
-      },
-      {
-        "character": null,
-        "line": "(on entend un morceau encore plus tragique ; les autres passagers reviennent)",
-        "line_number": 16
-      },
-      {
-        "character": "Simon",
-        "line": "Mais ils le font exprès, c’est pas possible ! Il est encore pire que l'autre, ce morceau !",
-        "line_number": 17
-      },
-      {
-        "character": "Sofia",
-        "line": "Mais non, elle n'est pas si triste que ça, cette musique. Ça dépend comme on l'entend, c'est tout.",
-        "line_number": 18
-      },
-      {
-        "character": "Simon",
-        "line": "Ah ben, je ne sais pas comment vous faites pour pas l'entendre triste, vous. Moi, je l'entends sinistre, je l'entends amère, je l'entends morose !",
-        "line_number": 19
-      },
-      {
-        "character": "La SDF",
-        "line": "Il a raison. C'est dangereux de balancer une musique comme ça dans un quai de gare !",
-        "line_number": 20
-      },
-      {
-        "character": "Fabienne",
-        "line": "Absolument !",
-        "line_number": 21
-      },
-      {
-        "character": "Bernadette",
-        "line": "On comprend les types qui se jettent sous les trains, après !",
-        "line_number": 22
-      },
-      {
-        "character": "Simon",
-        "line": "Voilà ! C’est exactement ce que je disais ! On est bien d’accord !",
-        "line_number": 23
-      },
-      {
-        "character": "Nathalie",
-        "line": "En même temps, je vois pas sous quoi on pourrait se jeter... Il n’y a aucun train qui est passé depuis six heures...",
-        "line_number": 24
-      },
-      {
-        "character": "Lucile",
-        "line": "C'est vrai...",
-        "line_number": 25
-      },
-      {
-        "character": "La Mère",
-        "line": "Pourquoi vous iriez vous jeter sous un train ? Vous êtes malheureux, dans la vie ?",
-        "line_number": 26
-      },
-      {
-        "character": "Bernadette",
-        "line": "Non, ça va. Mais justement, j'anticipe ! On ne sait jamais ce qui va écorcher notre bonheur. Nous faire basculer dans la déprime. La dépression. Le désespoir.",
-        "line_number": 27
-      },
-      {
-        "character": "Ludovic",
-        "line": "Un recommandé avec A/R.",
-        "line_number": 28
-      },
-      {
-        "character": "Carole",
-        "line": "Mon vélo, encore volé.",
-        "line_number": 29
-      },
-      {
-        "character": "Bernadette",
-        "line": "Une musique de Beethoven.",
-        "line_number": 30
-      },
-      {
-        "character": "Delphine",
-        "line": "La météo qui change.",
-        "line_number": 31
-      },
-      {
-        "character": "Sally",
-        "line": "Le regard triste d'un chien.",
-        "line_number": 32
-      },
-      {
-        "character": "Arthur",
-        "line": "Un coup de téléphone.",
-        "line_number": 33
-      },
-      {
-        "character": "Sofia",
-        "line": "Se réveiller avant que le réveil sonne.",
-        "line_number": 34
-      },
-      {
-        "character": "La Mère",
-        "line": "Une chanson de Barbara.",
-        "line_number": 35
-      },
-      {
-        "character": "Nathalie",
-        "line": "Mais non ! Quand même... Barbara, c'est sublime.",
-        "line_number": 36
-      },
-      {
-        "character": "La Mère",
-        "line": "Je ne dis pas le contraire. C'est trop beau ! Mais moi, au bout de 5 minutes, ça me donne envie de me tirer une balle... Je suis désolée...",
-        "line_number": 37
-      },
-      {
-        "character": "La SDF",
-        "line": "Un pigeon !",
-        "line_number": 38
-      },
-      {
-        "character": "Pauline",
-        "line": "Les vieux qui attendent devant la porte, l'ouverture du Supermarché à 9h moins dix.",
-        "line_number": 39
-      },
-      {
-        "character": "Fabienne",
-        "line": "Un cri dans la nuit.",
-        "line_number": 40
-      },
-      {
-        "character": "Arthur",
-        "line": "Un enfant handicapé.",
-        "line_number": 41
-      },
-      {
-        "character": "Lucile",
-        "line": "Une blague de Cyril Hanouna.",
-        "line_number": 42
-      },
-      {
-        "character": "Simon",
-        "line": "Voilà ! Exactement ! Tout est bon pour nous empêcher d'être heureux. Et la liste est loin d'être finie, croyez-moi ! Alors, arrêtez de diffuser cette musique !",
-        "line_number": 43
-      },
-      {
-        "character": null,
-        "line": "(la musique s’arrête)",
-        "line_number": 44
-      },
-      {
-        "character": "Pauline",
-        "line": "Peut-être que c’est cela qu’ils cherchent. A tous nous rendre dingues...",
-        "line_number": 45
-      },
-      {
-        "character": null,
-        "line": "(musique folie ; choré)",
-        "line_number": 46
+        "character": "Florence",
+        "line": "A quoi ça ressemble ?",
+        "line-number": 15
       }
     ]
   },
   {
-    "play_name": "Texte Pièce scene 1 - ",
-    "position_scene": 2,
+    "play_name": "Retard sur la Ligne de Nevers : Dialogues Glacé",
+    "position": 4,
     "lines": [
       {
-        "character": "La SDF",
-        "line": "Mais je t'emm*rde toi, avec ta valise de merde ! Même pas mal, espèce de nazi !",
+        "character": "La Contrôleuse",
+        "line": "Vous êtes le seul qui n'a pas râlé à l'annonce du retard. Vous allez où ?",
+        "line-number": 1
+      },
+      {
+        "character": "Ludovic",
+        "line": "Voir ma mère.",
+        "line-number": 2
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Ah… Et ça n'a pas l'air de vous faire plaisir.",
+        "line-number": 3
+      },
+      {
+        "character": "Ludovic",
+        "line": "Ben non, c'est horrible.",
+        "line-number": 4
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Carrément ?",
+        "line-number": 5
+      },
+      {
+        "character": "Ludovic",
+        "line": "Oh oui. Elle me gonfle déjà. Je ne suis même pas monté dans le train que je suis terrorisé à l'idée de la retrouver.",
+        "line-number": 6
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Elle habite où ?",
+        "line-number": 7
+      },
+      {
+        "character": "Ludovic",
+        "line": "Nevers. Correspondance à Vezoul. Tout de suite, ça fait rêver, hein ?",
+        "line-number": 8
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Mais elle a quoi, votre mère, de si terrible ?",
+        "line-number": 9
+      },
+      {
+        "character": "Ludovic",
+        "line": "Vous avez déjà vu un glaçon humain ?",
+        "line-number": 10
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Euh…",
+        "line-number": 11
+      },
+      {
+        "character": "Ludovic",
+        "line": "Ben, c’est ma mère : un glaçon humain. Sauf que elle, elle ne fond pas. Jamais. Elle est, et restera toute sa vie, un glaçon humain.",
+        "line-number": 12
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Ah oui...",
+        "line-number": 13
+      },
+      {
+        "character": "Ludovic",
+        "line": "Quinze ans de psychanalyse.",
+        "line-number": 14
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Votre mère ?",
+        "line-number": 15
+      },
+      {
+        "character": "Ludovic",
+        "line": "Non, moi !",
+        "line-number": 16
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "A cause d’elle ?",
+        "line-number": 17
+      },
+      {
+        "character": "Ludovic",
+        "line": "Ben oui !",
+        "line-number": 18
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Mais pourquoi vous y allez, si c'est l'enfer de la retrouver.",
+        "line-number": 19
+      },
+      {
+        "character": "Ludovic",
+        "line": "Je n'ai pas le choix ! C'est l'anniversaire de ma sœur. C'est une fête de famille. Je ne peux pas ne pas y aller. Ma sœur ne me le pardonnerait jamais.",
+        "line-number": 20
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Je comprends… Du coup, que le train ait du retard, ça vous arrange, en fait.",
+        "line-number": 21
+      },
+      {
+        "character": "Ludovic",
+        "line": "Voilà.",
+        "line-number": 22
+      },
+      {
+        "character": "Indication",
+        "line": "ils rient",
+        "line-number": 23
+      }
+    ]
+  },
+  {
+    "play_name": "Quai des Vies Croisées",
+    "position_scene": 5,
+    "lines": [
+      {
+        "character": "Indication",
+        "line": "La SDF déboule sur le quai et s'écrie",
         "line-number": 1
       },
       {
         "character": "La SDF",
-        "line": "C'est à cause de connards comme toi que je suis obligée de manger au restaurant social et que je peux pas vivre avec mon mec ! Même pas mal ! Ouais ! C'est à cause de toi que je peux pas avoir mon fric et que je suis obligée de me toucher la nuit ! M'en fous... Même pas mal...",
+        "line": "Mais je t’emmerde toi, avec ta valise de merde ! Même pas mal, espèce de nazi !",
         "line-number": 2
       },
       {
         "character": "La SDF",
-        "line": "Tout le monde est coupable depuis l'an 2000 ! Tout le monde ! Ah, ça, vous aimez pas entendre la vérité, hein ? Vous aimez pas ! Vous voulez m'entraîner au fascisme mais je le suis pas fasciste, c'est vous !",
+        "line": "C’est à cause de connards comme toi que je suis obligé de manger au restaurant social et que j'ai plus de boulot ! M’en fous… Même pas mal…",
         "line-number": 3
       },
       {
         "character": "La SDF",
-        "line": "(elle s'assoit près de Victor) Eh ! Y a pas marqué malade sur ma gueule ! Tu crois que t'as affaire à une petite malade ? Non, non... (elle éclate de rire) (un temps elle le regarde attentivement) Eh ! Si ça se trouve, t'es l'homme que j'aime et ils t'ont tellement changé, que je te reconnais même plus. (elle éclate de rire) Alors, dis-moi ? T'as bien baisé depuis plus de sept ans, ? Tu peux pas aller voir mon mec, parce qu'ils l'ont torturé. Ouais... Même pas mal !",
+        "line": "Ah, ça, vous aimez pas entendre la vérité, hein ? Vous aimez pas !",
         "line-number": 4
       },
       {
-        "character": "La SDF",
-        "line": "Tu sais moi, je peux pas le la à la mer. Non... Je peux pas... Je peux pas aller à l'océan. J'ai pas de bagnoles ! Même pas mal ! (elle éclate de rire) Les gens de couleur, ils essaient de faire passer les blancs pour des fachos, mais... Même pas mal ! Et puis moi, je suis pas comme toi ! J'ai pas un téléphone portable pour téléguider le cerveau des gens !",
+        "character": "Indication",
+        "line": "elle s’assoit près d'Arthur",
         "line-number": 5
       },
       {
         "character": "La SDF",
-        "line": "(un temps ; elle se rapproche et lui chuchote à l'oreille) Tu sais quoi ? Ils font tout ça sur leur compte bancaire... Ouais... Même pas mal... Moi, je sais tout sur tout ! Attention, tu m'auras pas comme ça, je te préviens ! Même pas mal !",
+        "line": "Eh ! Y a pas marqué malade sur ma gueule ! Tu crois que t’as affaire à une petite malade ? Non, non…",
         "line-number": 6
       },
       {
         "character": "La SDF",
-        "line": "(un temps) Eh... T'es pas psy, au moins ? Non, parce que les psys, ils m'ont niq*** la gueule en 2000 avec leurs médicaments. Mais... Tu sais quoi ? ... Même pas mal...",
+        "line": "Eh ! Si ça se trouve, t’es l’homme que j’aime et ils t’ont tellement changé, que je te reconnais même plus.",
         "line-number": 7
       },
       {
         "character": "La SDF",
-        "line": "(à Delphine) Tu sais quoi ? Je ne supporte pas ceux qui s'en prennent à des petits enfants qui n'ont rien demandé à personne pour naître. Ces gens-là, il faut les décapiter vivants ! Il faut les lapider à coups de hache ! Et en faire du pâté ! Du pâté ! (elle s'assoit) Tu sais, moi, je comprends pas comment ça marche, la société, les règles.",
+        "line": "Alors, dis-moi ? T’as bien baisé depuis plus de sept ans ?",
         "line-number": 8
       },
       {
-        "character": "Delphine",
-        "line": "Ah... C’est pourtant pas compliqué de savoir comment ça marche.",
+        "character": "La SDF",
+        "line": "Tu sais, moi, je peux pas aller à la mer. Non… Je peux pas… Je sais pas nager !",
         "line-number": 9
       },
       {
         "character": "La SDF",
-        "line": "Ah bon ? Ben moi, je comprends pas.",
+        "line": "En plus, j'ai peur des algues.",
         "line-number": 10
       },
       {
-        "character": "Delphine",
-        "line": "Bon. Par exemple, c'est quoi notre régime, en France ? Vous savez, ça ?",
+        "character": "La SDF",
+        "line": "Eh ! Je suis pas comme toi, moi ! J’ai pas un téléphone portable pour téléguider le cerveau des gens !",
         "line-number": 11
       },
       {
         "character": "La SDF",
-        "line": "Un régime ? J'en fais plus de régime.",
+        "line": "Tu sais quoi ? Ils font tout, maintenant avec leur téléphone. Et ils oublient même de se parler. ils oublient même de se regarder. T'as déjà pris le métro, toi ? Ça fait flipper, hein ?",
         "line-number": 12
       },
       {
-        "character": "Delphine",
-        "line": "Non... Je ne vous parle pas de celui-là. Je parle du régime qui nous gouverne. Est-ce que c’est un Roi, un Prince, une Princesse, une Fée, un Dragon, ou la Démocratie avec un Président.",
+        "character": "La SDF",
+        "line": "Eh… T’es pas psy, au moins ? Non, parce que les psys, ils m’ont niqué la gueule en 2000 avec leurs médicaments.",
         "line-number": 13
       },
       {
         "character": "La SDF",
-        "line": "Euh... Le dernier, ça me dit bien quelque chose...",
+        "line": "Tu sais quoi ? Je ne supporte pas ceux qui s'en prennent à des petits enfants qui n'ont rien demandé à personne pour naître. Ces gens-là, moi je dis, il faut les décapiter vivants ! Il faut les lapider à coups de hache ! Et en faire du pâté ! Du pâté !",
         "line-number": 14
       },
       {
-        "character": "Delphine",
-        "line": "Ah, ben voilà...",
+        "character": "La SDF",
+        "line": "Tu sais, moi, je comprends pas trop comment ça marche, la société, les règles.",
         "line-number": 15
       },
       {
-        "character": "La SDF",
-        "line": "C’est un Président, alors ? Ah, d’accord...",
+        "character": "Delphine",
+        "line": "C'est pourtant pas compliqué.",
         "line-number": 16
       },
       {
-        "character": "Pauline",
-        "line": "Je t'ai dit que j'ai rêvé de Maman, l'autre nuit ?",
+        "character": "La SDF",
+        "line": "Ah bon ? Ben moi, je comprends pas.",
         "line-number": 17
       },
       {
-        "character": "Nathalie",
-        "line": "Ah non. Tu ne m'as rien dit, non.",
+        "character": "Delphine",
+        "line": "Bon. Par exemple, c'est quoi notre régime, en France ? Vous savez, ça ?",
         "line-number": 18
       },
       {
-        "character": "Pauline",
-        "line": "Ben voilà, j'ai rêvé d'elle. Elle n'était pas malade, enfin, elle était bien, comme avant, quoi. Et toi, t'étais assise sur ses genoux mais t'avais, genre, dix-onze ans. Et elle te caressait les cheveux, tout doucement. Et moi, elle me regardait fixement, avec un regard dur, que je ne lui avais jamais vu.",
+        "character": "La SDF",
+        "line": "Un régime ? J'en fais plus de régime. Ça me fait grossir !",
         "line-number": 19
       },
       {
-        "character": "Nathalie",
-        "line": "Ah ouais ? C'est exactement le contraire de ce qui s’est passé dans la vie, quoi.",
+        "character": "Delphine",
+        "line": "Non, non… Je ne vous parle pas de celui-la. Je parle du régime qui nous gouverne. Est-ce que c’est un Roi, un Prince, une Princesse, une Fée, un Dragon, ou la Démocratie avec un Président.",
         "line-number": 20
       },
       {
-        "character": "Pauline",
-        "line": "Voilà, si tu veux.",
+        "character": "La SDF",
+        "line": "Aaaaaaaaaaaaaahhhhh… Euh… Le dernier, ça me dit bien quelque chose…",
         "line-number": 21
       },
       {
-        "character": "Nathalie",
-        "line": "Ah mais non, pas « si je veux ». C'est vrai. C'est avec moi qu'elle était dure. Avec moi seule. Tu ne peux pas dire le contraire.",
+        "character": "Delphine",
+        "line": "Ah ben voilà…",
         "line-number": 22
       },
       {
-        "character": "Pauline",
-        "line": "Admettons.",
+        "character": "La SDF",
+        "line": "C’est ça ? C'est un Président, alors ?",
         "line-number": 23
       },
       {
-        "character": "Nathalie",
-        "line": "Ne dis pas « admettons ». C'est la vérité ! C'est comme ça que ça s'est passé, c'est tout.",
+        "character": "Delphine",
+        "line": "Oui.",
         "line-number": 24
       },
       {
-        "character": "Pauline",
-        "line": "D'accord, c'était plus facile pour moi, mais tu ne peux pas passer à autre chose maintenant ? Tu vas passer ta vie à te lamenter, comme ça, sur le passé ? Ça fait quinze ans, Nathalie ! Quinze ans ! On a tous des traumatismes ! On a tous des problèmes ! Mais il y a un moment où c'est bien de passer à autre chose, non ? Tu comprends ce que je veux dire ?",
-        "line-number": 18
+        "character": "La SDF",
+        "line": "Ah, d’accord… Dis… Tu voudrais pas m'offrir un p'tit café au bar ? Comme, ça, en plus, je pourrais aller aux toilettes.",
+        "line-number": 25
       },
       {
-        "character": "Nathalie",
-        "line": "Ben oui, je comprends, ça va, je suis pas débile.",
-        "line-number": 19
+        "character": "Delphine",
+        "line": "OK. J'allais justement m'en prendre un.",
+        "line-number": 26
+      },
+      {
+        "character": "Indication",
+        "line": "elles sortent",
+        "line-number": 27
+      },
+      {
+        "character": "Indication",
+        "line": "Sofia arrive, s'assoit sur le banc à côté de Bernadette qui parle soudain à voix haute droit devant elle",
+        "line-number": 28
+      },
+      {
+        "character": "Bernadette",
+        "line": "Hier soir, nous étions avec mon mari chez un couple d’amis. Après le repas, on a décidé de prolonger la soirée avec un jeu de société. À un moment de la partie, on devait associer chaque joueur à un fruit et les faire deviner à son partenaire.",
+        "line-number": 29
+      },
+      {
+        "character": "Bernadette",
+        "line": "Et vous savez quoi ? Mon mari a choisi pour moi la clémentine !",
+        "line-number": 30
+      },
+      {
+        "character": "Sofia",
+        "line": "Ah… Et ça ne vous a pas plu ?",
+        "line-number": 31
+      },
+      {
+        "character": "Bernadette",
+        "line": "Une clémentine ?!! Écoutez, je connais parfaitement mon mari. Je connais la finesse de son regard. Je connais sa perspicacité et la justesse de ses associations d’idées. Je connais la facilité avec laquelle il arrive à croquer une personne en une ou deux formules.",
+        "line-number": 32
+      },
+      {
+        "character": "Bernadette",
+        "line": "Et hier soir, je découvre que l’homme avec qui je suis mariée depuis vingt ans pense que je suis une clémentine ! Un fruit d’hiver ! Banal et pas cher ! Un petit fruit ordinaire qui n’a ni la gourmandise de l’orange ni même l’originalité du pamplemousse.",
+        "line-number": 33
+      },
+      {
+        "character": "Bernadette",
+        "line": "Un fruit bien ordonné en quartier, pratique et facile à manger. Un fruit prédécoupé, prêt à l’emploi et fourni dans son emballage… Franchement…",
+        "line-number": 34
+      },
+      {
+        "character": "Sofia",
+        "line": "Je vois… Et il a pensé à quoi pour vos amis ?",
+        "line-number": 35
+      },
+      {
+        "character": "Bernadette",
+        "line": "Pour Louise, il a choisi l’ananas ! Quelle humiliation !",
+        "line-number": 36
+      },
+      {
+        "character": "Sofia",
+        "line": "Ah bon ?",
+        "line-number": 37
+      },
+      {
+        "character": "Bernadette",
+        "line": "Mais oui, voyons ! Sous mes yeux, il a associé la femme de son meilleur ami à un fruit estival et exotique. Un fruit acidulé et généreux. Il mêle Louise à l’Amérique latine et sous-entend, j’en suis persuadée, qu’il n’est pas insensible à la chair juteuse de cette plante tropicale.",
+        "line-number": 38
+      },
+      {
+        "character": "Sofia",
+        "line": "Je vois… Et vous avez essayé d’en parler avec lui ?",
+        "line-number": 39
+      },
+      {
+        "character": "Bernadette",
+        "line": "Quand je suis sortie de la salle de bains et que je l’ai rejoint dans la chambre, il dormait déjà…",
+        "line-number": 40
+      },
+      {
+        "character": "Sofia",
+        "line": "Ah…",
+        "line-number": 41
+      },
+      {
+        "character": "Indication",
+        "line": "son téléphone sonne",
+        "line-number": 42
+      },
+      {
+        "character": "Sofia",
+        "line": "Excusez-moi.",
+        "line-number": 43
+      },
+      {
+        "character": "Sofia",
+        "line": "Oui, tu es où ? ... OK, je viens te chercher. ... Non, non, c'est pas la peine de courir, le train a trente minutes de retard.",
+        "line-number": 44
+      },
+      {
+        "character": "Indication",
+        "line": "elle sort et Ludovic arrive et prend sa place sur le banc",
+        "line-number": 45
       }
     ]
   },
   {
-    "play_name": "Texte Pièce scene 2 - ",
+    "play_name": "Ombres du Passé",
+    "position_scene": 6,
+    "title": "Ombres du Passé",
+    "description": "Deux sœurs partagent un moment de révélation sur un banc, confrontant leurs souvenirs divergents de leur enfance et de leur mère, explorant la douleur et l'espoir de réconciliation dans leur lien familial.",
     "lines": [
-      [
-        {
-          "character": "La SDF",
-          "line": "Bonjour.",
-          "line-number": 1
-        },
-        {
-          "character": "Arthur",
-          "line": "...",
-          "line-number": 2
-        },
-        {
-          "character": "La SDF",
-          "line": "BONJOUR !",
-          "line-number": 3
-        },
-        {
-          "character": "Arthur",
-          "line": "Oh, ça va, pas la peine de gueuler ! Bonjour !",
-          "line-number": 4
-        },
-        {
-          "character": "La SDF",
-          "line": "Est-ce que tu sais où est posé ton cul ?",
-          "line-number": 5
-        },
-        {
-          "character": "Arthur",
-          "line": "Pardon ?",
-          "line-number": 6
-        },
-        {
-          "character": "La SDF",
-          "line": "Est-ce que tu sais où est posé ton joli petit cul, jeune homme?",
-          "line-number": 7
-        },
-        {
-          "character": "Arthur",
-          "line": "Ben, sur un banc.",
-          "line-number": 8
-        },
-        {
-          "character": "La SDF",
-          "line": "Non, non, non, non, non... Il est posé là où j'ai dormi cette nuit. Tu es chez moi, ici ! Qu'est-ce que tu fous chez moi ?",
-          "line-number": 9
-        },
-        {
-          "character": "Arthur",
-          "line": "Chez vous ?",
-          "line-number": 10
-        },
-        {
-          "character": "La SDF",
-          "line": "Ouais ! Est-ce que je viens poser mon cul sur ton canapé, moi, hein ? En plus, t'as même pas sonné ! Tu rentres, tranquille, et t'installes, peinard. Oh ! On rentre pas chez les gens, comme ça !",
-          "line-number": 11
-        },
-        {
-          "character": "Arthur",
-          "line": "Alors, maintenant on va se calmer, OK ? D'abord, parce que les bancs sont à tout le monde !",
-          "line-number": 12
-        },
-        {
-          "character": "La SDF",
-          "line": "Non ! Celui là, il est à moi ! Et si tu veux t'asseoir dessus, tu demandes la permission.",
-          "line-number": 13
-        },
-        {
-          "character": "Arthur",
-          "line": "Mais je ne pouvais pas la demander, la permission, vous n'étiez pas là.",
-          "line-number": 14
-        },
-        {
-          "character": "La SDF",
-          "line": "(elle réfléchit) Juste. (un temps) Très juste. (un temps) Mais maintenant que je suis là, faut demander.","line-number": 15
-        },
-        {
-          "character": "Arthur",
-          "line": "Ah... OK... Vous permettez que je reste assis sur votre banc ?",
-          "line-number": 16
-        },
-        {
-          "character": "La SDF",
-          "line": "Mais bien sûr, avec plaisir.",
-          "line-number": 17
-        },
-        {
-          "character": "Arthur",
-          "line": "Merci beaucoup.",
-          "line-number": 18
-        },
-        {
-          "character": "La SDF",
-          "line": "(elle s'assoit près de lui)",
-          "line-number": 19
-        }
-      ]
+      {
+        "character": "Indication",
+        "line": "deux sœurs arrivent et vont sur un banc",
+        "line-number": 1
+      },
+      {
+        "character": "Pauline",
+        "line": "Je t'ai dit que j'ai rêvé de Maman, l'autre nuit ?",
+        "line-number": 2
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ah non. Tu ne m'as rien dit, non.",
+        "line-number": 3
+      },
+      {
+        "character": "Pauline",
+        "line": "Ben voilà, j'ai rêvé d’elle. Elle n'était pas malade, enfin, elle était bien, comme avant, quoi. Et toi, t'étais assise sur ses genoux mais t'avais, genre, dix-onze ans. Et elle te caressait les cheveux, tout doucement. Et moi, elle me regardait fixement, avec un regard dur, que je ne lui avais jamais vu.",
+        "line-number": 4
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ah ouais ? C'est exactement le contraire de ce qui s’est passé dans la vie, quoi.",
+        "line-number": 5
+      },
+      {
+        "character": "Indication",
+        "line": "un temps",
+        "line-number": 6
+      },
+      {
+        "character": "Pauline",
+        "line": "Voilà, si tu veux.",
+        "line-number": 7
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ah mais non, pas « si je veux ». C'est vrai. C'est avec moi qu'elle était dure. Avec moi seule. Tu ne peux pas dire le contraire.",
+        "line-number": 8
+      },
+      {
+        "character": "Pauline",
+        "line": "Admettons.",
+        "line-number": 9
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ne dis pas « admettons ». C'est la vérité ! C'est comme ça que ça s'est passé, c'est tout.",
+        "line-number": 10
+      },
+      {
+        "character": "Pauline",
+        "line": "D'accord, c'était plus facile pour moi, mais tu ne peux pas passer à autre chose maintenant ? Tu vas passer ta vie à te lamenter, comme ça, sur le passé ? Ça fait quinze ans, Nathalie ! Quinze ans ! On a tous des traumatismes ! On a tous des problèmes ! Mais il y a un moment où c'est bien de passer à autre chose, non ?",
+        "line-number": 11
+      },
+      {
+        "character": "Indication",
+        "line": "un temps",
+        "line-number": 12
+      },
+      {
+        "character": "Pauline",
+        "line": "Tu comprends ce que je veux dire ?",
+        "line-number": 13
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ben oui, je comprends, ça va, je suis pas débile.",
+        "line-number": 14
+      }
+    ]
+  },
+  {
+    "play_name": "Intimités Partagées",
+    "position_scene": 7,
+    "title": "Intimités Partagées",
+    "description": "Une conversation fortuite sur un banc pousse Bernadette et Ludovic à explorer les frontières de l'intimité et de la connaissance mutuelle, révélant les complexités des connexions humaines dans les espaces les plus inattendus.",
+    "lines": [
+      {
+        "character": "Indication",
+        "line": "sur un banc",
+        "line-number": 1
+      },
+      {
+        "character": "Bernadette",
+        "line": "Vous avez déjà été amoureux, vous ? Vraiment amoureux.",
+        "line-number": 2
+      },
+      {
+        "character": "Ludovic",
+        "line": "Euh… C'est intime, comme question.",
+        "line-number": 3
+      },
+      {
+        "character": "Bernadette",
+        "line": "Vous aimez pas l'intimité ?",
+        "line-number": 4
+      },
+      {
+        "character": "Ludovic",
+        "line": "Ben… On ne se connaît pas, en fait.",
+        "line-number": 5
+      },
+      {
+        "character": "Bernadette",
+        "line": "C'est une raison pour ne pas parler avec moi ?",
+        "line-number": 6
+      },
+      {
+        "character": "Ludovic",
+        "line": "Ben, je ne sais pas. Ça dépend de quoi.",
+        "line-number": 7
+      },
+      {
+        "character": "Bernadette",
+        "line": "Vous voulez qu'on parle de la pluie et du beau temps, c'est ça ?",
+        "line-number": 8
+      },
+      {
+        "character": "Ludovic",
+        "line": "Non, non, c'est pas ça…",
+        "line-number": 9
+      },
+      {
+        "character": "Bernadette",
+        "line": "C'est quoi, alors ?",
+        "line-number": 10
+      },
+      {
+        "character": "Ludovic",
+        "line": "Ben…",
+        "line-number": 11
+      },
+      {
+        "character": "Bernadette",
+        "line": "C'est pas grave. Laissez tomber…",
+        "line-number": 12
+      }
+    ]
+  },
+ 
+  {
+    "play_name": "Confrontations Inattendues",
+    "position_scene": 8,
+    "title": "Confrontations Inattendues",
+    "description": "Sur un banc public, une rencontre inattendue entre Arthur et une SDF devient le théâtre d'un échange surprenant sur la possession, l'espace partagé et les frontières invisibles de nos vies. Un dialogue qui dévoile avec humour et profondeur la complexité des interactions humaines et la quête de reconnaissance mutuelle.",
+    "lines": [
+      {
+        "character": "Indication",
+        "line": "La SDF revient et s’assoit à côté d'Arthur sur un banc",
+        "line-number": 1
+      },
+      {
+        "character": "La SDF",
+        "line": "Bonjour.",
+        "line-number": 2
+      },
+      {
+        "character": "Arthur",
+        "line": "…",
+        "line-number": 3
+      },
+      {
+        "character": "La SDF",
+        "line": "BONJOUR !",
+        "line-number": 4
+      },
+      {
+        "character": "Arthur",
+        "line": "Oh, ça va, pas la peine de gueuler ! Bonjour !",
+        "line-number": 5
+      },
+      {
+        "character": "La SDF",
+        "line": "Est-ce que tu sais où est posé ton cul ?",
+        "line-number": 6
+      },
+      {
+        "character": "Arthur",
+        "line": "Pardon ?",
+        "line-number": 7
+      },
+      {
+        "character": "La SDF",
+        "line": "Est-ce que tu sais où est posé ton joli petit cul, jeune homme?",
+        "line-number": 8
+      },
+      {
+        "character": "Arthur",
+        "line": "Ben, sur un banc.",
+        "line-number": 9
+      },
+      {
+        "character": "La SDF",
+        "line": "Non, non, non, non, non… Il est posé là où j'ai dormi cette nuit. Tu es chez moi, ici ! Qu'est-ce que tu fous chez moi ?",
+        "line-number": 10
+      },
+      {
+        "character": "Arthur",
+        "line": "Chez vous ?",
+        "line-number": 11
+      },
+      {
+        "character": "La SDF",
+        "line": "Ouais ! Est-ce que je viens poser mon cul sur ton canapé, moi, hein ? En plus, t'as même pas sonné ! Tu rentres, tranquille, et tu t'installes, peinard. OH ! On rentre pas chez les gens, comme ça !",
+        "line-number": 12
+      },
+      {
+        "character": "Arthur",
+        "line": "Alors, maintenant on va se calmer, OK ? D'abord, parce que les bancs sont à tout le monde !",
+        "line-number": 13
+      },
+      {
+        "character": "La SDF",
+        "line": "Non ! Celui là, il est à moi ! Et si tu veux t’asseoir dessus, tu demandes la permission.",
+        "line-number": 14
+      },
+      {
+        "character": "Arthur",
+        "line": "Mais je ne pouvais pas la demander, la permission, vous n’étiez pas là.",
+        "line-number": 15
+      },
+      {
+        "character": "La SDF",
+        "line": "(elle réfléchit) Juste. (un temps) Très juste. (un temps) Mais maintenant que je suis là, faut demander.",
+        "line-number": 16
+      },
+      {
+        "character": "Arthur",
+        "line": "Ah… OK… Vous permettez que je reste assis sur votre banc ?",
+        "line-number": 17
+      },
+      {
+        "character": "La SDF",
+        "line": "Mais bien sûr, avec plaisir.",
+        "line-number": 18
+      },
+      {
+        "character": "Arthur",
+        "line": "Merci beaucoup.",
+        "line-number": 19
+      },
+      {
+        "character": "Indication",
+        "line": "elle s’assoit près de lui",
+        "line-number": 20
+      }
+    ]
+  },
+  {
+    "play_name": "Quiproquos et Biscottes",
+    "position_scene": 9,
+    "title": "Quiproquos et Biscottes",
+    "description": "Une conversation entre frère et sœur, Simon et Delphine, dévoile avec humour et perplexité les implications inattendues d'une publicité pour des biscottes sur la perception de leur couple par un cousin. Ce dialogue révèle les quiproquos familiaux et les préoccupations autour de l'image et de la séduction.",
+    "lines": [
+      {
+        "character": "Indication",
+        "line": "le frère et la sœur arrivent et discutent debout",
+        "line-number": 1
+      },
+      {
+        "character": "Simon",
+        "line": "Qu'est-ce qu'il y a ? T'as l'air contrarié ?",
+        "line-number": 2
+      },
+      {
+        "character": "Delphine",
+        "line": "Patrick vient de m'appeler au téléphone pour me dire qu'à chaque fois qu'il voyait la pub pour les biscottes, il pensait à Benjamin et moi.",
+        "line-number": 3
+      },
+      {
+        "character": "Simon",
+        "line": "Ah…",
+        "line-number": 4
+      },
+      {
+        "character": "Delphine",
+        "line": "Tu vois cette pub ? Celle où ce couple prend son petit déjeuner au lit.",
+        "line-number": 5
+      },
+      {
+        "character": "Simon",
+        "line": "Euh, oui, oui, je vois.",
+        "line-number": 6
+      },
+      {
+        "character": "Delphine",
+        "line": "Et mange des biscottes.",
+        "line-number": 7
+      },
+      {
+        "character": "Simon",
+        "line": "Oui, oui. Tout à fait.",
+        "line-number": 8
+      },
+      {
+        "character": "Delphine",
+        "line": "Eh ben, on lui rappelle ce couple-là. Pour lui, on est pareil !",
+        "line-number": 9
+      },
+      {
+        "character": "Simon",
+        "line": "Et c'est ça qui te met dans cet état ? Il est où, le problème ? C'est plutôt flatteur, non ?",
+        "line-number": 10
+      },
+      {
+        "character": "Delphine",
+        "line": "Flatteur ?",
+        "line-number": 11
+      },
+      {
+        "character": "Simon",
+        "line": "Mais oui. Il est pas mal, lui.",
+        "line-number": 12
+      },
+      {
+        "character": "Delphine",
+        "line": "Hein ? Mais Victor, oh, réveille-toi ! Tu vois un peu l'image que je donne de mon couple ? Deux cons béats qui rongent du pain sec sous la couette. Patrick pense à moi quand il voit cette femme ! Alors que c’est un repoussoir ! T'es d'accord ? C'est un repoussoir ?",
+        "line-number": 13
+      },
+      {
+        "character": "Simon",
+        "line": "Mais n'importe quoi… Elle est mignonne comme tout. En plus, elle a une nuisette très sexy mi-cuisse.",
+        "line-number": 14
+      },
+      {
+        "character": "Delphine",
+        "line": "Mais arrête ! C'est un mulot ! T'aimerais avoir un mulot qui saute sur ton lit pour se baffrer de biscottes ?",
+        "line-number": 15
+      },
+      {
+        "character": "Simon",
+        "line": "Écoute, j'y ai jamais réfléchi, mais…",
+        "line-number": 16
+      },
+      {
+        "character": "Delphine",
+        "line": "Et lui, il est coiffé comme un plouc, on comprend bien qu'elle risque pas grand chose…",
+        "line-number": 17
+      },
+      {
+        "character": "Simon",
+        "line": "Si ça se trouve, après, il la retourne dans les miettes ?",
+        "line-number": 18
+      },
+      {
+        "character": "Delphine",
+        "line": "Mais non ! Ils sont juste obsédés par les fibres ! Il n'y a plus aucun érotisme dans ce couple, ça crève les yeux ! Victor, c'est très grave. Si Patrick me compare à ce mulot, ça signifie que j'ai perdu tout pouvoir de séduction.",
+        "line-number": 19
+      },
+      {
+        "character": "Simon",
+        "line": "(il rit) Delphine, c'est juste une publicité pour des biscottes…",
+        "line-number": 20
+      },
+      {
+        "character": "Delphine",
+        "line": "Il faut regarder les choses en face : je suis désexualisée.",
+        "line-number": 21
+      },
+      {
+        "character": "Simon",
+        "line": "Mais pourquoi tu écoutes ce con de Patrick ?",
+        "line-number": 22
+      },
+      {
+        "character": "Delphine",
+        "line": "Parce que c'est notre cousin !",
+        "line-number": 23
+      },
+      {
+        "character": "Simon",
+        "line": "Et alors ? C'est pas une raison. C'est un imbécile qui a ruiné tout le monde autour de lui et on le soupçonne même d'avoir provoqué l’Alzheimer de Papi.",
+        "line-number": 24
+      },
+      {
+        "character": "Delphine",
+        "line": "En faisant quoi ?",
+        "line-number": 25
+      },
+      {
+        "character": "Simon",
+        "line": "En discutant avec lui ! Méfie-toi !",
+        "line-number": 26
+      },
+      {
+        "character": "Delphine",
+        "line": "Écoute, ça m'a foutu en l'air, cette réflexion…",
+        "line-number": 27
+      },
+      {
+        "character": "Simon",
+        "line": "Je vois ça…",
+        "line-number": 28
+      }
     ]
   }
+  
 ]

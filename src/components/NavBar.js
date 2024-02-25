@@ -10,15 +10,15 @@ import { FaArrowLeft } from 'react-icons/fa';
 function NavBar() {
   const navigate = useNavigate();
   return (
-    <div className='fixed items-center py-2 bg-white top-0 w-full px-3 border-b-2 border-black flex justify-between'>
+    <div className='fixed    py-2 bg-white top-0 w-full px-3 border-b-2 border-black flex '>
+      <div className='relative items-center w-full flex justify-between'>
       <div>
         <p className='text-black'>dsdsd</p>
       </div>
-      <ul className='flex '>
+      <ul className='absolute flex w-full justify-center '>
         <li><Link className='px-2' to="/">Home</Link></li>
         <li><Link className='px-2' to="/allsentences">Phrases</Link></li>
         <li><Link className='px-2' to="/audio">Audio</Link></li>
-        {/* <li><Link className='px-2' to="/play">playScene</Link></li> */}
       </ul>
 
       <div className='flex'>
@@ -31,6 +31,7 @@ function NavBar() {
 
 
 
+      </div>
       </div>
     </div>
   )

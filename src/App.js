@@ -13,6 +13,7 @@ import PlayComponent from './PlayScene';
 import AllReplique from './AllReplique';
 import Dictaphone from './Dictaphone'
 import PlayComponentAudio from './PlaySceneAudio';
+import Ollama from './Ollama';
 
 function App() {
   return (<>
@@ -26,6 +27,7 @@ function App() {
         <Route path="/play" element={<PlayComponent />} />
         <Route path="/audio" element={<PlayComponentAudio />} />
         <Route path="/allsentences" element={<AllReplique />} />
+        <Route path="/ollama" element={<Ollama />} />
         {/* Ajoutez d'autres routes ici */}
       </Routes>
     </div>
