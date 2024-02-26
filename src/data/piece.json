@@ -2,6 +2,12 @@
   {
     "play_name": "Les Philosophes du Quotidien part1",
     "position": 0,
+    "characters":["Florence",
+    "Pierre-Etienne",
+    "Sylvie",
+    "Béné",
+    "Rémi",
+    "Benoît"],
     "lines": [
       {
         "character": "Florence",
@@ -83,6 +89,9 @@
   {
     "play_name": "Retard sur la Ligne de Nevers : Dialogues Glacé",
     "position": 4,
+    "characters":["La Contrôleuse",
+    "Ludovic",
+    "Indication"],
     "lines": [
       {
         "character": "La Contrôleuse",
@@ -204,6 +213,7 @@
   {
     "play_name": "Quai des Vies Croisées",
     "position_scene": 5,
+    "characters":["Indication", "La SDF", "Delphine", "Bernadette", "Sofia"],
     "lines": [
       {
         "character": "Indication",
@@ -437,6 +447,7 @@
     "position_scene": 6,
     "title": "Ombres du Passé",
     "description": "Deux sœurs partagent un moment de révélation sur un banc, confrontant leurs souvenirs divergents de leur enfance et de leur mère, explorant la douleur et l'espoir de réconciliation dans leur lien familial.",
+    "characters":["Indication", "Pauline", "Nathalie"],
     "lines": [
       {
         "character": "Indication",
@@ -515,6 +526,7 @@
     "position_scene": 7,
     "title": "Intimités Partagées",
     "description": "Une conversation fortuite sur un banc pousse Bernadette et Ludovic à explorer les frontières de l'intimité et de la connaissance mutuelle, révélant les complexités des connexions humaines dans les espaces les plus inattendus.",
+    "characters":["Indication", "Bernadette", "Ludovic"],
     "lines": [
       {
         "character": "Indication",
@@ -584,6 +596,7 @@
     "position_scene": 8,
     "title": "Confrontations Inattendues",
     "description": "Sur un banc public, une rencontre inattendue entre Arthur et une SDF devient le théâtre d'un échange surprenant sur la possession, l'espace partagé et les frontières invisibles de nos vies. Un dialogue qui dévoile avec humour et profondeur la complexité des interactions humaines et la quête de reconnaissance mutuelle.",
+    "characters": ["Indication", "La SDF", "Arthur"],
     "lines": [
       {
         "character": "Indication",
@@ -692,6 +705,7 @@
     "position_scene": 9,
     "title": "Quiproquos et Biscottes",
     "description": "Une conversation entre frère et sœur, Simon et Delphine, dévoile avec humour et perplexité les implications inattendues d'une publicité pour des biscottes sur la perception de leur couple par un cousin. Ce dialogue révèle les quiproquos familiaux et les préoccupations autour de l'image et de la séduction.",
+    "characters": ["Indication", "Simon", "Delphine"],
     "lines": [
       {
         "character": "Indication",
@@ -834,6 +848,170 @@
         "line-number": 28
       }
     ]
+  },
+  {
+    "play_name": "Quiproquos Lamasques",
+    "position_scene": 1,
+    "title": "Une Affaire de Lamas",
+    "description": "Une conversation inattendue et humoristique sur un banc entre Ludovic et Bernadette révèle une rupture amoureuse insolite motivée par le désir d'élever des lamas en Auvergne. Ce dialogue explore les imprévus de la vie et la capacité de l'humour à alléger les situations les plus absurdes.",
+    "characters": ["Indication", "Ludovic", "Bernadette"],
+    "lines": [
+      {
+        "character": "Indication",
+        "line": "(sur un banc)",
+        "line-number": 1
+      },
+      {
+        "character": "Ludovic",
+        "line": "J'ai été amoureux une seule fois dans ma vie. Mais ça n’a pas duré très longtemps…",
+        "line-number": 2
+      },
+      {
+        "character": "Bernadette",
+        "line": "Qu’est-ce qui s’est passé ?",
+        "line-number": 3
+      },
+      {
+        "character": "Ludovic",
+        "line": "Elle m’a quitté.",
+        "line-number": 4
+      },
+      {
+        "character": "Bernadette",
+        "line": "Pourquoi ?",
+        "line-number": 5
+      },
+      {
+        "character": "Ludovic",
+        "line": "Pour aller élever des lamas en Auvergne.",
+        "line-number": 6
+      },
+      {
+        "character": "Bernadette",
+        "line": "(elle retient son rire) Pardon ?",
+        "line-number": 7
+      },
+      {
+        "character": "Ludovic",
+        "line": "Pour aller élever des lamas en Auvergne.",
+        "line-number": 8
+      },
+      {
+        "character": "Bernadette",
+        "line": "Vous me faites marcher ?",
+        "line-number": 9
+      },
+      {
+        "character": "Ludovic",
+        "line": "Pas du tout. Je suis très sérieux.",
+        "line-number": 10
+      },
+      {
+        "character": "Bernadette",
+        "line": "Vraiment ?",
+        "line-number": 11
+      },
+      {
+        "character": "Ludovic",
+        "line": "Oui…",
+        "line-number": 12
+      },
+      {
+        "character": "Bernadette",
+        "line": "(elle éclate de rire) Excusez-moi… Vous vous êtes fait larguer… pour un lama ? (elle rit à nouveau) Il s’appelait Serge ? (elle éclate de rire)",
+        "line-number": 13
+      },
+      {
+        "character": "Ludovic",
+        "line": "Très drôle…",
+        "line-number": 14
+      },
+      {
+        "character": "Bernadette",
+        "line": "Je suis désolée…",
+        "line-number": 15
+      },
+      {
+        "character": "Ludovic",
+        "line": "Elle ne m’a pas quitté pour un lama, mais pour des lamas.",
+        "line-number": 16
+      },
+      {
+        "character": "Bernadette",
+        "line": "(elle rit à nouveau) J’ai jamais entendu un truc aussi con de ma vie…",
+        "line-number": 17
+      },
+      {
+        "character": "Indication",
+        "line": "(rire collectif)",
+        "line-number": 18
+      },
+      {
+        "character": "Indication",
+        "line": "(Bernadette sort, morte de rire)",
+        "line-number": 19
+      }
+    ]
+  },
+  {
+    "play_name": "L'Arrivée de Maman",
+    "position_scene": 11,
+    "title": "L'Arrivée de Maman",
+    "description": "Une conversation rapide et tendue entre Delphine et Simon révèle l'arrivée imminente de leur mère, suscitant des interrogations et une certaine appréhension. Delphine se prépare à aller chercher leur mère au métro, tandis que Simon décide de s'isoler au bar, promettant malgré tout de ne pas laisser Delphine seule face à leur mère.",
+    "characters": ["Indication", "Delphine", "Simon"],
+    "lines": [
+      {
+        "character": "Indication",
+        "line": "(Delphine regarde son téléphone)",
+        "line-number": 1
+      },
+      {
+        "character": "Delphine",
+        "line": "Y a Maman qui est arrivée. Faut que j'aille la chercher au métro.",
+        "line-number": 2
+      },
+      {
+        "character": "Simon",
+        "line": "Pourquoi elle veut absolument nous parler ?",
+        "line-number": 3
+      },
+      {
+        "character": "Delphine",
+        "line": "J'en sais rien, comment tu veux que je sache ?",
+        "line-number": 4
+      },
+      {
+        "character": "Simon",
+        "line": "Je le sens pas, cette histoire.",
+        "line-number": 5
+      },
+      {
+        "character": "Delphine",
+        "line": "Écoute, on va bientôt savoir. Je vais la chercher.",
+        "line-number": 6
+      },
+      {
+        "character": "Simon",
+        "line": "OK. Moi, je vais au bar boire un café.",
+        "line-number": 7
+      },
+      {
+        "character": "Delphine",
+        "line": "Tu me laisses pas toute seule avec elle, hein ?",
+        "line-number": 8
+      },
+      {
+        "character": "Simon",
+        "line": "Non, non, t'inquiète.",
+        "line-number": 9
+      },
+      {
+        "character": "Indication",
+        "line": "(ils sortent)",
+        "line-number": 10
+      }
+    ]
   }
+  
   
 ]
