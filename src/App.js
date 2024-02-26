@@ -23,11 +23,11 @@ function App() {
 
       <Routes>
         <Route exact path="/" element={<HomePage />} />
-        <Route path="/about" element={<Dictaphone />} />
-        <Route path="/play" element={<PlayComponent />} />
+        {/* <Route path="/about" element={<Dictaphone />} /> */}
+        {/* <Route path="/play" element={<PlayComponent />} /> */}
         <Route path="/audio" element={<PlayComponentAudio />} />
         <Route path="/allsentences" element={<AllReplique />} />
-        <Route path="/ollama" element={<Ollama />} />
+        {/* <Route path="/ollama" element={<Ollama />} /> */}
         {/* Ajoutez d'autres routes ici */}
       </Routes>
     </div>

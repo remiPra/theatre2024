@@ -53,7 +53,7 @@ function AllReplique() {
 
 
     return (<>
-        <h1 className='text-center   mt-5'>Toutes les répliques de la pièce</h1>
+        <h1 className='text-center   mt-5'>Toutes les répliques de {characterPlay} de la pièce</h1>
         {characterPlay == '' &&
             <div>
                 <p className='flex justify-center mb-14 text-2xl text-center mt-5'> Choisissez le personnage que vous voulez incarner </p>
@@ -69,8 +69,9 @@ function AllReplique() {
         {characterPlay != '' &&
             <div>
                 {playLines.map((sceneEl) => (<>
-                    <h1 className=''>{sceneEl.play_name}</h1>
+                   {(sceneEl.characters.indexOf(characterPlay) !== -1) && <h1 className=''>{sceneEl.play_name}</h1>}
                     {sceneEl.lines.map((line, index) => (
+                        
                         <div key={index}>
                             {(line.character == characterPlay) && <>
                                 {/* <h1>{sceneEl.play_name}</h1> */}

@@ -80,6 +80,26 @@ function PlayComponentAudio() {
         console.log(specificScene[0].lines[index].textShadow)
         console.log(set)
     }
+    const [boolSeeAll, setBoolSeeAll] = useState(true)
+
+    const allSee = async () => {
+        let set = [...specificScene]
+        const rec = await set[0].lines.map(el => (
+            el.textShadow = true
+        ))
+        setSpecificScene(set)
+        setBoolSeeAll(false)
+        console.log(set[0])
+    }
+    const allUnSee = async () => {
+        let set = [...specificScene]
+        const rec = await set[0].lines.map(el => (
+            el.textShadow = false
+        ))
+        setSpecificScene(set)
+        setBoolSeeAll(true)
+        console.log(set[0])
+    }
 
     const unsee = (index) => {
         let set = [...specificScene]
@@ -103,9 +123,17 @@ function PlayComponentAudio() {
 
                     {
                         playLines.map((el, index) => (<>
-                            <button
+
+                            <div
                                 onClick={() => (sceneChoose(el.play_name, el.description))} key={index}
-                                className=' rubik text-black text-[26px] max-w-[250px] min-h-[200px] border-2 rounded-lg m-2 p-2'>{el.title}</button>
+                                className='cursor-pointer  max-w-[280px] min-h-[200px] border-2 rounded-lg m-2 p-2'>
+                                <h2 className='min-h-[130px] text-center rubik text-black text-[26px]'>
+                                    {el.title}
+                                </h2>
+                                <p className='flex justify-center flex-wrap'>{el.characters.map((el) => (<>
+                                    <span className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el}</span>
+                                </>))}</p>
+                            </div>
                         </>))
                     }
                 </div>
@@ -139,6 +167,18 @@ function PlayComponentAudio() {
         {(characterPlay != '' && scene != "") &&
             <div>
                 <h1 className='text-center mt-6 mb-6'>{specificScene[0].play_name}</h1>
+                <div className="fixed bottom-10 right-5 animate-slideToBottomRight">
+                         {boolSeeAll && <button className='bg-blue-800 text-[35px] p-4 text-white rounded-full' onClick={allSee}>                                        <FaEye />
+                    </button>}
+                    {!boolSeeAll && <button className='bg-red-600 text-[35px] p-4 text-white rounded-full' onClick={allUnSee}>                                        <FaEye />
+                    </button>}
+                </div>
+                <div className='w-full flex justify-center'>
+                    {boolSeeAll && <button className='bg-blue-800 text-[35px] p-4 text-white rounded-full' onClick={allSee}>                                        <FaEye />
+                    </button>}
+                    {!boolSeeAll && <button className='bg-red-600 text-[35px] p-4 text-white rounded-full' onClick={allUnSee}>                                        <FaEye />
+                    </button>}
+                </div>
                 {specificScene[0].lines.map((line, index) => (
                     <div key={index} className=' p-2 m-2 '>
 

@@ -2,6 +2,7 @@
   {
     "play_name": "Les Philosophes du Quotidien part1",
     "position": 0,
+    "title":"Les Philosophes du Quotidien part1",
     "characters":["Florence",
     "Pierre-Etienne",
     "Sylvie",
@@ -88,6 +89,7 @@
   },
   {
     "play_name": "Retard sur la Ligne de Nevers : Dialogues Glacé",
+    "title": "Retard sur la Ligne de Nevers : Dialogues Glacé",
     "position": 4,
     "characters":["La Contrôleuse",
     "Ludovic",
@@ -212,6 +214,7 @@
   },
   {
     "play_name": "Quai des Vies Croisées",
+    "title": "Quai des Vies Croisées",
     "position_scene": 5,
     "characters":["Indication", "La SDF", "Delphine", "Bernadette", "Sofia"],
     "lines": [
@@ -1011,7 +1014,768 @@
         "line-number": 10
       }
     ]
-  }
+  },{
+    "play_name": "Conflits de Cœur",
+    "position_scene": 12,
+    "title": "Conflits de Cœur",
+    "description": "Une confrontation émotionnelle intense sur un banc entre les deux sœurs, Pauline et Nathalie, révèle les tensions et les douleurs causées par la nouvelle relation de Pauline avec l'ex de Nathalie. Leur échange, chargé de ressentiment, de regrets et de questions morales, souligne la complexité des relations familiales et amoureuses, ainsi que la quête d'acceptation et de compréhension mutuelle.",
+    "characters": ["Indication", "Ludovic", "Pauline", "Nathalie"],
+    "lines": [
+      {
+        "character": "Indication",
+        "line": "(le téléphone de Ludovic sonne)",
+        "line-number": 1
+      },
+      {
+        "character": "Ludovic",
+        "line": "Oui, maman. (...) Ben, j'en sais rien, il a trente minutes de retard. (...) Mais oui !",
+        "line-number": 2
+      },
+      {
+        "character": "Indication",
+        "line": "(il sort)",
+        "line-number": 3
+      },
+      {
+        "character": "Indication",
+        "line": "(les deux sœurs sur le même banc)",
+        "line-number": 4
+      },
+      {
+        "character": "Pauline",
+        "line": "Écoute, je comprends très bien ce que tu ressens. Je comprends très bien que tu m'en veuilles. Et je reconnais que j'aurais dû t'en parler tout de suite et que tu ne l'apprennes pas comme ça, par…",
+        "line-number": 5
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ça n'aurait rien changé.",
+        "line-number": 6
+      },
+      {
+        "character": "Pauline",
+        "line": "Je comprends très bien que ça te contrarie que je sorte avec Clément.",
+        "line-number": 7
+      },
+      {
+        "character": "Nathalie",
+        "line": "Sans déconner ?",
+        "line-number": 8
+      },
+      {
+        "character": "Pauline",
+        "line": "Nathalie, l'amour, ça ne se contrôle pas toujours. On ne choisit pas toujours les gens qu'on rencontre. On ne décide pas d'avoir un coup de foudre, comme ça, en se levant, un matin.",
+        "line-number": 9
+      },
+      {
+        "character": "Nathalie",
+        "line": "Très drôle, Pauline, très drôle...",
+        "line-number": 10
+      },
+      {
+        "character": "Pauline",
+        "line": "Ça nous tombe dessus, c'est tout, et tu le sais très bien.",
+        "line-number": 11
+      },
+      {
+        "character": "Nathalie",
+        "line": "Euh, s'il te plaît, Pauline… Garde ton sermon pour quelqu'un d'autre, mais ne me dis pas ça à moi, d'accord ? PAS A MOI !",
+        "line-number": 12
+      },
+      {
+        "character": "Pauline",
+        "line": "Mais c'était fini, vous deux. Fini ! Il fallait que j'attende jusqu'à quand, Nathalie? Et lui, il fallait que lui, il attende jusqu'à quand ?",
+        "line-number": 13
+      },
+      {
+        "character": "Nathalie",
+        "line": "Je ne te parle pas de loi, je te parle de déontologie, je te parle de reconnaissance, je te parle de bienveillance, je te parle de lien du sang.",
+        "line-number": 14
+      },
+      {
+        "character": "Pauline",
+        "line": "Tu trouves que je devrais avoir honte ?",
+        "line-number": 15
+      },
+      {
+        "character": "Nathalie",
+        "line": "Mais bordel, y a des millions de filles sur terre ? Pourquoi il faut que ça soit toi, hein ? Pourquoi ?",
+        "line-number": 16
+      },
+      {
+        "character": "Pauline",
+        "line": "Nathalie… Tout ça, c'est pas contre toi… C'est la vie, c'est tout… Il ne t'a pas trompé. Il ne t'a pas trahi. Et moi non plus.",
+        "line-number": 17
+      },
+      {
+        "character": "Nathalie",
+        "line": "Je n'arrive pas à comprendre que tu aies pu faire une chose pareille. C'est quoi, le truc ? C'est une vengeance, c'est ça ?",
+        "line-number": 18
+      },
+      {
+        "character": "Pauline",
+        "line": "Nathalie…",
+        "line-number": 19
+      }
+    ]
+  },
+  {
+    "play_name": "Quiproquos Lamasques",
+    "position_scene": 13,
+    "title": "Expérience Académique",
+    "description": "Une conversation légère et teintée d'humour entre Sofia et Lucile révèle une aventure inattendue de Lucile avec son directeur de thèse. Inspirée par une étude canadienne sur la taille du pénis et les préjugés associés aux manuels et intellectuels, Lucile décide de mener sa propre 'expérience'. Leur échange, rapide et espiègle, souligne avec humour les curiosités et les démarches parfois surprenantes que peut inspirer la recherche académique.",
+    "characters": ["Indication", "Sofia", "Lucile"],
+    "lines": [
+      {
+        "character": "Indication",
+        "line": "(deux femmes traversent le plateau de Cour à Jardin)",
+        "line-number": 1
+      },
+      {
+        "character": "Sofia",
+        "line": "Quoi ? Tu t'es tapé ton directeur de thèse ?",
+        "line-number": 2
+      },
+      {
+        "character": "Lucile",
+        "line": "Je ne me suis pas « tapé » mon directeur de thèse, j'ai fait une… expérience… (rires) En fait, tout est partie d'une étude canadienne que j'ai lue sur la taille du pénis ; elle dit que les manuels sont soit disant mieux lotis que les intellectuels… Alors voilà, j'ai voulu vérifier, c'est tout…",
+        "line-number": 3
+      },
+      {
+        "character": "Sofia",
+        "line": "Et alors ? Résultat ?",
+        "line-number": 4
+      },
+      {
+        "character": "Indication",
+        "line": "(elles sortent)",
+        "line-number": 5
+      }
+    ]
+  },
+  {
+    "play_name": "Mots Croisés et Réalités Croisées",
+    "position_scene": 14,
+    "title": "Mots Croisés et Réalités Croisées",
+    "description": "Une interaction singulière et révélatrice entre la SDF et Arthur sur un quai de gare. Arthur, occupé à concevoir des grilles de mots croisés aux thèmes surprenamment sombres, est interpellé par la SDF curieuse. Leur échange, teinté d'humour noir et de malentendus, met en lumière la perception de la créativité et de la dépression, ainsi que la recherche d'une connexion humaine dans les lieux les plus inattendus. L'offre d'un café devient un prétexte pour une évasion momentanée de leur solitude respective.",
+    "characters": ["Indication", "La SDF", "Arthur", "Delphine"],
+    "lines": [
+      {
+        "character": "Indication",
+        "line": "(la SDF aborde Arthur qui écrit sur un cahier)",
+        "line-number": 1
+      },
+      {
+        "character": "La SDF",
+        "line": "Tu fais quoi, là ?",
+        "line-number": 2
+      },
+      {
+        "character": "Arthur",
+        "line": "Euh… Je conçois des grilles de mots croisés.",
+        "line-number": 3
+      },
+      {
+        "character": "La SDF",
+        "line": "Ah ouais ? Et t’es payé pour faire ça ?",
+        "line-number": 4
+      },
+      {
+        "character": "Arthur",
+        "line": "Oui.",
+        "line-number": 5
+      },
+      {
+        "character": "La SDF",
+        "line": "Vas-y, fais-y voir ! (elle lit) « Début de nos soucis » en huit lettres : naissance… (elle le regarde, interloquée) OK… Ça commence fort…",
+        "line-number": 6
+      },
+      {
+        "character": "La SDF",
+        "line": "(elle lit) « Vous la rencontrerez après une vie longue et difficile »  en quatre lettres : mort. Ah ben, bravo, de mieux en mieux…",
+        "line-number": 7
+      },
+      {
+        "character": "La SDF",
+        "line": "(elle lit) « Il vous interdit l'accès au paradis mais vous fait quitter l'enfer »  en sept lettres : suicide. Ouaouh… T’es un sacré fêtard, toi, dis-donc !",
+        "line-number": 8
+      },
+      {
+        "character": "La SDF",
+        "line": "Y a quarante personnes sur ce quai de gare, et faut que je m’assois à côté du mec le plus dépressif de la terre !",
+        "line-number": 9
+      },
+      {
+        "character": "Arthur",
+        "line": "Mais je ne suis pas dépressif !",
+        "line-number": 10
+      },
+      {
+        "character": "La SDF",
+        "line": "Ah ben je sais pas ce qu’il te faut, dis-donc ! Attends, vas-y, je finis de regarder… (elle lit) Solitude. Impossibilité. Renoncement. Ouaouh… De mieux en mieux…",
+        "line-number": 11
+      },
+      {
+        "character": "La SDF",
+        "line": "Et t’appelles ça, comment, alors, si c’est pas de la dépression ?",
+        "line-number": 12
+      },
+      {
+        "character": "Arthur",
+        "line": "Je ne sais pas. C'est original, non ?",
+        "line-number": 13
+      },
+      {
+        "character": "La SDF",
+        "line": "Original ? Original dans la sinistrose, ouais ! Mais qu’est-ce qu’il t’est arrivé dans la vie pour imaginer des trucs pareils ?",
+        "line-number": 14
+      },
+      {
+        "character": "Arthur",
+        "line": "Rien de spécial.",
+        "line-number": 15
+      },
+      {
+        "character": "La SDF",
+        "line": "Ah, d’accord… (un temps) Dis… Tu voudrais pas m'offrir un p'tit café au bar ? Comme, ça, en plus, je pourrais aller aux toilettes.",
+       
+  
+   "line-number": 16
+      },
+      {
+        "character": "Delphine",
+        "line": "(elle rit) OK. J'allais justement m'en prendre un.",
+        "line-number": 17
+      },
+      {
+        "character": "Indication",
+        "line": "(ils sortent)",
+        "line-number": 18
+      }
+    ]
+  },
+  {
+    "play_name": "Quiproquos Lamasques",
+    "position_scene": 15,
+    "title": "Un Baiser en musique",
+    "description": "Une rencontre nostalgique entre Simon et Ludovic évoque un souvenir d'enfance marquant de Simon, lié à une épreuve de flûte à bec en CM2 et à son amour de jeunesse, Dorothée Froment. Le partage involontaire de la flûte avec Dorothée prend, dans l'esprit de Simon, une dimension érotique inattendue, symbolisée par la mélodie 'Dans la forêt lointaine'. Leur conversation, ponctuée par un duo impromptu, révèle avec légèreté et humour les moments qui façonnent nos souvenirs les plus affectifs.",
+    "characters": ["Indication", "Simon", "Ludovic"],
+    "lines": [
+      {
+        "character": "Indication",
+        "line": "(deux hommes arrivent ; ils discutent et s’assoient sur un banc)",
+        "line-number": 1
+      },
+      {
+        "character": "Simon",
+        "line": "Moi, ça remonte au CM2. Ce jour là, il y avait une épreuve individuelle de flûte à bec et j’avais complètement oublié ma flûte chez moi.",
+        "line-number": 2
+      },
+      {
+        "character": "Ludovic",
+        "line": "Acte manqué ?",
+        "line-number": 3
+      },
+      {
+        "character": "Simon",
+        "line": "Peut-être… Le maître a alors demandé à Dorothée Froment, assise à côté de moi, de me prêter le sienne.",
+        "line-number": 4
+      },
+      {
+        "character": "Ludovic",
+        "line": "Ah ouais ? Aujourd’hui, avec les règles d’hygiène, le Covid, tout ça, ça paraît impensable… Tu prendrais un zéro pour oubli de flûte…",
+        "line-number": 5
+      },
+      {
+        "character": "Simon",
+        "line": "Dorothée Froment… Le fruit de tous mes tourments depuis le CE2…",
+        "line-number": 6
+      },
+      {
+        "character": "Ludovic",
+        "line": "T’étais amoureux d’elle ?",
+        "line-number": 7
+      },
+      {
+        "character": "Simon",
+        "line": "Raide dingue…",
+        "line-number": 8
+      },
+      {
+        "character": "Ludovic",
+        "line": "Je vois…",
+        "line-number": 9
+      },
+      {
+        "character": "Simon",
+        "line": "Au moment où j’ai posé mes lèvres sur le bec de la flûte, j’ai pris soudainement conscience que mes molécules de salive se mêlaient aux molécules de salive de Dorothée Froment… Et là, tout en jouant, j’ai formulé dans ma tête l’informulable : « Je suis en train d’embrasser Dorothée Froment par flûte interposée… ».",
+        "line-number": 10
+      },
+      {
+        "character": "Ludovic",
+        "line": "Ouaouh…",
+        "line-number": 11
+      },
+      {
+        "character": "Simon",
+        "line": "Dans la forêt lointaine…",
+        "line-number": 12
+      },
+      {
+        "character": "Ludovic",
+        "line": "Pardon ?",
+        "line-number": 13
+      },
+      {
+        "character": "Simon",
+        "line": "Dans la forêt lointaine… C’était le titre de la chanson que je devais jouer.",
+        "line-number": 14
+      },
+      {
+        "character": "Ludovic",
+        "line": "Aaaahhh… Je connais, ça… (il réfléchit quelques secondes puis il chante ; Simon chante avec lui) Dans la forêt lointaine On entend le coucou Du haut de son grand chêne Il répond au hibou Coucou hibou, coucou hibou Coucou hibou coucou (bis)",
+        "line-number": 15
+      },
+      {
+        "character": "Simon",
+        "line": "C’est ça… Un morceau qui restera à jamais pour moi un sommet indépassable d’érotisme…",
+        "line-number": 16
+      }
+    ]
+  },
+  {
+    "play_name": "Le Train Perdu",
+    "position_scene": 16,
+    "title": "Le Train Perdu",
+    "description": "Dans une scène surréaliste et pleine de tension, Sofia confronte La Contrôleuse à propos du retard inexplicable de son train, menaçant ses plans importants à Paris. La conversation escalade rapidement en absurdité lorsque La Contrôleuse révèle que le train est... perdu, prétendument à cause de l'impulsivité et l'impatience des gens comme Sofia. La situation devient encore plus irréelle avec l'explication fantaisiste que des enfants, lassés de leurs jouets, ont kidnappé le train pour une aventure, grâce à leurs compétences acquises sur Internet. Cette scène mélange humour noir, critique sociale et une touche de fantaisie pour explorer les frustrations et les absurdités de la vie moderne.",
+    "characters": ["Indication", "Sofia", "La Contrôleuse"],
+    "lines": [
+      {
+        "character": "Indication",
+        "line": "(deux femmes traversent le plateau de Cour à Jardin)",
+        "line-number": 1
+      },
+      {
+        "character": "Sofia",
+        "line": "Écoutez, c’est plus possible, là ! Il est où ce train ? On peut savoir quelque chose ? Ça fait une heure qu’on ne nous dit plus rien !",
+        "line-number": 2
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Alors, d’abord, on va se calmer Madame.",
+        "line-number": 3
+      },
+      {
+        "character": "Sofia",
+        "line": "Me calmer ? Vous vous fichez de moi. ? J’ai raté toutes mes correspondances ! J’ai un rendez-vous à Paris super important pour un boulot sur lequel je postule depuis huit mois et vous voulez que je me calme ? Tout est foutu par votre faute ! Vous croyez que j’ai que ça à foutre moi, attendre des trains qui n’arrivent pas ? Et où je vais dormir ce soir, hein ? Où je vais dormir ? Vous allez me payer l’Hôtel sans doute ?",
+        "line-number": 4
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Bon, vous vous calmez maintenant !",
+        "line-number": 5
+      },
+      {
+        "character": "Sofia",
+        "line": "Je veux une explication !",
+        "line-number": 6
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Vous allez l’avoir votre explication mais d’abord, vous vous calmez ! Et vous changez de ton ! Et puis moi-aussi je l’attends ce train figurez-vous ! Vous n’êtes pas la seule à l’attendre !",
+        "line-number": 7
+      },
+      {
+        "character": "Sofia",
+        "line": "Il est où ? Pourquoi il est pas là ?",
+        "line-number": 8
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Parce qu’il est… (elle chuchote) perdu…",
+        "line-number": 9
+      },
+      {
+        "character": "Sofia",
+        "line": "Quoi ?",
+        "line-number": 10
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Perdu. On l’a perdu.",
+        "line-number": 11
+      },
+      {
+        "character": "Sofia",
+        "line": "Mais comment ça, perdu, ça se perd pas un train. Qu’est-ce que vous me racontez ?",
+        "line-number": 12
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Ben si, ça se perd. Et plus souvent que vous croyez, figurez-vous.",
+        "line-number": 13
+      },
+      {
+        "character": "Sofia",
+        "line": "Vous vous fichez de moi, c’est ça ? C’est ça, vous vous fichez de moi ?",
+        "line-number": 14
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Ah, ne recommencez pas, hein ! Parce que c’est à cause de gens comme vous que ces histoires, ça arrive !",
+        "line-number": 15
+      },
+      {
+        "character": "Sofia",
+        "line": "Pardon ?",
+        "line-number": 16
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Mais oui, à cause de gens surexcités comme vous, là, des gens toujours impatients, jamais contents, jamais satisfaits, aigris à vingt ans et qui plus tard font des enfants surexcités eux-aussi, des enfants insolents et capricieux.",
+        "line-number": 17
+      },
+      {
+        "character": "Sofia",
+        "line": "Non mais vous délirez complètement ma parole.",
+        "line-number": 18
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Mais non, je ne délire pas ! C’est la vérité, c’est tout ! Mais ça, la vérité, les gens comme vous, ça refuse de la voir, la vérité ! Et puis il vous faut tout, tout de suite. Même pas capables de chercher à comprendre. Comme à ces petits merdeux là, tous ces enfants gâtés, pourris…",
+        "line-number": 19
+      },
+      {
+        "character": "Sofia",
+        "line": "Mais qu’est-ce qu’ils ont à voir les enfants dans cette affaire ?",
+        "line-number": 20
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "C’est eux ! C’est eux qui l’ont perdu !",
+        "line-number": 21
+      },
+      {
+        "character": "Sofia",
+        "line": "Quoi ?",
+        "line-number": 22
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Oui ! Ils l’ont kidnappé !",
+        "line-number": 23
+      },
+      {
+        "character": "Sofia",
+        "line": "Kidnappé ?",
+        "line-number": 24
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Oui ! Les jouets, ça leur suffit plus maintenant. Il leur faut les grands modèles, les originaux. Chaque année, c’est pareil, de toute façon. Quelques semaines après les fêtes, ils en ont assez de leurs jouets en bois et paf ! Ils piquent un grand ! Un vrai ! Avec de vrais voyageurs dedans !",
+        "line-number": 25
+      },
+      {
+        "character": "Sofia",
+        "line": "Mais comment ils font pour conduire ?",
+        "line-number": 26
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Grâce à Internet ! Ils font tout sur Internet ! Ils passent leur vie sur Internet ! On y apprend tout maintenant sur Internet ! Même à conduire un train !",
+        "line-number": 27
+      },
+      {
+        "character": "Sofia",
+        "line": "Mais on peut pas les intercepter, les bloquer ?",
+        "line-number": 28
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Non ! On ne sait pas comment ils s’y prennent mais ils se débrouillent toujours par disparaître, par prendre des voies inconnues, qui n’existaient plus ou dont on ignorait jusqu’à l’existence.",
+        "line-number": 29
+      },
+      {
+        "character": "Sofia",
+        "line": "Ah la vache… Ils sont forts les mômes…",
+        "line-number": 30
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "C’est clair !",
+        "line-number": 31
+      },
+      {
+        "character": "Sofia",
+        "line": "Mais on les retrouve quand même ? Ils finissent bien par être découverts ou… par rentrer à la maison…",
+        "line-number": 32
+      },
+      {
+        "character": "La Contrôleuse",
+        "line": "Oui, évidemment, mais bon, la dernière fois, ça a quand même duré trois semaines.",
+        "line-number": 33
+      },
+      {
+        "character": "Sofia",
+        "line": "Trois semaines ! Mais je peux pas attendre trois semaines, moi !",
+        "line-number": 34
+      },
+      {
+        "character": "Indication",
+        "line": "(La Contrôleuse s'éloigne) Eh ! Vous m'entendez ?",
+        "line-number": 35
+      },
+      {
+        "character": "Indication",
+        "line": "(elles sortent)",
+        "line-number": 36
+      }
+    ]
+  },{
+    
+      "play_name": "Le Train des Hésitations",
+      "position_scene": 17,
+      "title": "Le Train des Hésitations",
+      "description": "Une conversation chargée d'émotion et de révélations entre Fabienne et Sally éclate juste avant le départ d'un train crucial. Fabienne, rongée par l'indécision et le poids du temps, décide de ne pas embarquer pour retrouver quelqu'un qu'elle n'a pas vu depuis des années. Malgré les efforts collectifs pour organiser ces retrouvailles, Fabienne doute de la pertinence de ce voyage dans le passé. Sally, incrédule et frustrée, tente de la convaincre de saisir cette chance, mettant en lumière le conflit entre le désir de renouer avec le passé et la peur de décevoir ou de découvrir que certaines choses sont irrémédiablement changées.",
+      "characters": ["Indication", "Fabienne", "Sally"],
+      "lines": [
+        {
+          "character": "Indication",
+          "line": "(deux femmes arrivent et parlent, debout)",
+          "line-number": 1
+        },
+        {
+          "character": "Fabienne",
+          "line": "Écoute, je suis désolée, mais je ne vais pas prendre ce train.",
+          "line-number": 2
+        },
+        {
+          "character": "Sally",
+          "line": "Pardon ?",
+          "line-number": 3
+        },
+        {
+          "character": "Fabienne",
+          "line": "J’en ai pas dormi de la nuit. Ça fait des jours que ça me ronge, que je ne pense qu’à ça… Je ne monte pas dans ce train. Ça na pas de sens.",
+          "line-number": 4
+        },
+        {
+          "character": "Sally",
+          "line": "Mais qu’est-ce que tu racontes ?",
+          "line-number": 5
+        },
+        {
+          "character": "Fabienne",
+          "line": "Ne le prends pas mal, ne le prends pas pour toi, s’il te plaît. Je suis très consciente des efforts que vous avez fait, toutes et tous, pour le retrouver, mais aujourd’hui, c’est trop tard… Je vois bien que c’est trop tard. C’est ridicule…",
+          "line-number": 6
+        },
+        {
+          "character": "Sally",
+          "line": "C’est une blague ?",
+          "line-number": 7
+        },
+        {
+          "character": "Fabienne",
+          "line": "Non…",
+          "line-number": 8
+        },
+        {
+          "character": "Sally",
+          "line": "C’est pas une blague ?! Tu sais combien de temps on y a passé, pour le retrouver ? On a remué ciel et terre pendant six mois ! On a écumé toute la Région ! Ça nous a pris tout notre temps, toute notre énergie et là, tu me dis que tu ne vas pas le retrouver ?",
+          "line-number": 9
+        },
+        {
+          "character": "Fabienne",
+          "line": "Je suis désolée…",
+          "line-number": 10
+        },
+        {
+          "character": "Sally",
+          "line": "Désolée ? Mais je m’en fous que tu sois désolée. Tu vas monter dans ce train et aller le retrouver, crois-moi ! Chaque fois que tu parles de lui, t’as les yeux qui pétillent, tu es bouleversée. On s’en fout du temps qui a passé !",
+          "line-number": 11
+        },
+        {
+          "character": "Fabienne",
+          "line": "Mais j’avais 14 ans ! Aujourd’hui, j’en ai 30 de plus !",
+          "line-number": 12
+        },
+        {
+          "character": "Sally",
+          "line": "Et alors ? T’es magnifique, en pleine forme et ça va être l’éclate de le retrouver !",
+          "line-number": 13
+        },
+        {
+          "character": "Fabienne",
+          "line": "T’es pas objective Sally…",
+          "line-number": 14
+        },
+        {
+          "character": "Sally",
+          "line": "Si, justement !",
+          "line-number": 15
+        },
+        {
+          "character": "Fabienne",
+          "line": "Bon, tu me saoules, là !",
+          "line-number": 16
+        },
+        {
+          "character": "Indication",
+          "line": "(elles sortent)",
+          "line-number": 17
+        }
+      ]
+    },
+    {
+      "play_name":  "Les Trois Mots",
+      "position_scene": 18,
+      "title": "Les Trois Mots",
+      "description": "La scène débute avec un échange intense entre Nathalie et Pauline, où Nathalie confronte Pauline sur la nature de sa relation avec Clément, exprimant sa douleur et sa jalousie de manière crue. L'atmosphère change radicalement lorsque Sofia et Lucile prennent place sur un banc et partagent un moment léger et introspectif. Sofia révèle à Lucile son passe-temps unique de décrire les gens autour d'elle en trois mots, une quête existentielle pour saisir l'essence même d'une personne. Ce jeu, à la fois simple et profond, sert de toile de fond à une réflexion sur la perception, l'identité et la complexité des relations humaines, tout en soulignant les limites et la richesse du langage dans la capture de nos essences individuelles.",
+      "characters": ["Indication", "Nathalie", "Pauline", "Sofia", "Lucile"],
+      "lines": [
+        {
+          "character": "Nathalie",
+          "line": "Comment tu fais pour faire l'amour avec lui ? Comment tu fais ? On a passé cinq ans ensemble, avec Clément. Quand vous faites l'amour, y a pas des images qui t'apparaissent ? Y a pas mon visage qui se plante devant tes yeux ? Mon corps ? Mes seins ? Mon…",
+          "line-number": 1
+        },
+        {
+          "character": "Pauline",
+          "line": "Arrête !",
+          "line-number": 2
+        },
+        {
+          "character": "Nathalie",
+          "line": "Parce que devant ses yeux à lui, peut-être que ça apparaît tout ça, figure-toi et que !",
+          "line-number": 3
+        },
+        {
+          "character": "Pauline",
+          "line": "ARRÊÊÊÊTE !!!",
+          "line-number": 4
+        },
+        {
+          "character": "Indication",
+          "line": "(elles sortent)",
+          "line-number": 5
+        },
+        {
+          "character": "Indication",
+          "line": "(deux femmes arrivent et s'installent sur le troisième banc)",
+          "line-number": 6
+        },
+        {
+          "character": "Sofia",
+          "line": "Faut que je t'avoue quelque chose. Quand je ne suis pas trop absorbée par mes propres pensées, je joue à un jeu qui peut parfois durer des mois. Voire des années.",
+          "line-number": 7
+        },
+        {
+          "character": "Lucile",
+          "line": "Un jeu ?",
+          "line-number": 8
+        },
+        {
+          "character": "Sofia",
+          "line": "Oui. Mais il n’y a que moi qui joue.",
+          "line-number": 9
+        },
+        {
+          "character": "Lucile",
+          "line": "Ah… En même temps, si ça peut durer des années, vaut peut-être mieux.",
+          "line-number": 10
+        },
+        {
+          "character": "Sofia",
+          "line": "C’est vrai…",
+          "line-number": 11
+        },
+        {
+          "character": "Lucile",
+          "line": "Et ça consiste en quoi ?",
+          "line-number": 12
+        },
+        {
+          "character": "Sofia",
+          "line": "Alors, c’est très simple. Je me demande comment je pourrais décrire une personne de mon entourage en trois mots. Et uniquement trois mots. C’est moins une tentative de description qu’une véritable quête existentielle, vous voyez : trouver les trois mots qui capturent ce qui fait qu’une personne est exactement qui elle est et personne d’autre.",
+          "line-number": 13
+        },
+        {
+          "character": "Lucile",
+          "line": "Trois mots ?",
+          "line-number": 14
+        },
+        {
+          "character": "Sofia",
+          "line": "Oui. Par exemple, j’ai fini par déterminer que Louise, de la compta, est fantasque, bruyante et franche. Tu es d'accord avec moi ?",
+          "line-number": 15
+        },
+        {
+          "character": "Lucile",
+          "line": "Ouais… Carrément. Bien vu.",
+          "line-number": 16
+        },
+        {
+          "character": "Sofia",
+          "line": "Et que Nicolas, un ami de la fac, est élégant, contenu et prévenant.",
+          "line-number": 17
+        },
+        {
+          "character": "Lucile",
+          "line": "C’est précis…",
+          "line-number": 18
+        },
+        {
+          "character": "Sofia",
+          "line": "Ah ben oui ! C’est le but ! Mais il faut parfois un très long moment avant de valider chacun de ces termes.",
+          "line-number": 19
+        },
+        {
+          "character": "Lucile",
+          "line": "Je vois… Et ils ont un ordre précis ?",
+          "line-number": 20
+        },
+        {
+          "character": "Sofia",
+          "line": "Ah oui. Ils sont classés par ordre d’importance. Le premier est le moins significatif et le troisième, celui qui perce au plus près le mystère de la personnalité.",
+          "line-number": 21
+        },
+        {
+          "character": "Lucile",
+          "line": "J’imagine que c’est celui-là le plus dur à trouver ?",
+          "line-number": 22
+        },
+        {
+          "character": "Sofia",
+          "line": "Évidemment… C’est un exercice vertigineux car deux personnes qui se ressemblent beaucoup à première vue (socialement ou bien de caractère), ne peuvent pas partager les trois mêmes mots existentiels…",
+          "line-number": 23
+        },
+        {
+          "character": "Lucile",
+          "line": "Insecure…",
+          "line-number": 24
+        },
+        {
+          "character": "Sofia",
+          "line": "Yes ! Thank you so much !",
+          "line-number": 25
+        },
+        {
+          "character": "Lucile",
+          "line": "La langue française manque souvent de mots pour bien déterminer des états ou de sentiments.",
+          "line-number": 26
+        },
+        {
+          "character": "Sofia",
+          "line": "Je suis complètement d’accord.",
+          "line-number": 27
+        }
+      ]
+    }
+  
+    
+  
+  
+  
+  
+  
   
   
 ]
