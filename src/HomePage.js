@@ -6,8 +6,8 @@ function HomePage() {
     return (
         <div  >
             <p className='rubik text-[40px] text-center'>Apprendre la pièce de théatre </p>
-        <p className='text-2xl w-[250px] p-2 mt-9 mb-12 text-white bg-blue-800 mx-auto text-center'>What do you want ? 
-                </p>
+            <p className='text-2xl w-[250px] rounded-2xl font-bold p-2 mt-9 mb-12 text-white bg-blue-800 mx-auto text-center'>What do you want ?
+            </p>
             <ul>
                 {/* <li><Link className='px-2' to="/">Accueil</Link></li> */}
                 <li><Link className='p-2 m-3 rounded-2xl text-center bg-red-100 mx-auto w-[300px] block' to="/allsentences">Je veux voir toutes mes répliques dans la pièce  </Link></li>

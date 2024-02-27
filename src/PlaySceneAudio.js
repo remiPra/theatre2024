@@ -22,6 +22,13 @@ function PlayComponentAudio() {
     const [showAudio, setShowAudio] = useState(false)
     const [replique, setReplique] = useState(null)
 
+
+    useEffect(()=>{
+        setCharacterPlay('')
+        setScene('')
+        // characterPlay == '' && scene == ""
+    },[])
+
     useEffect(() => {
 
         // Play lines
@@ -131,7 +138,7 @@ function PlayComponentAudio() {
                                     {el.title}
                                 </h2>
                                 <p className='flex justify-center flex-wrap'>{el.characters.map((el) => (<>
-                                    <span className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el}</span>
+                                  {el != "Indication" &&   <span className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el}</span>}
                                 </>))}</p>
                             </div>
                         </>))
@@ -158,7 +165,7 @@ function PlayComponentAudio() {
                 <div className='flex justify-center mt-5 flex-wrap' >
 
                     {characters.map((el, index) => (<>
-                        {(el != null) && <button onClick={() => setCharacterPlay(el)} key={index} className='text-red-100 bg-red-700 rounded-lg m-2 p-2'>{el}</button>}
+                        {(el != null && el != "Indication" ) && <button onClick={() => setCharacterPlay(el)} key={index} className='text-red-100 bg-red-700 rounded-lg m-2 p-2'>{el}</button>}
                     </>))}
 
                 </div>

@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import { FaMicrophone } from "react-icons/fa";
 
 const Dictaphone = (props) => {
-
+    
+    useEffect(()=>{
+        startAudio()
+    },[])
     ///////////////////////////////////////////////////////
     const [comparison, setComparison] = useState([]);
 
@@ -48,7 +51,11 @@ const Dictaphone = (props) => {
         return <span>Browser doesn't support speech recognition.</span>;
     }
 
+
+
+
     const startAudio = () => {
+        Reset()
         SpeechRecognition.startListening({ language: 'fr-FR', continuous: true })
         setCompareLine(false)
         setRegister(true)
@@ -74,14 +81,19 @@ const Dictaphone = (props) => {
             <p>Microphone: {props.replique.line_number} {listening ? 'on' : 'off'}</p>
             {/* {compareLine && JSON.stringify(props.replique)} */}
             <div>
-                {register && <p className='flex justify-center'><FaMicrophone/></p>} 
+                {register && <><p className='flex justify-center'><FaMicrophone 
+                className='text-[30px] mt-4 mb-2'/></p>
+                <p>Attention ca enregistre !</p>
+                </>} 
                 {!register &&
                     <button className='bg-white border-2 border-black rounded-lg p-2 m-2'
                         onClick={() => startAudio()}>Start</button>}
                 {register && <button className='bg-white border-2 border-black rounded-lg p-2 m-2'
                     onClick={() => stopAudio()}>Stop</button>}
-                {!register && <button className='bg-white border-2 border-black rounded-lg p-2 m-2' onClick={Reset}>Reset</button>}
-                <button className='bg-white border-2 border-black rounded-lg p-2 m-2' onClick={props.onclose}>Quitter</button>
+                {/* {!register && <button className='bg-white border-2 border-black rounded-lg p-2 m-2' onClick={Reset}>Reset</button>} */}
+              {!register &&
+              <button className='bg-white border-2 border-black rounded-lg p-2 m-2' onClick={props.onclose}>Quitter</button>
+              }  
             </div>
            {compareLine &&  <p className='mt-2 font-bold'>Vous avez dit : </p>}
             <p>{transcript}</p>
