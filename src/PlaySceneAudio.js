@@ -174,7 +174,7 @@ function PlayComponentAudio() {
         {(characterPlay != '' && scene != "") &&
             <div>
                 <h1 className='text-center mt-6 mb-6'>{specificScene[0].play_name}</h1>
-                <div className="fixed bottom-10 right-5 animate-slideToBottomRight">
+                <div className="fixed bottom-20 right-5 animate-slideToBottomRight">
                          {boolSeeAll && <button className='bg-blue-800 text-[35px] p-4 text-white rounded-full' onClick={allSee}>                                        <FaEye />
                     </button>}
                     {!boolSeeAll && <button className='bg-red-600 text-[35px] p-4 text-white rounded-full' onClick={allUnSee}>                                        <FaEye />

@@ -56,11 +56,12 @@ function AllReplique() {
         <h1 className='text-center   mt-5'>Toutes les répliques de {characterPlay} de la pièce</h1>
         {characterPlay == '' &&
             <div>
-                <p className='flex justify-center mb-14 text-2xl text-center mt-5'> Choisissez le personnage que vous voulez incarner </p>
+                <p className='flex justify-center mb-14 text-2xl text-center mt-10'> Choisissez le personnage que vous voulez incarner </p>
                 <div className='flex flex-wrap justify-center mt-5' >
 
                     {characters.map((el, index) => (<>
-                        <button onClick={() => choose(el)} key={index} className='text-red-100 bg-red-700 rounded-lg m-2 p-2'>{el}</button>
+                      {el != "Indication"  &&   <button onClick={() => choose(el)} key={index} 
+                        className='text-red-100 font-bold bg-blue-800 rounded-lg m-2 p-2'>{el}</button>}
                     </>))}
 
                 </div>

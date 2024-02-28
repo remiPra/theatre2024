@@ -23,7 +23,7 @@ export default function DrawerBasic() {
   return (
     <Box sx={{ display: 'flex' }}>
       <Button variant="outlined" color="neutral" onClick={toggleDrawer(true)}>
-      <CiMenuBurger size={44} className='rounded-xl p-3 flex hover:bg-red-100 cursor-pointer' />
+      <CiMenuBurger size={44} className='rounded-xl font-normal p-3 flex hover:bg-red-100  cursor-pointer' />
       </Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
       <div className='m-2'  >
