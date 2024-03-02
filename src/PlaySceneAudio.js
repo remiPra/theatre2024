@@ -23,11 +23,11 @@ function PlayComponentAudio() {
     const [replique, setReplique] = useState(null)
 
 
-    useEffect(()=>{
+    useEffect(() => {
         setCharacterPlay('')
         setScene('')
         // characterPlay == '' && scene == ""
-    },[])
+    }, [])
 
     useEffect(() => {
 
@@ -138,7 +138,7 @@ function PlayComponentAudio() {
                                     {el.title}
                                 </h2>
                                 <p className='flex justify-center flex-wrap'>{el.characters.map((el) => (<>
-                                  {el != "Indication" &&   <span className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el}</span>}
+                                    {el != "Indication" && <span className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el}</span>}
                                 </>))}</p>
                             </div>
                         </>))
@@ -165,7 +165,7 @@ function PlayComponentAudio() {
                 <div className='flex justify-center mt-5 flex-wrap' >
 
                     {characters.map((el, index) => (<>
-                        {(el != null && el != "Indication" ) && <button onClick={() => setCharacterPlay(el)} key={index} className='text-red-100 bg-red-700 rounded-lg m-2 p-2'>{el}</button>}
+                        {(el != null && el != "Indication") && <button onClick={() => setCharacterPlay(el)} key={index} className='text-red-100 bg-red-700 rounded-lg m-2 p-2'>{el}</button>}
                     </>))}
 
                 </div>
@@ -175,16 +175,33 @@ function PlayComponentAudio() {
             <div>
                 <h1 className='text-center mt-6 mb-6'>{specificScene[0].play_name}</h1>
                 <div className="fixed bottom-20 right-5 animate-slideToBottomRight">
-                         {boolSeeAll && <button className='bg-blue-800 text-[35px] p-4 text-white rounded-full' onClick={allSee}>                                        <FaEye />
+                    {boolSeeAll && <button className='bg-blue-800 text-[35px] p-4 text-white rounded-full' onClick={allSee}>                                        <FaEye />
                     </button>}
                     {!boolSeeAll && <button className='bg-red-600 text-[35px] p-4 text-white rounded-full' onClick={allUnSee}>                                        <FaEye />
                     </button>}
                 </div>
                 <div className='w-full flex justify-center'>
-                    {boolSeeAll && <button className='bg-blue-800 text-[35px] p-4 text-white rounded-full' onClick={allSee}>                                        <FaEye />
-                    </button>}
-                    {!boolSeeAll && <button className='bg-red-600 text-[35px] p-4 text-white rounded-full' onClick={allUnSee}>                                        <FaEye />
-                    </button>}
+                    {boolSeeAll && 
+                    <div onClick={allSee} className='bg-blue-800 flex flex-col justify-center p-4 text-white rounded-full'>
+                        <button className='text-[35px] mx-auto text-center text-white ' >
+                            <FaEye />
+                        </button>
+                        <p className='text-sm'>
+                            tout voir
+                        </p>
+                    </div>
+                    }
+                    {!boolSeeAll &&
+                    <div onClick={allUnSee} className='bg-red-800 flex flex-col justify-center p-4 text-white rounded-full'>
+                    <button className='text-[35px] mx-auto text-center text-white ' >
+                        <FaEye />
+                    </button>
+                    <p className='text-sm'>
+                        cacher mes répliques
+                    </p>
+                </div> 
+                    
+                    }
                 </div>
                 {specificScene[0].lines.map((line, index) => (
                     <div key={index} className=' p-2 m-2 '>
