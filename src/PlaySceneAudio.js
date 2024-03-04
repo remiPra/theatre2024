@@ -116,12 +116,19 @@ function PlayComponentAudio() {
         console.log(set)
     }
 
+    const [perso,setPerso] = useState("")
+    const persoChange = (data) => {
+                console.log(data);
+                setPerso(data)
+    }
     return (<>
         {/* scene initialie */}
         {(characterPlay == '' && scene == "") && (
             <>
                 <div className='relative w-full'>
                     <h1 className='text-center mt-6 mb-6 '>Choisissez votre scene :</h1>
+                    {/* <p>personnage : </p>
+                    <input onChange={(e)=>persoChange(e.target.value)} type="text"/> */}
                     <div className='absolute right-3 top-0 '>
                         <DrawerBasic />
                     </div>
@@ -130,7 +137,7 @@ function PlayComponentAudio() {
 
                     {
                         playLines.map((el, index) => (<>
-
+                            {/* {(el.characters.indexOf(perso) !== -1 || perso === "") && */}
                             <div
                                 onClick={() => (sceneChoose(el.play_name, el.description))} key={index}
                                 className='cursor-pointer  max-w-[280px] min-h-[200px] border-2 rounded-lg m-2 p-2'>
@@ -141,6 +148,7 @@ function PlayComponentAudio() {
                                     {el != "Indication" && <span className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el}</span>}
                                 </>))}</p>
                             </div>
+                             {/* } */}
                         </>))
                     }
                 </div>

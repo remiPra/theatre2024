@@ -34,7 +34,7 @@ function NavBar() {
         <div>
           <p className='text-black'><CiHome className='text-[30px] text-blue-900' /></p>
         </div>
-        <ul className='absolute flex justify-center items-center' style={{ left: 300, right: 300, margin: 'auto', zIndex: 1 }}>
+        <ul className='hidden md:absolute md:flex md:justify-center md:items-center' style={{ left: 300, right: 300, margin: 'auto', zIndex: 1 }}>
           <li><Link className='px-2' to="/"><CiHome className='text-[30px] border border-x-blue-800 font-bold mx-2 text-blue-900 ' /></Link></li>
           <li><Link className='px-2' to="/allsentences"><IoDocumentTextOutline className='text-[30px] text-blue-900 mx-2 ' /></Link></li>
           <li><Link className='px-2' to="/audio"><FaRegFileAudio className='text-[30px] text-blue-900 mx-2 ' /></Link></li>
