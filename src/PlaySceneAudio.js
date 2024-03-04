@@ -31,7 +31,8 @@ function PlayComponentAudio() {
         setContinuer(false)
         setCharacterPlay('')
         setCharacters('')
-        setShowPersonnage(false)
+        resetSeePersonnage()
+        
     }
 
     useEffect(() => {
