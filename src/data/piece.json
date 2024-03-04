@@ -2065,7 +2065,189 @@
         "line-number": 43
       }
     ]
+  },
+  {
+    "play_name": "Décisions et Remplacements",
+    "position_scene": 20,
+    "title": "Décisions et Remplacements",
+    "description": "Fabienne exprime ses craintes et son hésitation à retrouver quelqu'un du passé, craignant que la douleur et les souvenirs ne soient trop à supporter. Dans un retournement surprenant, Sally propose de prendre sa place et de rencontrer cette personne à sa place, affirmant son droit au bonheur et sa volonté de saisir cette chance, même si cela signifie remplacer Fabienne. Cette proposition audacieuse soulève des questions sur l'identité, le bonheur et les choix que nous faisons face à notre passé. La scène se termine sur une note d'urgence alors que Fabienne suit Sally, peut-être pour l'arrêter ou pour prendre une décision finale.",
+    "characters": ["Fabienne", "Sally"],
+    "lines": [
+      {
+        "character": "Fabienne",
+        "line": "Je vais me retrouver devant lui et je ne vais même pas oser le regarder, le toucher. C’est trop tard. Ça va me faire du mal de le revoir, je le sais. Ça va me torturer, me ramener dans le passé et je crois que je n’ai pas envie de ça.",
+        "line-number": 1
+      },
+      {
+        "character": "Sally",
+        "line": "Tu sais quoi ? Si toi, tu n’y vas, moi, j’y vais !",
+        "line-number": 2
+      },
+      {
+        "character": "Fabienne",
+        "line": "Hein ?",
+        "line-number": 3
+      },
+      {
+        "character": "Sally",
+        "line": "Moi aussi je suis belle et en pleine forme. Pourquoi je n’aurais pas droit au bonheur ?",
+        "line-number": 4
+      },
+      {
+        "character": "Fabienne",
+        "line": "T’es pas sérieuse ?",
+        "line-number": 5
+      },
+      {
+        "character": "Sally",
+        "line": "Si !",
+        "line-number": 6
+      },
+      {
+        "character": "Fabienne",
+        "line": "Tu irais le retrouver à ma place ?",
+        "line-number": 7
+      },
+      {
+        "character": "Sally",
+        "line": "Si tu ne montes pas dans ce train, je te jure que moi je le fais !",
+        "line-number": 8
+      },
+      {
+        "character": "Indication",
+        "line": "(elle s’éloigne)",
+        "line-number": 9
+      },
+      {
+        "character": "Fabienne",
+        "line": "Hein !!!",
+        "line-number": 10
+      },
+      {
+        "character": "Indication",
+        "line": "(elle la suit)",
+        "line-number": 11
+      }
+    ]
+  },
+  {
+    "play_name": "Le Cinéma et la Séduction",
+    "position_scene": 21,
+    "title": "Le Cinéma et la Séduction",
+    "description": "Dans un moment de partage comique entre Ludovic et Simon, Ludovic raconte une tentative maladroite de séduire une fille en l'amenant voir un film d'horreur au cinéma, suivant les conseils de sa mère. La situation prend un tournant inattendu et hilarant lorsque Ludovic, croyant être déjà dans le vif du sujet, se laisse submerger par la peur dès les publicités, révélant sa sensibilité et son innocence. Cette anecdote, partagée entre rires, met en lumière les malentendus et les surprises que peut réserver la tentative de faire bonne impression, ainsi que l'humour trouvé dans les vulnérabilités humaines.",
+    "characters": ["Ludovic", "Simon"],
+    "lines": [
+      {
+        "character": "Ludovic",
+        "line": "Un jour, ma mère m'a dit que pour séduire une fille c'était bien de l'amener au cinéma. Alors, j'ai essayé. Un film d'horreur.",
+        "line-number": 1
+      },
+      {
+        "character": "Simon",
+        "line": "Ah oui ? C'est osé.",
+        "line-number": 2
+      },
+      {
+        "character": "Ludovic",
+        "line": "Je m'étais mal renseigné.",
+        "line-number": 3
+      },
+      {
+        "character": "Simon",
+        "line": "Mince.",
+        "line-number": 4
+      },
+      {
+        "character": "Ludovic",
+        "line": "En plus très vite, j'ai commencé à avoir peur. Alors, la fille m'a dit : \"Ludo, calme-toi ; ça, c'est juste la pub pour les Mnm's.\"",
+        "line-number": 5
+      },
+      {
+        "character": "Indication",
+        "line": "(ils rient)",
+        "line-number": 6
+      }
+    ]
+  },
+  {
+    "play_name": "Quiproquos Lamasques",
+    "position_scene": 22,
+    "title": "Larmes et Clémentines",
+    "description": "Une conversation poignante entre Bernadette et la SDF se déroule sur un banc, où Bernadette partage une expérience émotionnelle profonde liée aux larmes versées en silence suite à une révélation douloureuse de son mari. La distinction entre les larmes de frustration et les larmes de tristesse offre un aperçu touchant de sa douleur intérieure. La révélation que son mari la compare à une clémentine, un fruit qu'elle perçoit comme banal et insignifiant, l'amène à une prise de conscience déchirante sur l'état de leur mariage. Cette discussion intime révèle les complexités des relations et comment un simple commentaire peut être le catalyseur d'un changement de vie. La scène se clôt sur un moment de solitude partagée et la décision abrupte de Bernadette de partir, illustrant la fragilité des liens humains et la quête de compréhension et de consolation.",
+    "characters": ["La SDF", "Bernadette"],
+    "lines": [
+      {
+        "character": "La SDF",
+        "line": "Dites… Ça vous dirait pas de m'offrir un p'tit café au bar ? Comme, ça, en plus, je pourrais aller aux toilettes.",
+        "line-number": 1
+      },
+      {
+        "character": "Bernadette",
+        "line": "Quand mon mari s'est endormi, j’ai senti deux larmes faire le tour de mon visage pour se rejoindre en dessous de mon menton. Elles ont tracé un chemin transparent en forme de cœur depuis mes yeux en passant par mes joues. (un temps) Il existe deux sortes de larmes, vous savez. Au fil des années, j’ai réussi à les distinguer. Il y a les larmes de frustration ou de rage. Des larmes violentes, sévères, de couleur rouge. Elles ne coulent pas, elles jaillissent. Il est facile de les reconnaître car elles laissent derrière elles des visages bouffis et des yeux gonflés. Et il y a, comme hier soir, les larmes de tristesse. Elles ne coulent pas, elles débordent. Elles se mettent à glisser le long du visage en silence, les unes après les autres. Ce sont des larmes glacées, peu nombreuses, que j’imagine d’un bleu très clair, presque transparent. Ces larmes protectrices jouent un rôle de bouclier en déposant un pansement mouillé sur la joue. Il ne reste plus qu’à les effacer d’un revers de la main…",
+        "line-number": 2
+      },
+      {
+        "character": "La SDF",
+        "line": "Vos larmes n’ont pas réveillé votre mari, je suppose ?",
+        "line-number": 3
+      },
+      {
+        "character": "Bernadette",
+        "line": "Non… Je les avais à peine séchées que j’entendais sa respiration ralentie. Je me suis demandé comment il avait pu trouver le sommeil si vite après ce qu’il m’avait fait ?",
+        "line-number": 4
+      },
+      {
+        "character": "La SDF",
+        "line": "Qu'est-ce qu'il vous a fait ?",
+        "line-number": 5
+      },
+      {
+        "character": "Bernadette",
+        "line": "Il m'a associé à une clémentine. Pour lui, je suis une simple clémentine.",
+        "line-number": 6
+      },
+      {
+        "character": "La SDF",
+        "line": "Et c'est pas bien ? Vous auriez préféré un citron ou une banane ?",
+        "line-number": 7
+      },
+      {
+        "character": "Bernadette",
+        "line": "En l’espace de quelques minutes, j’ai vu défiler devant mes yeux nos quinze années de vie commune et j’ai compris que c’était fini. Notre couple n’est plus le lieu d’aucun amour. J’ai compris que mon mari allait me quitter. Alors, je l’ai devancé. Et j’ai fait ma val
+  
+  ise…",
+        "line-number": 8
+      },
+      {
+        "character": "La SDF",
+        "line": "Quoi, comme ça, sur un coup de tête ?",
+        "line-number": 9
+      },
+      {
+        "character": "Bernadette",
+        "line": "Ce n’est pas un coup de tête.",
+        "line-number": 10
+      },
+      {
+        "character": "La SDF",
+        "line": "Parce qu’il vous a associé à une clémentine ?",
+        "line-number": 11
+      },
+      {
+        "character": "Bernadette",
+        "line": "Vous ne comprenez pas. C’est normal que vous ne compreniez pas…",
+        "line-number": 12
+      },
+      {
+        "character": "Indication",
+        "line": "(La SDF retourne voir Arthur)",
+        "line-number": 13
+      }
+    ]
   }
+  
+
+  
 
 
 ]
