@@ -24,7 +24,15 @@ function PlayComponentAudio() {
     const [showAudio, setShowAudio] = useState(false)
     const [replique, setReplique] = useState(null)
     const [allcharacters, setallCharacters] = useState([]);
-
+    
+    const Initial = () => {
+        setCharacterPlay('')
+        setScene('')
+        setContinuer(false)
+        setCharacterPlay('')
+        setCharacters('')
+        setShowPersonnage(false)
+    }
 
     useEffect(() => {
         setCharacterPlay('')
@@ -159,10 +167,6 @@ function PlayComponentAudio() {
                 setPerso(data)
     }
 
-    const Initial = () => {
-        setCharacterPlay('')
-        setScene('')
-    }
     /////les peerson,nages si onveut choisir
     const [showPersonnage,setShowPersonnage] = useState(false) 
     const openPersonnage = () => {
