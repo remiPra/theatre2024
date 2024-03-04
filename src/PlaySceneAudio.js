@@ -24,15 +24,15 @@ function PlayComponentAudio() {
     const [showAudio, setShowAudio] = useState(false)
     const [replique, setReplique] = useState(null)
     const [allcharacters, setallCharacters] = useState([]);
-    
+
     const Initial = () => {
         setCharacterPlay('')
         setScene('')
         setContinuer(false)
         setCharacterPlay('')
         setCharacters('')
-        resetSeePersonnage()
-        
+        // setShowPersonnage(false)
+
     }
 
     useEffect(() => {
@@ -48,7 +48,7 @@ function PlayComponentAudio() {
         const playLines = playData
         setPlayLines(playLines);
 
-        
+
 
 
 
@@ -76,14 +76,14 @@ function PlayComponentAudio() {
             playLines.map(l => x.push(l.character));
             console.log(x)
             // Ajouter au Set global
-            
+
             const prenomsUniques = [...new Set(x.filter(Boolean))];
             console.log(prenomsUniques)
             setallCharacters(prenomsUniques)
 
 
             // setCharacters(prevState=> [...prevState,characters])
-            
+
 
         });
         //
@@ -162,14 +162,14 @@ function PlayComponentAudio() {
         console.log(set)
     }
 
-    const [perso,setPerso] = useState("")
+    const [perso, setPerso] = useState("")
     const persoChange = (data) => {
-                console.log(data);
-                setPerso(data)
+        console.log(data);
+        setPerso(data)
     }
 
     /////les peerson,nages si onveut choisir
-    const [showPersonnage,setShowPersonnage] = useState(false) 
+    const [showPersonnage, setShowPersonnage] = useState(false)
     const openPersonnage = () => {
         setShowPersonnage(true)
     }
@@ -183,8 +183,8 @@ function PlayComponentAudio() {
     }
 
     return (<>
-       {scene != "" && <button className='fixed text-[30px] top-30 right-8 z-5 text-white bg-blue-800 rounded-xl p-2' onClick={Initial}>
-        <FaArrowLeft/>
+        {scene != "" && <button className='fixed text-[30px] top-30 right-8 z-5 text-white bg-blue-800 rounded-xl p-2' onClick={Initial}>
+            <FaArrowLeft />
         </button>}
         {/* scene initialie */}
         {(characterPlay == '' && scene == "") && (
@@ -193,38 +193,43 @@ function PlayComponentAudio() {
                     <h1 className='text-center mt-6 mb-4 '>Choisissez votre scene :</h1>
                     <div className='w-full text-center mb-2'>
 
-                    {!showPersonnage && <button className='text-white bg-blue-800 text-center mx-auto w-[200px] rounded-xl m-1 p-2' onClick={openPersonnage}>Personnage</button>}
-                    {showPersonnage && <button className='text-white bg-red-800  rounded-xl m-1 p-2'  onClick={resetSeePersonnage}>Annuler Perso</button>}
+                        {!showPersonnage && <button className='text-white bg-blue-800 text-center mx-auto w-[200px] rounded-xl m-1 p-2' onClick={openPersonnage}>Personnage</button>}
+                        {showPersonnage && <button className='text-white bg-red-800  rounded-xl m-1 p-2' onClick={resetSeePersonnage}>Annuler Perso</button>}
                     </div>
-                  {showPersonnage && 
-                  <div>
-                   
-                    {allcharacters.map((el)=>(
-                        <button onClick={()=>seeByCharacter(el)} className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el} </button>
-                    ))}
-                    </div>}
-                  
+                    {showPersonnage &&
+                        <div>
+
+                            {allcharacters.map((el) => (
+                                <>
+                                    {characterSee == el ? <button onClick={() => seeByCharacter(el)} className='text-white bg-yellow-300  rounded-xl m-1 p-2'>{el} </button>
+                                        : <button onClick={() => seeByCharacter(el)} className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el} </button>
+
+                                    }
+                                </>
+                            ))}
+                        </div>}
+
                 </div>
                 <div className='flex justify-center flex-wrap'>
 
                     {
                         playLines.map((el, index) => (<>
                             {
-    (el.characters.some(element=>element.includes(characterSee) || characterSee == "" ) )
-                            && 
-                            <div
-                                onClick={() => (sceneChoose(el.play_name, el.description))} key={index}
-                                className='cursor-pointer  max-w-[280px] min-h-[200px] border-2 rounded-lg m-2 p-2'>
-                                <h2 className='min-h-[130px] text-center rubik text-black text-[26px]'>
-                                    {el.title}
-                                </h2>
-                                <p className='flex justify-center flex-wrap'>
-                                    {el.characters.map((el) => (<>
-                                    {el != "Indication" && <span className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el}</span>}
-                                </>))}
-                                </p>
-                            </div>
-                             }
+                                (el.characters.some(element => element.includes(characterSee) || characterSee == ""))
+                                &&
+                                <div
+                                    onClick={() => (sceneChoose(el.play_name, el.description))} key={index}
+                                    className='cursor-pointer  max-w-[280px] min-h-[200px] border-2 rounded-lg m-2 p-2'>
+                                    <h2 className='min-h-[130px] text-center rubik text-black text-[26px]'>
+                                        {el.title}
+                                    </h2>
+                                    <p className='flex justify-center flex-wrap'>
+                                        {el.characters.map((el) => (<>
+                                            {el != "Indication" && <span className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el}</span>}
+                                        </>))}
+                                    </p>
+                                </div>
+                            }
                         </>))
                     }
                 </div>
@@ -265,26 +270,26 @@ function PlayComponentAudio() {
                     </button>}
                 </div>
                 <div className='w-full flex justify-center'>
-                    {boolSeeAll && 
-                    <div onClick={allSee} className='bg-blue-800 flex flex-col justify-center p-4 text-white rounded-full'>
-                        <button className='text-[35px] mx-auto text-center text-white ' >
-                            <FaEye />
-                        </button>
-                        <p className='text-sm'>
-                            tout voir
-                        </p>
-                    </div>
+                    {boolSeeAll &&
+                        <div onClick={allSee} className='bg-blue-800 flex flex-col justify-center p-4 text-white rounded-full'>
+                            <button className='text-[35px] mx-auto text-center text-white ' >
+                                <FaEye />
+                            </button>
+                            <p className='text-sm'>
+                                tout voir
+                            </p>
+                        </div>
                     }
                     {!boolSeeAll &&
-                    <div onClick={allUnSee} className='bg-red-800 flex flex-col justify-center p-4 text-white rounded-full'>
-                    <button className='text-[35px] mx-auto text-center text-white ' >
-                        <FaEye />
-                    </button>
-                    <p className='text-sm'>
-                        cacher mes répliques
-                    </p>
-                </div> 
-                    
+                        <div onClick={allUnSee} className='bg-red-800 flex flex-col justify-center p-4 text-white rounded-full'>
+                            <button className='text-[35px] mx-auto text-center text-white ' >
+                                <FaEye />
+                            </button>
+                            <p className='text-sm'>
+                                cacher mes répliques
+                            </p>
+                        </div>
+
                     }
                 </div>
                 {specificScene[0].lines.map((line, index) => (
