@@ -87,7 +87,282 @@
         "character": "Florence",
         "line": "A quoi ça ressemble ?",
         "line-number": 15
-      }
+      },
+   
+        {
+          "character": "unknown",
+          "line": "Le cliquetis du panneau d'affichage.",
+          "line-number": 16
+        },
+        {
+          "character": "unknown",
+          "line": "Qui annonce un retard de 20 minutes…",
+          "line-number": 17
+        },
+        {
+          "character": "unknown",
+          "line": "Des gens qui reviennent de l'étranger et qui dorment à même le sol, la tête sur leurs bagages, détruits pas le décalage horaire.",
+          "line-number": 18
+        },
+        {
+          "character": "unknown",
+          "line": "Des militaires qui rodent.",
+          "line-number": 19
+        },
+        {
+          "character": "unknown",
+          "line": "Des cafés, bus en quatrième vitesse et des magazines ou des romans qu'on n'achèterait nulle part ailleurs.",
+          "line-number": 20
+        },
+        {
+          "character": "unknown",
+          "line": "Des enfants qui crient et qui pleurent.",
+          "line-number": 21
+        },
+        {
+          "character": "Marie",
+          "line": "Des troupeaux de touristes qui cherchent un renseignement.",
+          "line-number": 22
+        },
+        {
+          "character": "Rémi",
+          "line": "Des distributeurs de boissons ou de sucreries qui nous font de l’œil…",
+          "line-number": 23
+        },
+        {
+          "character": "unknown",
+          "line": "De la musique jouée au piano en direct. Par un virtuose. Ou… un débutant… qui joue Lettre à Élise…",
+          "line-number": 24
+        },
+        {
+          "character": "unknown",
+          "line": "Les visages émus et fébriles de ceux qui sont dans l'attente des retrouvailles.",
+          "line-number": 25
+        },
+        {
+          "character": "unknown",
+          "line": "Des gens qui courent, avec des valises plus grosses qu'eux.",
+          "line-number": 26
+        },
+        {
+          "character": "unknown",
+          "line": "Des odeurs de bouffe et de sandwich en triangle.",
+          "line-number": 27
+        },
+        {
+          "character": "unknown",
+          "line": "Une foule de voyageurs qui se déplace en bloc, comme des automates, au moment où le numéro du quai apparaît sur le panneau d'affichage.",
+          "line-number": 28
+        }, {
+          "character": "unknown",
+          "line": "Des fumeurs qui font les cent pas.",
+          "line-number": 29
+        },
+        {
+          "character": "unknown",
+          "line": "Des gens qui courent, avec des enfants plein les bras.",
+          "line-number": 30
+        },
+        {
+          "character": "unknown",
+          "line": "Des gens qui demandent à quatre contrôleurs différents si c'est bien le bon train pour Narbonne.",
+          "line-number": 31
+        },
+        {
+          "character": "unknown",
+          "line": "Des adieux déchirants.",
+          "line-number": 32
+        },
+        {
+          "character": "unknown",
+          "line": "Des couples qui s'embrassent.",
+          "line-number": 33
+        },
+        {
+          "character": "unknown",
+          "line": "Les larmes de la personne qui reste.",
+          "line-number": 34
+        },
+        {
+          "character": "unknown",
+          "line": "Le bruit des portes automatiques.",
+          "line-number": 35
+        },
+        {
+          "character": "unknown",
+          "line": "Des regards perdus.",
+          "line-number": 36
+        },
+        {
+          "character": "unknown",
+          "line": "Des courants d'air.",
+          "line-number": 37
+        },
+        {
+          "character": "unknown",
+          "line": "Des rires et des sourires.",
+          "line-number": 38
+        },
+        {
+          "character": "unknown",
+          "line": "Des coups de sifflet de contrôleurs impatients.",
+          "line-number": 39
+        },
+        {
+          "character": "marie",
+          "line": "Des poubelles qui débordent.",
+          "line-number": 40
+        },
+        {
+          "character": "Rémi",
+          "line": "Des distributeurs de boissons ou de sucreries qui continuent à nous faire de l’œil…",
+          "line-number": 41
+        },
+        {
+          "character": "Rémi",
+          "line": "(les autres la regardent) Ben quoi, c'est vrai… Là aussi, y en a…",
+          "line-number": 42
+        },
+        {
+          "character": "unknown",
+          "line": "Toujours un mec, avec une énorme valise, qui cherche sa place et qui vient à contresens.",
+          "line-number": 43
+        },
+        {
+          "character": "Evy",
+          "line": "Un voyageur qui a pris ta place et qui refuse de partir.",
+          "line-number": 44
+        },
+        {
+          "character": "Rémi",
+          "line": "Le wagon restaurant toujours beaucoup trop loin.",
+          "line-number": 45
+        },
+        {
+          "character": "unknown",
+          "line": "Un voisin qui écoute de la musique beaucoup trop fort.",
+          "line-number": 46
+        },
+        {
+          "character": "unknown",
+          "line": "Un autre, qui dévore un sandwich au camembert qui pue à vingt mètres.",
+          "line-number": 47
+        },
+        {
+          "character": "unknown",
+          "line": "La clim, toujours trop forte.",
+          "line-number": 48
+        },
+        {
+          "character": "unknown",
+          "line": "Le voyageur qui met trois heures à s'installer et qui bloque toute l'allée.",
+          "line-number":49
+        },
+        {
+          "character": "unknown",
+          "line": "Les gens qui parlent trop et qui font profiter tout le wagon de leur conversation.",
+          "line-number": 50
+        },
+        {
+          "character": "unknown",
+          "line": "Toujours quelqu'un qui se lève trente minutes avant l'arrivée et qui reste debout, dans le couloir, avec ses gros sacs qui dépassent et qui te déchirent l'épaule.",
+          "line-number": 51
+        },
+        {
+          "character": "unknown",
+          "line": "Le stress qui te gagne, après un arrêt sur la voie, sans aucune explication.",
+          "line-number": 52
+        },
+        {
+          "character": "unknown",
+          "line": "Et là, tu te demandes si tu arriveras à temps pour avoir ta correspondance.",
+          "line-number": 53
+        },
+        {
+          "character": "unknown",
+          "line": "Les oreilles bouchées dans les tunnels.",
+          "line-number": 54
+        },
+        {
+          "character": "unknown",
+          "line": "Le voyageur qui se fait contrôler et qui n'avait pas de billet.",
+          "line-number": 55
+        },
+        {
+          "character": "unknown",
+          "line": "Les sas de décompression remplis, le vendredi soir, des internes et des étudiants qui rentrent chez leurs parents pour laver leur linge sale.",
+          "line-number": 56
+        },
+        {
+          "character": "unknown",
+          "line": "Le voyageur qui s'est endormi et qui a oublié de descendre.",
+          "line-number": 57
+        },
+        {
+          "character": "unknown",
+          "line": "Le voisin qui te prend tout l’accoudoir.",
+          "line-number": 58
+        },
+        {
+          "character": "unknown",
+          "line": "Une vieille dame qui te raconte sa vie et t'explique combien elle est fière de ses huit petits enfants.",
+          "line-number": 59
+        },
+        {
+          "character": "Rémi",
+          "line": "Des sandwich à vendre « jambon de pays et pain de campagne ».",
+          "line-number": 60
+        },
+        {
+          "character": "unknown",
+          "line": "Sauf que leur pain, ils n'ont jamais vu la campagne.",
+          "line-number": 61
+        },
+        {
+          "character": "unknown",
+          "line": "Et que leur jambon, il aurait mieux fait d'y rester, au pays…",
+          "line-number": 62
+        },
+        {
+          "character": "unknown",
+          "line": "Des téléphones qui sonnent et que tu as envie de jeter.",
+          "line-number": 63
+        },
+        {
+          "character": "unknown",
+          "line": "Des enfants qui pleurent et que tu as envie de bâillonner.",
+          "line-number": 64
+        },
+        {
+          "character": "unknown",
+          "line": "D'autres qui crient et qui te pètent les tympans et là, tu te dis que les enfants…",
+          "line-number": 65
+        },
+        {
+          "character": "unknown",
+          "line": "C'est pire que les téléphones !",
+          "line-number": 66
+        },
+        {
+          "character": "unknown",
+          "line": "Parce qu'on ne peut pas les éteindre !",
+          "line-number": 67
+        },
+        {
+          "character": "unknown",
+          "line": "Et puis, il y a les rencontres inattendues.",
+          "line-number": 68
+        },
+        {
+          "character": "unknown",
+          "line": "Qui fascinent ou agacent.",
+          "line-number": 69
+        },
+        {
+          "character": "unknown",
+          "line": "Les espoirs de coup de foudre. Comme dans les pubs télé pour le café.",
+          "line-number": 70
+        }
     ]
   },
   {

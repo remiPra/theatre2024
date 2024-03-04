@@ -6,6 +6,8 @@ import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa6";
 import { Drawer } from '@mui/joy';
 import DrawerBasic from './components/Drawer';
+import { FaArrowLeft, FaSignInAlt, FaSignOutAlt } from 'react-icons/fa';
+
 
 
 
@@ -21,11 +23,13 @@ function PlayComponentAudio() {
 
     const [showAudio, setShowAudio] = useState(false)
     const [replique, setReplique] = useState(null)
+    const [allcharacters, setallCharacters] = useState([]);
 
 
     useEffect(() => {
         setCharacterPlay('')
         setScene('')
+        setContinuer(false)
         // characterPlay == '' && scene == ""
     }, [])
 
@@ -34,13 +38,46 @@ function PlayComponentAudio() {
         // Play lines
         const playLines = playData
         setPlayLines(playLines);
+
+        
+
+
+
         const filteredLines = playLines.filter(line => {
             return line.play_name === scene;
         });
 
         setSpecificScene(filteredLines);
 
+        //all characters
+        const allCharacters = new Set();
+        let x = []
+        const allLines = [];
 
+        // Boucler sur chaque pièce
+        playLines.forEach(play => {
+
+            // Récupérer les lignes de cette pièce
+            const playLines = play.lines;
+
+            // Ajouter au tableau global
+            allLines.push(...playLines);
+
+            // Récupérer les personnages uniques
+            playLines.map(l => x.push(l.character));
+            console.log(x)
+            // Ajouter au Set global
+            
+            const prenomsUniques = [...new Set(x.filter(Boolean))];
+            console.log(prenomsUniques)
+            setallCharacters(prenomsUniques)
+
+
+            // setCharacters(prevState=> [...prevState,characters])
+            
+
+        });
+        //
 
     }, [scene]);
 
@@ -121,34 +158,68 @@ function PlayComponentAudio() {
                 console.log(data);
                 setPerso(data)
     }
+
+    const Initial = () => {
+        setCharacterPlay('')
+        setScene('')
+    }
+    /////les peerson,nages si onveut choisir
+    const [showPersonnage,setShowPersonnage] = useState(false) 
+    const openPersonnage = () => {
+        setShowPersonnage(true)
+    }
+    const resetSeePersonnage = () => {
+        setShowPersonnage(false)
+        setCharacterSee('')
+    }
+    const [characterSee, setCharacterSee] = useState("")
+    const seeByCharacter = (data) => {
+        setCharacterSee(data)
+    }
+
     return (<>
+       {scene != "" && <button className='fixed text-[30px] top-30 right-8 z-5 text-white bg-blue-800 rounded-xl p-2' onClick={Initial}>
+        <FaArrowLeft/>
+        </button>}
         {/* scene initialie */}
         {(characterPlay == '' && scene == "") && (
             <>
                 <div className='relative w-full'>
-                    <h1 className='text-center mt-6 mb-6 '>Choisissez votre scene :</h1>
-                    {/* <p>personnage : </p>
-                    <input onChange={(e)=>persoChange(e.target.value)} type="text"/> */}
-                    <div className='absolute right-3 top-0 '>
-                        <DrawerBasic />
+                    <h1 className='text-center mt-6 mb-4 '>Choisissez votre scene :</h1>
+                    <div className='w-full text-center mb-2'>
+
+                    {!showPersonnage && <button className='text-white bg-blue-800 text-center mx-auto w-[200px] rounded-xl m-1 p-2' onClick={openPersonnage}>Personnage</button>}
+                    {showPersonnage && <button className='text-white bg-red-800  rounded-xl m-1 p-2'  onClick={resetSeePersonnage}>Annuler Perso</button>}
                     </div>
+                  {showPersonnage && 
+                  <div>
+                   
+                    {allcharacters.map((el)=>(
+                        <button onClick={()=>seeByCharacter(el)} className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el} </button>
+                    ))}
+                    </div>}
+                  
                 </div>
                 <div className='flex justify-center flex-wrap'>
 
                     {
                         playLines.map((el, index) => (<>
-                            {/* {(el.characters.indexOf(perso) !== -1 || perso === "") && */}
+                            {
+    (el.characters.some(element=>element.includes(characterSee) || characterSee == "" ) )
+                            && 
                             <div
                                 onClick={() => (sceneChoose(el.play_name, el.description))} key={index}
                                 className='cursor-pointer  max-w-[280px] min-h-[200px] border-2 rounded-lg m-2 p-2'>
                                 <h2 className='min-h-[130px] text-center rubik text-black text-[26px]'>
                                     {el.title}
                                 </h2>
-                                <p className='flex justify-center flex-wrap'>{el.characters.map((el) => (<>
+                                <p className='flex justify-center flex-wrap'>
+                                    {el.characters.map((el) => (<>
                                     {el != "Indication" && <span className='text-white bg-blue-800  rounded-xl m-1 p-2'>{el}</span>}
-                                </>))}</p>
+                                </>))}
+                                </p>
                             </div>
-                             {/* } */}
+                             }
                         </>))
                     }
                 </div>
