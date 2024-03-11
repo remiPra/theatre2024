@@ -2,7 +2,7 @@
   {
     "play_name": "Les Philosophes du Quotidien part1",
     "position": 0,
-    "page:":"page 1",
+    "page:": "page 1",
     "title": "Les Philosophes du Quotidien part1",
     "characters": [
       "Florence",
@@ -88,288 +88,288 @@
         "line": "A quoi ça ressemble ?",
         "line-number": 15
       },
-   
-        {
-          "character": "unknown",
-          "line": "Le cliquetis du panneau d'affichage.",
-          "line-number": 16
-        },
-        {
-          "character": "unknown",
-          "line": "Qui annonce un retard de 20 minutes…",
-          "line-number": 17
-        },
-        {
-          "character": "unknown",
-          "line": "Des gens qui reviennent de l'étranger et qui dorment à même le sol, la tête sur leurs bagages, détruits pas le décalage horaire.",
-          "line-number": 18
-        },
-        {
-          "character": "unknown",
-          "line": "Des militaires qui rodent.",
-          "line-number": 19
-        },
-        {
-          "character": "unknown",
-          "line": "Des cafés, bus en quatrième vitesse et des magazines ou des romans qu'on n'achèterait nulle part ailleurs.",
-          "line-number": 20
-        },
-        {
-          "character": "unknown",
-          "line": "Des enfants qui crient et qui pleurent.",
-          "line-number": 21
-        },
-        {
-          "character": "Marie",
-          "line": "Des troupeaux de touristes qui cherchent un renseignement.",
-          "line-number": 22
-        },
-        {
-          "character": "Rémi",
-          "line": "Des distributeurs de boissons ou de sucreries qui nous font de l’œil…",
-          "line-number": 23
-        },
-        {
-          "character": "unknown",
-          "line": "De la musique jouée au piano en direct. Par un virtuose. Ou… un débutant… qui joue Lettre à Élise…",
-          "line-number": 24
-        },
-        {
-          "character": "unknown",
-          "line": "Les visages émus et fébriles de ceux qui sont dans l'attente des retrouvailles.",
-          "line-number": 25
-        },
-        {
-          "character": "unknown",
-          "line": "Des gens qui courent, avec des valises plus grosses qu'eux.",
-          "line-number": 26
-        },
-        {
-          "character": "unknown",
-          "line": "Des odeurs de bouffe et de sandwich en triangle.",
-          "line-number": 27
-        },
-        {
-          "character": "unknown",
-          "line": "Une foule de voyageurs qui se déplace en bloc, comme des automates, au moment où le numéro du quai apparaît sur le panneau d'affichage.",
-          "line-number": 28
-        }, {
-          "character": "unknown",
-          "line": "Des fumeurs qui font les cent pas.",
-          "line-number": 29
-        },
-        {
-          "character": "unknown",
-          "line": "Des gens qui courent, avec des enfants plein les bras.",
-          "line-number": 30
-        },
-        {
-          "character": "unknown",
-          "line": "Des gens qui demandent à quatre contrôleurs différents si c'est bien le bon train pour Narbonne.",
-          "line-number": 31
-        },
-        {
-          "character": "unknown",
-          "line": "Des adieux déchirants.",
-          "line-number": 32
-        },
-        {
-          "character": "unknown",
-          "line": "Des couples qui s'embrassent.",
-          "line-number": 33
-        },
-        {
-          "character": "unknown",
-          "line": "Les larmes de la personne qui reste.",
-          "line-number": 34
-        },
-        {
-          "character": "unknown",
-          "line": "Le bruit des portes automatiques.",
-          "line-number": 35
-        },
-        {
-          "character": "unknown",
-          "line": "Des regards perdus.",
-          "line-number": 36
-        },
-        {
-          "character": "unknown",
-          "line": "Des courants d'air.",
-          "line-number": 37
-        },
-        {
-          "character": "unknown",
-          "line": "Des rires et des sourires.",
-          "line-number": 38
-        },
-        {
-          "character": "unknown",
-          "line": "Des coups de sifflet de contrôleurs impatients.",
-          "line-number": 39
-        },
-        {
-          "character": "marie",
-          "line": "Des poubelles qui débordent.",
-          "line-number": 40
-        },
-        {
-          "character": "Rémi",
-          "line": "Des distributeurs de boissons ou de sucreries qui continuent à nous faire de l’œil…",
-          "line-number": 41
-        },
-        {
-          "character": "Rémi",
-          "line": "(les autres la regardent) Ben quoi, c'est vrai… Là aussi, y en a…",
-          "line-number": 42
-        },
-        {
-          "character": "unknown",
-          "line": "Toujours un mec, avec une énorme valise, qui cherche sa place et qui vient à contresens.",
-          "line-number": 43
-        },
-        {
-          "character": "Evy",
-          "line": "Un voyageur qui a pris ta place et qui refuse de partir.",
-          "line-number": 44
-        },
-        {
-          "character": "Rémi",
-          "line": "Le wagon restaurant toujours beaucoup trop loin.",
-          "line-number": 45
-        },
-        {
-          "character": "unknown",
-          "line": "Un voisin qui écoute de la musique beaucoup trop fort.",
-          "line-number": 46
-        },
-        {
-          "character": "unknown",
-          "line": "Un autre, qui dévore un sandwich au camembert qui pue à vingt mètres.",
-          "line-number": 47
-        },
-        {
-          "character": "unknown",
-          "line": "La clim, toujours trop forte.",
-          "line-number": 48
-        },
-        {
-          "character": "unknown",
-          "line": "Le voyageur qui met trois heures à s'installer et qui bloque toute l'allée.",
-          "line-number":49
-        },
-        {
-          "character": "unknown",
-          "line": "Les gens qui parlent trop et qui font profiter tout le wagon de leur conversation.",
-          "line-number": 50
-        },
-        {
-          "character": "unknown",
-          "line": "Toujours quelqu'un qui se lève trente minutes avant l'arrivée et qui reste debout, dans le couloir, avec ses gros sacs qui dépassent et qui te déchirent l'épaule.",
-          "line-number": 51
-        },
-        {
-          "character": "unknown",
-          "line": "Le stress qui te gagne, après un arrêt sur la voie, sans aucune explication.",
-          "line-number": 52
-        },
-        {
-          "character": "unknown",
-          "line": "Et là, tu te demandes si tu arriveras à temps pour avoir ta correspondance.",
-          "line-number": 53
-        },
-        {
-          "character": "unknown",
-          "line": "Les oreilles bouchées dans les tunnels.",
-          "line-number": 54
-        },
-        {
-          "character": "unknown",
-          "line": "Le voyageur qui se fait contrôler et qui n'avait pas de billet.",
-          "line-number": 55
-        },
-        {
-          "character": "unknown",
-          "line": "Les sas de décompression remplis, le vendredi soir, des internes et des étudiants qui rentrent chez leurs parents pour laver leur linge sale.",
-          "line-number": 56
-        },
-        {
-          "character": "unknown",
-          "line": "Le voyageur qui s'est endormi et qui a oublié de descendre.",
-          "line-number": 57
-        },
-        {
-          "character": "unknown",
-          "line": "Le voisin qui te prend tout l’accoudoir.",
-          "line-number": 58
-        },
-        {
-          "character": "unknown",
-          "line": "Une vieille dame qui te raconte sa vie et t'explique combien elle est fière de ses huit petits enfants.",
-          "line-number": 59
-        },
-        {
-          "character": "Rémi",
-          "line": "Des sandwich à vendre « jambon de pays et pain de campagne ».",
-          "line-number": 60
-        },
-        {
-          "character": "unknown",
-          "line": "Sauf que leur pain, ils n'ont jamais vu la campagne.",
-          "line-number": 61
-        },
-        {
-          "character": "unknown",
-          "line": "Et que leur jambon, il aurait mieux fait d'y rester, au pays…",
-          "line-number": 62
-        },
-        {
-          "character": "unknown",
-          "line": "Des téléphones qui sonnent et que tu as envie de jeter.",
-          "line-number": 63
-        },
-        {
-          "character": "unknown",
-          "line": "Des enfants qui pleurent et que tu as envie de bâillonner.",
-          "line-number": 64
-        },
-        {
-          "character": "unknown",
-          "line": "D'autres qui crient et qui te pètent les tympans et là, tu te dis que les enfants…",
-          "line-number": 65
-        },
-        {
-          "character": "unknown",
-          "line": "C'est pire que les téléphones !",
-          "line-number": 66
-        },
-        {
-          "character": "unknown",
-          "line": "Parce qu'on ne peut pas les éteindre !",
-          "line-number": 67
-        },
-        {
-          "character": "unknown",
-          "line": "Et puis, il y a les rencontres inattendues.",
-          "line-number": 68
-        },
-        {
-          "character": "unknown",
-          "line": "Qui fascinent ou agacent.",
-          "line-number": 69
-        },
-        {
-          "character": "unknown",
-          "line": "Les espoirs de coup de foudre. Comme dans les pubs télé pour le café.",
-          "line-number": 70
-        }
+      {
+        "character": "unknown",
+        "line": "Le cliquetis du panneau d'affichage.",
+        "line-number": 16
+      },
+      {
+        "character": "unknown",
+        "line": "Qui annonce un retard de 20 minutes…",
+        "line-number": 17
+      },
+      {
+        "character": "unknown",
+        "line": "Des gens qui reviennent de l'étranger et qui dorment à même le sol, la tête sur leurs bagages, détruits pas le décalage horaire.",
+        "line-number": 18
+      },
+      {
+        "character": "unknown",
+        "line": "Des militaires qui rodent.",
+        "line-number": 19
+      },
+      {
+        "character": "unknown",
+        "line": "Des cafés, bus en quatrième vitesse et des magazines ou des romans qu'on n'achèterait nulle part ailleurs.",
+        "line-number": 20
+      },
+      {
+        "character": "unknown",
+        "line": "Des enfants qui crient et qui pleurent.",
+        "line-number": 21
+      },
+      {
+        "character": "Marie",
+        "line": "Des troupeaux de touristes qui cherchent un renseignement.",
+        "line-number": 22
+      },
+      {
+        "character": "Rémi",
+        "line": "Des distributeurs de boissons ou de sucreries qui nous font de l’œil…",
+        "line-number": 23
+      },
+      {
+        "character": "unknown",
+        "line": "De la musique jouée au piano en direct. Par un virtuose. Ou… un débutant… qui joue Lettre à Élise…",
+        "line-number": 24
+      },
+      {
+        "character": "unknown",
+        "line": "Les visages émus et fébriles de ceux qui sont dans l'attente des retrouvailles.",
+        "line-number": 25
+      },
+      {
+        "character": "unknown",
+        "line": "Des gens qui courent, avec des valises plus grosses qu'eux.",
+        "line-number": 26
+      },
+      {
+        "character": "unknown",
+        "line": "Des odeurs de bouffe et de sandwich en triangle.",
+        "line-number": 27
+      },
+      {
+        "character": "unknown",
+        "line": "Une foule de voyageurs qui se déplace en bloc, comme des automates, au moment où le numéro du quai apparaît sur le panneau d'affichage.",
+        "line-number": 28
+      },
+      {
+        "character": "unknown",
+        "line": "Des fumeurs qui font les cent pas.",
+        "line-number": 29
+      },
+      {
+        "character": "unknown",
+        "line": "Des gens qui courent, avec des enfants plein les bras.",
+        "line-number": 30
+      },
+      {
+        "character": "unknown",
+        "line": "Des gens qui demandent à quatre contrôleurs différents si c'est bien le bon train pour Narbonne.",
+        "line-number": 31
+      },
+      {
+        "character": "unknown",
+        "line": "Des adieux déchirants.",
+        "line-number": 32
+      },
+      {
+        "character": "unknown",
+        "line": "Des couples qui s'embrassent.",
+        "line-number": 33
+      },
+      {
+        "character": "unknown",
+        "line": "Les larmes de la personne qui reste.",
+        "line-number": 34
+      },
+      {
+        "character": "unknown",
+        "line": "Le bruit des portes automatiques.",
+        "line-number": 35
+      },
+      {
+        "character": "unknown",
+        "line": "Des regards perdus.",
+        "line-number": 36
+      },
+      {
+        "character": "unknown",
+        "line": "Des courants d'air.",
+        "line-number": 37
+      },
+      {
+        "character": "unknown",
+        "line": "Des rires et des sourires.",
+        "line-number": 38
+      },
+      {
+        "character": "unknown",
+        "line": "Des coups de sifflet de contrôleurs impatients.",
+        "line-number": 39
+      },
+      {
+        "character": "marie",
+        "line": "Des poubelles qui débordent.",
+        "line-number": 40
+      },
+      {
+        "character": "Rémi",
+        "line": "Des distributeurs de boissons ou de sucreries qui continuent à nous faire de l’œil…",
+        "line-number": 41
+      },
+      {
+        "character": "Rémi",
+        "line": "(les autres la regardent) Ben quoi, c'est vrai… Là aussi, y en a…",
+        "line-number": 42
+      },
+      {
+        "character": "unknown",
+        "line": "Toujours un mec, avec une énorme valise, qui cherche sa place et qui vient à contresens.",
+        "line-number": 43
+      },
+      {
+        "character": "Evy",
+        "line": "Un voyageur qui a pris ta place et qui refuse de partir.",
+        "line-number": 44
+      },
+      {
+        "character": "Rémi",
+        "line": "Le wagon restaurant toujours beaucoup trop loin.",
+        "line-number": 45
+      },
+      {
+        "character": "unknown",
+        "line": "Un voisin qui écoute de la musique beaucoup trop fort.",
+        "line-number": 46
+      },
+      {
+        "character": "unknown",
+        "line": "Un autre, qui dévore un sandwich au camembert qui pue à vingt mètres.",
+        "line-number": 47
+      },
+      {
+        "character": "unknown",
+        "line": "La clim, toujours trop forte.",
+        "line-number": 48
+      },
+      {
+        "character": "unknown",
+        "line": "Le voyageur qui met trois heures à s'installer et qui bloque toute l'allée.",
+        "line-number": 49
+      },
+      {
+        "character": "unknown",
+        "line": "Les gens qui parlent trop et qui font profiter tout le wagon de leur conversation.",
+        "line-number": 50
+      },
+      {
+        "character": "unknown",
+        "line": "Toujours quelqu'un qui se lève trente minutes avant l'arrivée et qui reste debout, dans le couloir, avec ses gros sacs qui dépassent et qui te déchirent l'épaule.",
+        "line-number": 51
+      },
+      {
+        "character": "unknown",
+        "line": "Le stress qui te gagne, après un arrêt sur la voie, sans aucune explication.",
+        "line-number": 52
+      },
+      {
+        "character": "unknown",
+        "line": "Et là, tu te demandes si tu arriveras à temps pour avoir ta correspondance.",
+        "line-number": 53
+      },
+      {
+        "character": "unknown",
+        "line": "Les oreilles bouchées dans les tunnels.",
+        "line-number": 54
+      },
+      {
+        "character": "unknown",
+        "line": "Le voyageur qui se fait contrôler et qui n'avait pas de billet.",
+        "line-number": 55
+      },
+      {
+        "character": "unknown",
+        "line": "Les sas de décompression remplis, le vendredi soir, des internes et des étudiants qui rentrent chez leurs parents pour laver leur linge sale.",
+        "line-number": 56
+      },
+      {
+        "character": "unknown",
+        "line": "Le voyageur qui s'est endormi et qui a oublié de descendre.",
+        "line-number": 57
+      },
+      {
+        "character": "unknown",
+        "line": "Le voisin qui te prend tout l’accoudoir.",
+        "line-number": 58
+      },
+      {
+        "character": "unknown",
+        "line": "Une vieille dame qui te raconte sa vie et t'explique combien elle est fière de ses huit petits enfants.",
+        "line-number": 59
+      },
+      {
+        "character": "Rémi",
+        "line": "Des sandwich à vendre « jambon de pays et pain de campagne ».",
+        "line-number": 60
+      },
+      {
+        "character": "unknown",
+        "line": "Sauf que leur pain, ils n'ont jamais vu la campagne.",
+        "line-number": 61
+      },
+      {
+        "character": "unknown",
+        "line": "Et que leur jambon, il aurait mieux fait d'y rester, au pays…",
+        "line-number": 62
+      },
+      {
+        "character": "unknown",
+        "line": "Des téléphones qui sonnent et que tu as envie de jeter.",
+        "line-number": 63
+      },
+      {
+        "character": "unknown",
+        "line": "Des enfants qui pleurent et que tu as envie de bâillonner.",
+        "line-number": 64
+      },
+      {
+        "character": "unknown",
+        "line": "D'autres qui crient et qui te pètent les tympans et là, tu te dis que les enfants…",
+        "line-number": 65
+      },
+      {
+        "character": "unknown",
+        "line": "C'est pire que les téléphones !",
+        "line-number": 66
+      },
+      {
+        "character": "unknown",
+        "line": "Parce qu'on ne peut pas les éteindre !",
+        "line-number": 67
+      },
+      {
+        "character": "unknown",
+        "line": "Et puis, il y a les rencontres inattendues.",
+        "line-number": 68
+      },
+      {
+        "character": "unknown",
+        "line": "Qui fascinent ou agacent.",
+        "line-number": 69
+      },
+      {
+        "character": "unknown",
+        "line": "Les espoirs de coup de foudre. Comme dans les pubs télé pour le café.",
+        "line-number": 70
+      }
     ]
   },
   {
     "play_name": "Retard sur la Ligne de Nevers : Dialogues Glacé",
     "title": "Retard sur la Ligne de Nevers : Dialogues Glacé",
     "position": 4,
-    "page":"page 5",
+    "page": "page 5",
     "characters": [
       "La Contrôleuse",
       "Ludovic",
@@ -497,7 +497,7 @@
     "play_name": "Quai des Vies Croisées",
     "title": "Quai des Vies Croisées",
     "position_scene": 5,
-    "page":"page 6-7",
+    "page": "page 6-7",
     "characters": [
       "Indication",
       "La SDF",
@@ -736,7 +736,7 @@
   {
     "play_name": "Ombres du Passé",
     "position_scene": 6,
-    "page":"page 8",
+    "page": "page 8",
     "title": "Ombres du Passé",
     "description": "Deux sœurs partagent un moment de révélation sur un banc, confrontant leurs souvenirs divergents de leur enfance et de leur mère, explorant la douleur et l'espoir de réconciliation dans leur lien familial.",
     "characters": [
@@ -820,7 +820,7 @@
   {
     "play_name": "Intimités Partagées",
     "position_scene": 7,
-    "page":"page 9",
+    "page": "page 9",
     "title": "Intimités Partagées",
     "description": "Une conversation fortuite sur un banc pousse Bernadette et Ludovic à explorer les frontières de l'intimité et de la connaissance mutuelle, révélant les complexités des connexions humaines dans les espaces les plus inattendus.",
     "characters": [
@@ -2113,14 +2113,18 @@
       }
     ]
   },
-
   {
     "play_name": "Questions Existencielles et Mots Qui Définissent",
     "position_scene": 19,
-    "page":"page 22-24",
+    "page": "page 22-24",
     "title": "Questions Existencielles et Mots Qui Définissent",
     "description": "La scène alterne entre deux conversations : d'un côté, Arthur et la SDF discutent de l'existence après la mort et d'autres questions existentielles, ponctuées par des interrogations curieuses et humoristiques. De l'autre, Sofia et Lucile explorent un jeu de mots définissant les personnes de leur entourage, y compris Lucile elle-même. Les discussions révèlent des préoccupations profondes sur la vie, la mort, et comment nous percevons les uns les autres, tout en trouvant de la légèreté dans des questions insolites et des définitions simplifiées de personnalités complexes.",
-    "characters": ["Arthur", "La SDF", "Sofia", "Lucile"],
+    "characters": [
+      "Arthur",
+      "La SDF",
+      "Sofia",
+      "Lucile"
+    ],
     "lines": [
       {
         "character": "Arthur",
@@ -2224,9 +2228,7 @@
       },
       {
         "character": "La SDF",
-        "line":
-  
-   "Ah ouais ? Vas-y.",
+        "line": "Ah ouais ? Vas-y.",
         "line-number": 21
       },
       {
@@ -2346,7 +2348,10 @@
     "position_scene": 20,
     "title": "Décisions et Remplacements",
     "description": "Fabienne exprime ses craintes et son hésitation à retrouver quelqu'un du passé, craignant que la douleur et les souvenirs ne soient trop à supporter. Dans un retournement surprenant, Sally propose de prendre sa place et de rencontrer cette personne à sa place, affirmant son droit au bonheur et sa volonté de saisir cette chance, même si cela signifie remplacer Fabienne. Cette proposition audacieuse soulève des questions sur l'identité, le bonheur et les choix que nous faisons face à notre passé. La scène se termine sur une note d'urgence alors que Fabienne suit Sally, peut-être pour l'arrêter ou pour prendre une décision finale.",
-    "characters": ["Fabienne", "Sally"],
+    "characters": [
+      "Fabienne",
+      "Sally"
+    ],
     "lines": [
       {
         "character": "Fabienne",
@@ -2410,7 +2415,10 @@
     "position_scene": 21,
     "title": "Le Cinéma et la Séduction",
     "description": "Dans un moment de partage comique entre Ludovic et Simon, Ludovic raconte une tentative maladroite de séduire une fille en l'amenant voir un film d'horreur au cinéma, suivant les conseils de sa mère. La situation prend un tournant inattendu et hilarant lorsque Ludovic, croyant être déjà dans le vif du sujet, se laisse submerger par la peur dès les publicités, révélant sa sensibilité et son innocence. Cette anecdote, partagée entre rires, met en lumière les malentendus et les surprises que peut réserver la tentative de faire bonne impression, ainsi que l'humour trouvé dans les vulnérabilités humaines.",
-    "characters": ["Ludovic", "Simon"],
+    "characters": [
+      "Ludovic",
+      "Simon"
+    ],
     "lines": [
       {
         "character": "Ludovic",
@@ -2449,7 +2457,10 @@
     "position_scene": 22,
     "title": "Larmes et Clémentines",
     "description": "Une conversation poignante entre Bernadette et la SDF se déroule sur un banc, où Bernadette partage une expérience émotionnelle profonde liée aux larmes versées en silence suite à une révélation douloureuse de son mari. La distinction entre les larmes de frustration et les larmes de tristesse offre un aperçu touchant de sa douleur intérieure. La révélation que son mari la compare à une clémentine, un fruit qu'elle perçoit comme banal et insignifiant, l'amène à une prise de conscience déchirante sur l'état de leur mariage. Cette discussion intime révèle les complexités des relations et comment un simple commentaire peut être le catalyseur d'un changement de vie. La scène se clôt sur un moment de solitude partagée et la décision abrupte de Bernadette de partir, illustrant la fragilité des liens humains et la quête de compréhension et de consolation.",
-    "characters": ["La SDF", "Bernadette"],
+    "characters": [
+      "La SDF",
+      "Bernadette"
+    ],
     "lines": [
       {
         "character": "La SDF",
@@ -2517,10 +2528,686 @@
         "line-number": 13
       }
     ]
-  }
-  
-
-  
-
-
-]
+  },
+  {
+    "play_name": "Dilemmes et Révélations",
+    "position_scene": 23,
+    "title": "Dilemmes et Révélations",
+    "description": "Dans cette scène, Fabienne et Sally explorent les thèmes de l'attachement, de la trahison, et de l'expression des sentiments à travers une conversation profonde et parfois humoristique sur un vélo très aimé. La confusion initiale autour de l'objet de leur affection mène à une révélation surprenante qui met en lumière la complexité de leurs relations et de leurs désirs. L'envie, présentée comme essentielle à la vie, devient un fil conducteur pour discuter des aspirations profondes et de la recherche de sens au-delà de la médiocrité quotidienne.",
+    "characters": [
+      "Fabienne",
+      "Sally"
+    ],
+    "lines": [
+      {
+        "character": "Fabienne",
+        "line": "Avec tous les souvenirs que j'ai avec lui, tu serais capable de me le piquer ?",
+        "line-number": 1
+      },
+      {
+        "character": "Sally",
+        "line": "Oui !",
+        "line-number": 2
+      },
+      {
+        "character": "Fabienne",
+        "line": "Mais il est à moi, c'est le mien. C'est moi qui posait mes petites fesses délicates sur lui. C'est moi qu'on regardait chaque fois que je me baladais avec lui. On a fait je ne sais combien de voyages. La Corse. La Sardaigne !",
+        "line-number": 3
+      },
+      {
+        "character": "Sally",
+        "line": "Mais tu ne veux pas le retrouver !",
+        "line-number": 4
+      },
+      {
+        "character": "Fabienne",
+        "line": "Mais tu ne peux pas comprendre que j'ai peur ? 30 ans, c'est pas rien ! En plus, j'ai un problème à la hanche, en ce moment, on ne pourra plus faire les mêmes choses. Et puis, niveau cardio, j'ai vachement perdu.",
+        "line-number": 5
+      },
+      {
+        "character": "Sally",
+        "line": "C'est pas facile de dire qu’on aime. Moi, j'ai beaucoup de mal avec ça. Je trouve formidable que tu te lances.",
+        "line-number": 6
+      },
+      {
+        "character": "Fabienne",
+        "line": "C'est vrai ?",
+        "line-number": 7
+      },
+      {
+        "character": "Sally",
+        "line": "Oui.",
+        "line-number": 8
+      },
+      {
+        "character": "Fabienne",
+        "line": "Pourquoi tu dis que tu as du mal avec ça ? Par pudeur ?",
+        "line-number": 9
+      },
+      {
+        "character": "Sally",
+        "line": "Je ne sais pas, sans doute. Mais même à mes amis, je n'arrive pas à leur dire. Pourtant mes potes, je les adore, vraiment, sans eux, je serais…",
+        "line-number": 10
+      },
+      {
+        "character": "Fabienne",
+        "line": "Fauchée ?",
+        "line-number": 11
+      },
+      {
+        "character": "Sally",
+        "line": "Aussi, oui.",
+        "line-number": 12
+      },
+      {
+        "character": "Fabienne",
+        "line": "Ça veut dire quoi, envie, pour toi ?",
+        "line-number": 13
+      },
+      {
+        "character": "Sally",
+        "line": "Envie ? Ben déjà, c'est un joli mot. Un mot féminin. Dans le mot envie, moi je vois le mot vie. « En » - plus loin - « vie ». L'envie c'est la vie. Quand on n'a pas d'envie, on ne doit pas se sentir vivant. Enfin, je suppose.",
+        "line-number": 14
+      },
+      {
+        "character": "Fabienne",
+        "line": "Et de quoi t'as envie, là, tout de suite ?",
+        "line-number": 15
+      },
+      {
+        "character": "Sally",
+        "line": "De partir en vacances. Seule, au bord d'un lac. Planter ma tente et me faire cuire des saucisses en short.",
+        "line-number": 16
+      },
+      {
+        "character": "Fabienne",
+        "line": "Ah ouais, quand même… Et sinon, t'as envie de quoi d'autre ?",
+        "line-number": 17
+      },
+      {
+        "character": "Sally",
+        "line": "Je ne sais pas… En tout cas, je n'ai plus envie d'avoir une vie minable ; je trouve que les gens se résignent trop facilement. L’envie, ça m'évoque ça, aussi, tu vois : le néant des gens. Je ne supporte plus leur médiocrité, leur moulesse.",
+        "line-number": 18
+      },
+      {
+        "character": "Fabienne",
+        "line": "Tu veux dire leur mollesse ?",
+        "line-number": 19
+      },
+      {
+        "character": "Sally",
+        "line": "Non, non, moulesse. Leur façon d'être comme des moules.",
+        "line-number": 20
+      },
+      {
+        "character": "Fabienne",
+        "line": "Et après ?",
+        "line-number": 21
+      },
+      {
+        "character": "Sally",
+        "line": "Ben, j'ai envie… Euh… L’envie c'est comme un trouble, je crois. On la prend, on la gère et on s'en débrouille toute sa vie…",
+        "line-number": 22
+      },
+      {
+        "character": "Sally",
+        "line": "Faut que je t'avoue quelque chose, Fabienne.",
+        "line-number": 23
+      },
+      {
+        "character": "Fabienne",
+        "line": "Quoi ?",
+        "line-number": 24
+      },
+      {
+        "character": "Sally",
+        "line": "Moi aussi je l'aimais.",
+        "line-number": 25
+      },
+      {
+        "character": "Fabienne",
+        "line": "Hein ?",
+        "line-number": 26
+      },
+      {
+        "character": "Sally",
+        "line": "Et la nuit, parfois, quand on était en vacances toutes les deux, j'allais le retrouver. Et on partait tous les deux en balade sur les chemins.",
+        "line-number": 27
+      },
+      {
+        "character": "Fabienne",
+        "line": "Mais… Tu veux dire que… Tu le chevauchais ?",
+        "line-number": 28
+      },
+      {
+        "character": "Sally",
+        "line": "Oui… On s’emboîtait tellement bien tous les deux. On était vraiment en totale harmonie, tu sais.",
+        "line-number": 29
+      },
+      {
+        "character": "Fabienne",
+        "line": "Arrête, arrête, j'ai des images qui me viennent devant les yeux, là, c'est pas possible.",
+        "line-number": 30
+      },
+      {
+        "character": "Sally",
+        "line": "Je suis désolée, Fabienne.",
+        "line-number": 31
+      },
+      {
+        "character": "Fabienne",
+        "line": "Tu m'as trahie!",
+        "line-number": 32
+      },
+      {
+        "character": "Sally",
+        "line": "Olala, tout de suite les grands mots.",
+        "line-number": 33
+      },
+      {
+        "character": "Fabienne",
+        "line": "Et là, tu serais prête à le récupérer ?",
+        "line-number": 34
+      },
+      {
+        "character": "Sally",
+        "line": "Si tu n'en veux plus, oui, je pense qu'il ne faut pas l'abandonner…",
+        "line-number": 35
+      },
+      {
+        "character": "Fabienne",
+        "line": "Mais c'est… C'est mon vélo !!! Mon vélo, Sally !",
+        "line-number": 36
+      },
+      {
+        "character": "Sally",
+        "line": "Je sais.",
+        "line-number": 37
+      },
+      {
+        "character": "Fabienne",
+        "line": "(le téléphone de Fabienne sonne) Excuse-moi…",
+        "line-number": 38
+      },
+      {
+        "character": "Sally",
+        "line": "Ta mère, j’imagine ?",
+        "line-number": 39
+      },
+      {
+        "character": "Indication",
+        "line": "(Fabienne sort en faisant un geste agacé)",
+        "line-number": 40
+      }
+    ]
+  },
+  {
+    "play_name": "Le Premier Rencard de Ludovic",
+    "position_scene": 28,
+    "title": "Le Premier Rencard de Ludovic",
+    "description": "Ludovic partage avec Simon un souvenir à la fois humoristique et amer de son tout premier rendez-vous amoureux. La scène commence avec l'anecdote de Ludovic arrivant avec un excès de zèle à son premier rencart, suivi d'un moment moins heureux où il se fait dérober son téléphone en essayant d'utiliser l'humour pour désamorcer une situation tendue. Ce récit, parsemé de rires, souligne l'innocence et l'optimisme de la jeunesse, mais aussi les petites tragédies qui accompagnent les premiers pas dans les relations amoureuses. La dernière réplique, empreinte d'humour et de légèreté, clôt sur une note d'ironie et de camaraderie entre les deux amis.",
+    "characters": [
+      "Ludovic",
+      "Simon"
+    ],
+    "lines": [
+      {
+        "character": "Ludovic",
+        "line": "Mon premier rencart avec une fille c’était pour mes 17 ans. On avait rendez-vous à 20h devant le cinéma.",
+        "line-number": 1
+      },
+      {
+        "character": "Ludovic",
+        "line": "J’étais très stressé, tu vois, alors je suis arrivé un peu en avance… Vers 14h30…",
+        "line-number": 2
+      },
+      {
+        "character": "Indication",
+        "line": "(rires)",
+        "line-number": 3
+      },
+      {
+        "character": "Ludovic",
+        "line": "La soirée s’est très bien passée sauf qu’au retour, alors que je la raccompagnais chez elle, un mec m’a abordé en me disant : « Toi, donne-moi ton téléphone ».",
+        "line-number": 4
+      },
+      {
+        "character": "Ludovic",
+        "line": "On m’avait appris que l’humour, c’était la meilleure arme pour se défendre, alors j’ai tenté un truc. Je lui ai dit : 06 25 38… Et du coup, ben, dans les secondes qui suivaient, je n’avais plus de téléphone…",
+        "line-number": 5
+      },
+      {
+        "character": "Ludovic",
+        "line": "Et en plus de ça, cette fille ne m’a plus jamais rappelé après ce rendez-vous qui s’était assez mal terminé.",
+        "line-number": 6
+      },
+      {
+        "character": "Simon",
+        "line": "Elle n’a peut-être pas dû se sentir en sécurité avec toi ?",
+        "line-number": 7
+      },
+      {
+        "character": "Ludovic",
+        "line": "Sûrement… Je te remercie de remuer le couteau dans la plaie…",
+        "line-number": 8
+      },
+      {
+        "character": "Indication",
+        "line": "(rires)",
+        "line-number": 9
+      },
+      {
+        "character": "Ludovic",
+        "line": "Et j’ai trouvé ça vraiment dommage car elle avait une immense qualité qui la différenciait de toutes les autres filles rencontrées dans ma vie :",
+        "line-number": 10
+      },
+      {
+        "character": "Simon",
+        "line": "Elle était venue au rendez-vous !",
+        "line-number": 11
+      },
+      {
+        "character": "Ludovic",
+        "line": "Voilà…",
+        "line-number": 12
+      },
+      {
+        "character": "Indication",
+        "line": "(rires)",
+        "line-number": 13
+      }
+    ]
+  },
+  {
+    "play_name": "Révélations Douloureuses",
+    "position_scene": 29,
+    "title": "Révélations Douloureuses",
+    "description": "Nathalie et Pauline se retrouvent pour une conversation chargée d'émotion et de révélations douloureuses. Nathalie, cherchant à comprendre la nature de la relation entre Pauline et Clément, pousse sa sœur à lui révéler comment tout a commencé, dévoilant ainsi un complot familial orchestré par leur mère. Cette scène explore les thèmes de la trahison, du secret familial et de la difficulté de faire face à des vérités inconfortables, tout en mettant en lumière la complexité des relations entre sœurs et le poids des non-dits dans les liens familiaux.",
+    "characters": [
+      "Nathalie",
+      "Pauline"
+    ],
+    "lines": [
+      {
+        "character": "Nathalie",
+        "line": "Je peux te demander quelque chose ?",
+        "line-number": 1
+      },
+      {
+        "character": "Pauline",
+        "line": "Je ne sais pas… Tu crois pas qu'on se fait assez de mal comme ça, là ?",
+        "line-number": 2
+      },
+      {
+        "character": "Nathalie",
+        "line": "Quand est-ce que ça s'est passé, la première fois, entre Clément et toi ? C'était où ?",
+        "line-number": 3
+      },
+      {
+        "character": "Pauline",
+        "line": "Nathalie…",
+        "line-number": 4
+      },
+      {
+        "character": "Nathalie",
+        "line": "C'était où, c'était quand ?",
+        "line-number": 5
+      },
+      {
+        "character": "Pauline",
+        "line": "T'es vraiment certaine de vouloir savoir ?",
+        "line-number": 6
+      },
+      {
+        "character": "Nathalie",
+        "line": "Oui.",
+        "line-number": 7
+      },
+      {
+        "character": "Pauline",
+        "line": "Ça va piquer, tu sais ?",
+        "line-number": 8
+      },
+      {
+        "character": "Nathalie",
+        "line": "Ouais, j'imagine.",
+        "line-number": 9
+      },
+      {
+        "character": "Pauline",
+        "line": "T'es vraiment sûre de toi ?",
+        "line-number": 10
+      },
+      {
+        "character": "Nathalie",
+        "line": "Oui.",
+        "line-number": 11
+      },
+      {
+        "character": "Pauline",
+        "line": "OK… C'est à cause de Maman.",
+        "line-number": 12
+      },
+      {
+        "character": "Nathalie",
+        "line": "Hein ?",
+        "line-number": 13
+      },
+      {
+        "character": "Pauline",
+        "line": "Je crois qu'elle ne supportait pas que Clément ne fasse plus partie de la famille. Alors, elle a organisé un repas au restaurant. Elle l'a invité, prétextant un repas en tête à tête avec lui. Pour prendre des nouvelles. Par amitié.",
+        "line-number": 14
+      },
+      {
+        "character": "Nathalie",
+        "line": "Et…",
+        "line-number": 15
+      },
+      {
+        "character": "Pauline",
+        "line": "Et elle m'a invité aussi. Sans me prévenir qu'il serait là. Et sans le prévenir que je serai là, moi aussi. Puis au bout d'un moment, elle a répondu à un coup de fil et elle nous a laissé tous les deux.",
+        "line-number": 16
+      },
+      {
+        "character": "Nathalie",
+        "line": "Attends, attends, attends... Tu es en train de m'expliquer que Maman a organisé un rendez-vous secret entre vous deux, dans le simple but de vous réunir ?",
+        "line-number": 17
+      },
+      {
+        "character": "Pauline",
+        "line": "Oui.",
+        "line-number": 18
+      },
+      {
+        "character": "Nathalie",
+        "line": "Mais pourquoi ?",
+        "line-number": 19
+      },
+      {
+        "character": "Pauline",
+        "line": "Je te l'ai dit. Elle ne supportait pas de ne plus voir Clément… Maman me disait souvent que c'est moi qui aurait dû sortir avec lui, et pas toi…",
+        "line-number": 20
+      },
+      {
+        "character": "Nathalie",
+        "line": "Hein ???",
+        "line-number": 21
+      },
+      {
+        "character": "Pauline",
+        "line": "Je suis désolée… Tu vois, tu fais chier, Nathalie ! Tu me pousses à te dire des trucs que je devrais garder pour moi et… Enfin, merde, quoi, tu sais bien qu'il y a des vérités qu'il ne faut pas dévoiler. Et attendre que ce soit le bon moment.",
+        "line-number": 22
+      },
+      {
+        "character": "Nathalie",
+        "line": "Et là, c'est pas le bon moment ?",
+        "line-number": 23
+      },
+      {
+        "character": "Pauline",
+        "line": "Je suis désolée…",
+        "line-number": 24
+      },
+      {
+        "character": "Nathalie",
+        "line": "Arrête d'être désolée tout le temps, Pauline, tu fais chier ! Maman a vraiment dit ça ?",
+        "line-number": 25
+      },
+      {
+        "character": "Pauline",
+        "line": "Oui !",
+        "line-number": 26
+      },
+      {
+        "character": "Nathalie",
+        "line": "Tu dis ça pour que je la déteste, c'est ça ?",
+        "line-number": 27
+      },
+      {
+        "character": "Pauline",
+        "line": "Nathalie…",
+        "line-number": 28
+      },
+      {
+        "character": "Nathalie",
+        "line": "Tu dis ça pour que j'arrête de culpabiliser de ne pas être arrivée à me réconcilier avec elle, avant sa mort ?",
+        "line-number": 29
+      },
+      {
+        "character": "Pauline",
+        "line": "Je dis ça parce qu’elle a vraiment dit ça, et aujourd'hui, je me dis qu'elle avait sans doute raison !",
+        "line-number": 30
+      },
+      {
+        "character": "Nathalie",
+        "line": "Mais qu'est-ce que tu en sais ? On est restés cinq ans ensemble avec Clément ! Alors, s'il te plaît, on en reparlera quand vous aurez vécu la même chose, si tu veux bien.",
+        "line-number": 31
+      }
+    ]
+  },
+  {
+    "play_name": "Quiproquos et Malentendus",
+    "position_scene": 30,
+    "title": "Les Aventures de Ludovic",
+    "description": "Ludovic partage avec Simon des anecdotes personnelles qui révèlent avec humour ses prises de conscience sur ses propres limites physiques et les situations parfois cocasses qui en découlent. La comparaison avec son petit frère, bien plus imposant physiquement, souligne avec légèreté les différences entre les deux frères et comment Ludovic gère les situations de confrontation. Cette scène, pleine de rires et d'auto-dérision, montre comment Ludovic s'adapte à ses réalités avec humour et intelligence.",
+    "characters": [
+      "Ludovic",
+      "Simon"
+    ],
+    "lines": [
+      {
+        "character": "Ludovic",
+        "line": "Alors, après cet épisode, j’ai réalisé que malgré ma taille, je ne faisais pas du tout peur physiquement. J’ai compris aussi qu’avec ce corps, il y a des métiers que je ne pourrais jamais faire dans ma vie. Comme…",
+        "line-number": 1
+      },
+      {
+        "character": "Simon",
+        "line": "Vigile en boîte de nuit !",
+        "line-number": 2
+      },
+      {
+        "character": "Indication",
+        "line": "(rires)",
+        "line-number": 3
+      },
+      {
+        "character": "Ludovic",
+        "line": "Par exemple… Je sais que si je suis vigile et que je dois dire à quelqu’un : « Non, toi, tu ne rentres pas… »… et qu’il me dit : « Si, je rentre… »… Ben…",
+        "line-number": 4
+      },
+      {
+        "character": "Simon",
+        "line": "Il rentre…",
+        "line-number": 5
+      },
+      {
+        "character": "Ludovic",
+        "line": "Voilà…",
+        "line-number": 6
+      },
+      {
+        "character": "Indication",
+        "line": "(rires)",
+        "line-number": 7
+      },
+      {
+        "character": "Ludovic",
+        "line": "C’est drôle, parce que je suis très différent de mon petit frère. Lui, il est très musclé. Il mesure 1m90 pour 95 kilos. Et 1m90 pour 95 kilos, normalement c’est les dimensions d’un frigo, pas d’un petit frère…",
+        "line-number": 8
+      },
+      {
+        "character": "Indication",
+        "line": "(rires)",
+        "line-number": 9
+      },
+      {
+        "character": "Ludovic",
+        "line": "On s’est promené dans la rue, tous les deux récemment. Mon frère est allé acheter un journal et pendant ce temps, sur le trottoir, y a quelqu’un qui m’a mal parlé. Alors, moi, je lui ai répondu de façon un petit peu virulente… « Tu peux arrêter, s’il te plaît ? ». Mais il a continué. Alors, j’ai fini par dire cette phrase que jamais je n’aurais pensé dire de toute ma vie : « T’arrêtes ou j’appelle mon petit frère. »",
+        "line-number": 10
+      },
+      {
+        "character": "Indication",
+        "line": "(rires)",
+        "line-number": 11
+      }
+    ]
+  },
+  {
+    "play_name": "Confessions et Décisions",
+    "position_scene": 31,
+    "title": "Confessions et Décisions",
+    "description": "Dans cette scène émouvante et révélatrice, Delphine annonce à Simon que leur mère a un amant et qu'elle prévoit de quitter leur père. Ce bouleversement familial expose les conflits intérieurs de chacun des membres de la famille, révélant des vérités dures et des sentiments longtemps retenus. La mère, fatiguée de mettre constamment les besoins des autres avant les siens, décide de poursuivre son bonheur, même au risque de choquer ou de blesser. Sa déclaration d'indépendance émotionnelle et sa quête de satisfaction personnelle jettent une lumière crue sur les dynamiques familiales complexes et sur la difficulté de concilier les attentes familiales avec les aspirations individuelles.",
+    "characters": [
+      "Delphine",
+      "Simon",
+      "La Mère"
+    ],
+    "lines": [
+      {
+        "character": "Delphine",
+        "line": "Simon, Maman a un amant.",
+        "line-number": 1
+      },
+      {
+        "character": "Simon",
+        "line": "Hein ?",
+        "line-number": 2
+      },
+      {
+        "character": "Delphine",
+        "line": "Et elle a décidé de quitter Papa pour partir avec lui.",
+        "line-number": 3
+      },
+      {
+        "character": "Simon",
+        "line": "Hein ?!",
+        "line-number": 4
+      },
+      {
+        "character": "Delphine",
+        "line": "A cinquante ans, elle se barre avec un mec de quinze ans plus jeune qu'elle.",
+        "line-number": 5
+      },
+      {
+        "character": "Simon",
+        "line": "Hein ?!!!",
+        "line-number": 6
+      },
+      {
+        "character": "Delphine",
+        "line": "Et Papa reste tout seul.",
+        "line-number": 7
+      },
+      {
+        "character": "Simon",
+        "line": "C'est qui ?",
+        "line-number": 8
+      },
+      {
+        "character": "Delphine",
+        "line": "Thomas Borin.",
+        "line-number": 9
+      },
+      {
+        "character": "Simon",
+        "line": "Qui ?",
+        "line-number": 10
+      },
+      {
+        "character": "Delphine",
+        "line": "Thomas Borin. Présentateur du Télé achat sur TMF.",
+        "line-number": 11
+      },
+      {
+        "character": "Simon",
+        "line": "Connais pas.",
+        "line-number": 12
+      },
+      {
+        "character": "Delphine",
+        "line": "Marié quatre fois, cinq enfants.",
+        "line-number": 13
+      },
+      {
+        "character": "Simon",
+        "line": "Oh la vache, le fumier !",
+        "line-number": 14
+      },
+      {
+        "character": "Delphine",
+        "line": "Je ne te le fais pas dire.",
+        "line-number": 15
+      },
+      {
+        "character": "Simon",
+        "line": "Mais Maman, t'est complètement dingue ou quoi ? Et où tu vas aller ? Et Papa ? Et moi ? J'ai des problèmes, moi ! Marie m'a quittée, j'ai perdu mon boulot, je suis complètement perdu, là.",
+        "line-number": 16
+      },
+      {
+        "character": "La Mère",
+        "line": "Écoute, Simon, tu arrêtes. Tu arrêtes tout de suite. Tu te tais et tu m'écoutes, d'accord ?",
+        "line-number": 17
+      },
+      {
+        "character": "La Mère",
+        "line": "Alors, écoute-moi bien. Tes problèmes de boulot, tes problèmes avec ta femme, tes problèmes de fric, tes problèmes en général et en particulier, moi, ta mère, je m'en fous comme de l'an 40, tu m'entends ? Je m'en fous, mais alors je m'en fous, je ne peux pas te dire à quel point je m'en fous. Je n'en ai, mais alors rien, rien, rien à foutre.",
+        "line-number": 18
+      },
+      {
+        "character": "Simon",
+        "line": "Mais merde, c'est pas croyable. Ma propre mère se fout de mes problèmes ?",
+        "line-number": 18
+      },
+      {
+        "character": "La Mère",
+        "line": "Je peux même te dire encore mieux. Non seulement je me fous de tes problèmes, mais je me fous également des problèmes de ta sœur. Je m'en fous totalement. Oh, et attends, y a encore plus rigolo. Je me fous royalement des problèmes de ton père.",
+        "line-number": 19
+      },
+      {
+        "character": "Simon",
+        "line": "Mais je rêve. Ma parole, je rêve !",
+        "line-number": 20
+      },
+      {
+        "character": "La Mère",
+        "line": "Non, non, mon lapin, tu ne rêves pas. Pendant trente ans, je vous ai torchés, nourris, couchés, levés, consolés, tous les trois. J'ai repassé vos chemises, lavé vos slips et vos culottes. J'ai surveillé vos études. Je me suis fait des monceaux de bile, je n'ai vécu que pour vous, qu'à travers vous. J'ai écouté toutes vos histoires, vos problèmes et vos chagrins sans jamais vous emmerder avec les miens. Alors maintenant, je prends ma retraite. Toi, il te reste une longue vie devant toi pour résoudre ta crise. Moi, il me reste très peu de temps pour résoudre la mienne. Alors, tu permettras que pour une fois, je m'occupe de mes affaires avant les tiennes.",
+        "line-number": 21
+      },
+      {
+        "character": "Simon",
+        "line": "Tu vas détruire toute une famille, qu'est-ce que je dis, deux familles, pour une vulgaire histoire de cul ?",
+        "line-number": 22
+      },
+      {
+        "character": "La Mère",
+        "line": "Ah d'accord. Alors quand il s'agit de ton cul, c’est de l'amour. Mais quand il s'agit du mien, c’est vulgaire, c'est ça ?",
+        "line-number": 23
+      },
+      {
+        "character": "Delphine",
+        "line": "Oui, c’est vulgaire. C'est dégueulasse !",
+        "line-number": 24
+      },
+      {
+        "character": "Simon",
+        "line": "Mais enfin, Maman, c’est une passade, ça ne pourra pas durer.",
+        "line-number": 25
+      },
+      {
+        "character": "La Mère",
+        "line": "Mes chéris, ça durera ce que ça durera, ça m'est bien égal. Même si ne devait durer qu'une heure, je referai tout pareil. De toute façon, je n'ai jamais vu que la durée fasse beaucoup de bien aux histoires d'amour.",
+        "line-number": 26
+      },
+      {
+        "character": "Simon",
+        "line": "C'est pas une histoire d'amour. Tout ce qui t'intéresse, c’est de t'envoyer en l'air !",
+        "line-number": 27
+      },
+      {
+        "character": "La Mère",
+        "line": ": Mais bien sûr que ça m'intéresse de m'envoyer en l'air, ça ne t'intéresse pas, toi ? Et même si c'était une belle histoire de cul, j'ai pas le droit d'en avoir une belle histoire de cul, moi ? Elles sont insensées toutes les deux. Comment elles croient qu'elles sont venues sur cette terre ? Vous croyez que je vous ai fait avec mes oreilles ? Je vous ai fait avec mon cul, mes petits poussins. Même qu'à l'époque, c'était drôlement chouette le cul avec votre père. Bon, ben maintenant il ne se passe plus rien entre nous, alors ça ne vous fait peut-être pas tellement plaisir à entendre, mais votre mère elle a un cul qui va très bien. Qui va mieux que jamais même. (un temps) Et puis il y autre chose que vous voulez pas entendre : je suis amoureuse. Je suis heureuse. Je nage dans le bonheur… "
+        ,"line-number":28
+  }]
+    }
+    
+  ]

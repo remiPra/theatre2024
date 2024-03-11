@@ -17,6 +17,8 @@ import Ollama from './Ollama';
 import { AuthProvider } from './AuthContext';
 import ProtectedRoute from './components/ProtectedRoute'
 import LoginPage from './LoginPage';
+import GroqApiComponent from './GroqApi';
+import Anthropic from './AnthropicApi';
 
 function App() {
   return (<>
@@ -46,6 +48,8 @@ function App() {
             </ProtectedRoute> */}
             <Route path="/allsentences" element={<AllReplique />} />
             {/* <Route path="/ollama" element={<Ollama />} /> */}
+            <Route path="/groq" element={<GroqApiComponent />} />
+            <Route path="/anthro" element={<Anthropic />} />
             {/* Ajoutez d'autres routes ici */}
           </Routes>
         </div>

@@ -76,7 +76,12 @@ function AllReplique() {
                         <div key={index}>
                             {(line.character == characterPlay) && <>
                                 {/* <h1>{sceneEl.play_name}</h1> */}
-                            <strong>{line.character}</strong> : {line.line}
+                            <p className='italic' ><strong className='italic'>{sceneEl.lines[index - 1].character} : </strong> ....... 
+                            {sceneEl.lines[index - 1].line.split(" ").slice(-3, -2)[0] + " " +  
+                            sceneEl.lines[index - 1].line.split(" ").slice(-2, -1)[0] + " " +             
+                            sceneEl.lines[index - 1].line.split(" ").pop()                            
+                            }    </p>
+                           <p> <strong>{line.character}</strong> : {line.line} </p>
                             </>
                             }
                              
