@@ -54,8 +54,8 @@ function App() {
             </ProtectedRoute> */}
             <Route path="/allsentences" element={<AllReplique />} />
             {/* <Route path="/ollama" element={<Ollama />} /> */}
-            <Route path="/groq" element={<GroqApiComponent />} />
-            <Route path="/anthro" element={<Anthropic />} />
+            {/* <Route path="/groq" element={<GroqApiComponent />} />
+            <Route path="/anthro" element={<Anthropic />} /> */}
             {/* Ajoutez d'autres routes ici */}
           </Routes>
         </div>

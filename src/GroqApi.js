@@ -171,7 +171,8 @@ const GroqApiComponent = () => {
         }
     };
 
-    return (
+    return (<>
+   
         <div className='text-center'> 
          <BuddhaEnter onstartaudio={startAudio} onstopaudio={stopAudio}   />
             <p>Microphone: {listening ? 'on' : 'off'}</p>
@@ -181,7 +182,7 @@ const GroqApiComponent = () => {
                     onClick={stopAudio}>Stop</button>
             <button className='bg-white border-2 border-black rounded-lg p-2 m-2'
                 onClick={handleReset}>Reset</button>
-            <form className='absolute flex h-[40px] items-center bottom-2.5 left-0 w-full bg-cornflowerblue px-4' onSubmit={handleSubmit}>
+            <div className='absolute flex h-[40px] items-center bottom-2.5 left-0 w-full bg-cornflowerblue px-4' onSubmit={handleSubmit}>
                 <textarea className='flex-1 h-full rounded-2xl bg-white text-blue-700 p-2'
                     value={inputContent}
                     // onChange={(e) => setInputContent(e.target.value)}
@@ -198,6 +199,7 @@ const GroqApiComponent = () => {
                 {/* <pre>{JSON.stringify(response, null, 2)}</pre> */}
             </div>
         </div>
+        </>
     );
 };
 
