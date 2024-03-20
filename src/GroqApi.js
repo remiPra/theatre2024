@@ -116,17 +116,11 @@ const GroqApiComponent = () => {
         setInputContent('');
     }
 
-    const cancelSpeech = () => {
-        if (window.speechSynthesis) {
-            window.speechSynthesis.cancel();
-        }
-    }
 
 
+    const handleSubmit = async (e) => {
+        e.preventDefault();
 
-    const handleSubmit = async () => {
-        // e.preventDefault();
-        stopAudio()
         // const GROQ_API_KEY = 'votre_clé_api_ici'; // Remplacez avec votre clé API réelle
         const apiUrl = 'https://api.groq.com/openai/v1/chat/completions';
 
@@ -187,8 +181,7 @@ const GroqApiComponent = () => {
                     onClick={stopAudio}>Stop</button>
             <button className='bg-white border-2 border-black rounded-lg p-2 m-2'
                 onClick={handleReset}>Reset</button>
-            <button className='bg-white border-2 border-black rounded-lg p-2 m-2' onClick={cancelSpeech}>Arrêter la parole</button>
-            <div className='absolute flex h-[40px] items-center bottom-2.5 left-0 w-full bg-cornflowerblue px-4' onSubmit={handleSubmit}>
+            <form className='absolute flex h-[40px] items-center bottom-2.5 left-0 w-full bg-cornflowerblue px-4' onSubmit={handleSubmit}>
                 <textarea className='flex-1 h-full rounded-2xl bg-white text-blue-700 p-2'
                     value={inputContent}
                     // onChange={(e) => setInputContent(e.target.value)}
