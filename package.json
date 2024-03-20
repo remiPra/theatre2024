@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://api.anthropic.com",
-
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
@@ -14,9 +13,11 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.5",
     "embla-carousel-react": "^8.0.0-rc17",
+    "firebase": "^10.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
+    "react-media-recorder": "^1.6.5",
     "react-router-dom": "^6.21.0",
     "react-scripts": "5.0.1",
     "react-speech-recognition": "^3.10.0",

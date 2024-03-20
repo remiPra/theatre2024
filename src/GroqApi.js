@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import { FaMicrophone } from "react-icons/fa";
+import BuddhaEnter from './components/BuddhaEnter';
 
 const GroqApiComponent = () => {
     const [response, setResponse] = useState('');
@@ -14,9 +15,12 @@ const GroqApiComponent = () => {
 
     useEffect(() => {
         const synth = window.speechSynthesis;
+        const lol = synth.getVoices()
+        console.log(lol)
         function setVoiceList() {
             setVoice(synth.getVoices()[0]);
         }
+       
 
         if (synth.onvoiceschanged !== undefined) {
             synth.onvoiceschanged = setVoiceList;
@@ -27,6 +31,34 @@ const GroqApiComponent = () => {
             synth.onvoiceschanged = null;
         };
     }, []);
+
+    // useEffect(() => {
+    //     const synth = window.speechSynthesis;
+    //     function setVoiceList() {
+    //         // Cette fonction récupère la liste des voix et sélectionne une voix anglaise
+    //         const voices = synth.getVoices();
+    //         console.log(voices)
+    //         const englishVoice = voices.find(voice => voice.lang.startsWith('en'));
+            
+    //         if (englishVoice) {
+    //             setVoice(englishVoice); // Définit la voix sur une voix anglaise
+    //         } else {
+    //             console.log("Aucune voix anglaise trouvée, utilisation de la première voix disponible.");
+    //             setVoice(voices[0]);
+    //         }
+    //     }
+    
+    //     if (synth.onvoiceschanged !== undefined) {
+    //         synth.onvoiceschanged = setVoiceList;
+    //     } else {
+    //         setVoiceList(); // Appel immédiat pour les navigateurs qui ne déclenchent pas onvoiceschanged
+    //     }
+    
+    //     return () => {
+    //         synth.onvoiceschanged = null;
+    //     };
+    // }, []);
+    
 
     useEffect(() => {
         // Cette fonction est appelée à chaque mise à jour de inputContent pour ajuster la hauteur
@@ -59,6 +91,11 @@ const GroqApiComponent = () => {
     // À chaque mise à jour du transcript, mettez à jour l'état de l'inputContent
     useEffect(() => {
         setInputContent(transcript);
+        if (transcript.toLowerCase().includes("sophie")) {
+            // Action à effectuer si le mot "coca" est détecté, par exemple :
+           handleSubmit() 
+        }
+        
     }, [transcript]);
 
     if (!browserSupportsSpeechRecognition) {
@@ -66,6 +103,7 @@ const GroqApiComponent = () => {
     }
 
     const startAudio = () => {
+        resetTranscript()
         SpeechRecognition.startListening({ language: 'fr-FR', continuous: true });
     }
 
@@ -78,18 +116,27 @@ const GroqApiComponent = () => {
         setInputContent('');
     }
 
+    const cancelSpeech = () => {
+        if (window.speechSynthesis) {
+            window.speechSynthesis.cancel();
+        }
+    }
 
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
 
+    const handleSubmit = async () => {
+        // e.preventDefault();
+        stopAudio()
         // const GROQ_API_KEY = 'votre_clé_api_ici'; // Remplacez avec votre clé API réelle
         const apiUrl = 'https://api.groq.com/openai/v1/chat/completions';
 
         const requestBody = {
             messages: [{
                 role: "user",
-                content: inputContent + "réponds en francais uniquement"
+                content:`
+                <important> adopt the role of buddha </important>
+                <context> tu ne réponds qu'au question spirituelle uniquement en francais </context>  
+                <task> réponds a cette question :  ${inputContent} </task> `
             }],
             model: "mixtral-8x7b-32768",
             temperature: 0.5,
@@ -110,13 +157,14 @@ const GroqApiComponent = () => {
             });
 
             const data = await response.json();
-
+            console.log(data)
             setResponse(data.choices[0].message.content); // Vous pouvez ajuster selon la structure de réponse
             // Parlez après avoir reçu la réponse
             const synth = window.speechSynthesis;
             if (voice) {
                 const utterance = new SpeechSynthesisUtterance(data.choices[0].message.content);
                 utterance.voice = voice;
+                utterance.lang = 'en-US'
                 utterance.volume = 1; // La valeur de volume doit être entre 0 et 1
                 synth.speak(utterance);
             }
@@ -130,15 +178,17 @@ const GroqApiComponent = () => {
     };
 
     return (
-        <div>
+        <div className='text-center'> 
+         <BuddhaEnter onstartaudio={startAudio} onstopaudio={stopAudio}   />
             <p>Microphone: {listening ? 'on' : 'off'}</p>
-            <button className='bg-white border-2 border-black rounded-lg p-2 m-2'
-                onClick={startAudio}><FaMicrophone /></button>
-            <button className='bg-white border-2 border-black rounded-lg p-2 m-2'
-                onClick={stopAudio}>Stop</button>
+                <button className='bg-white border-2 border-black rounded-lg p-2 m-2'
+                    onClick={startAudio}><FaMicrophone /></button>
+                <button className='bg-white border-2 border-black rounded-lg p-2 m-2'
+                    onClick={stopAudio}>Stop</button>
             <button className='bg-white border-2 border-black rounded-lg p-2 m-2'
                 onClick={handleReset}>Reset</button>
-            <form className='absolute flex h-[40px] items-center bottom-2.5 left-0 w-full bg-cornflowerblue px-4' onSubmit={handleSubmit}>
+            <button className='bg-white border-2 border-black rounded-lg p-2 m-2' onClick={cancelSpeech}>Arrêter la parole</button>
+            <div className='absolute flex h-[40px] items-center bottom-2.5 left-0 w-full bg-cornflowerblue px-4' onSubmit={handleSubmit}>
                 <textarea className='flex-1 h-full rounded-2xl bg-white text-blue-700 p-2'
                     value={inputContent}
                     // onChange={(e) => setInputContent(e.target.value)}
@@ -147,9 +197,9 @@ const GroqApiComponent = () => {
                     rows="1" // Commence avec une seule ligne
 
                 />
-                <button className='h-full px-6 bg-blue-500 text-white rounded-full' type="submit">Envoyer</button>
-            </form>
-
+                <button onClick={handleSubmit} className='h-full px-6 bg-blue-500 text-white rounded-full' type="submit">Envoyer</button>
+            </div>
+           
             <div>
                 <p>{response}</p>
                 {/* <pre>{JSON.stringify(response, null, 2)}</pre> */}

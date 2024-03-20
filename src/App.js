@@ -19,6 +19,7 @@ import ProtectedRoute from './components/ProtectedRoute'
 import LoginPage from './LoginPage';
 import GroqApiComponent from './GroqApi';
 import Anthropic from './AnthropicApi';
+import PlayAudioTraining from './PlayAudioTraining';
 
 function App() {
   return (<>
@@ -40,6 +41,11 @@ function App() {
             <Route path="/audio" element={
               <ProtectedRoute redirectTo="/login">
                <PlayComponentAudio />
+              </ProtectedRoute>
+            } />
+            <Route path="/training" element={
+              <ProtectedRoute redirectTo="/login">
+               <PlayAudioTraining />
               </ProtectedRoute>
             } />
               <Route path="/login" element={<LoginPage />} />
