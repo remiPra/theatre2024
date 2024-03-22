@@ -12,6 +12,7 @@ function HomePage() {
                 {/* <li><Link className='px-2' to="/">Accueil</Link></li> */}
                 <li><Link className='p-2 m-3 rounded-2xl text-center text-[22px]  bg-red-100 mx-auto w-[300px] block' to="/allsentences">Je veux voir toutes mes répliques dans la pièce  </Link></li>
                 <li><Link className='p-2 m-3 rounded-2xl text-center text-[22px]  bg-red-100 mx-auto w-[300px] block' to="/audio">Je veux travailler une scene en cachant mon texte </Link></li>
+                <li><Link className='p-2 m-3 rounded-2xl text-center text-[22px]  bg-red-100 mx-auto w-[300px] block' to="/training">Je veux m'entrainer à l'audio d'une scène </Link></li>
             </ul>
         </div>
     )

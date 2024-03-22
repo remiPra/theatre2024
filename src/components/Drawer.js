@@ -34,6 +34,7 @@ export default function DrawerBasic() {
                 {/* <li><Link className='px-2' to="/">Accueil</Link></li> */}
                 <li onClick={toggleDrawer(false)}><Link  className='font-bold p-2 m-3 rounded-2xl text-center bg-red-100 mx-auto w-[250px] block' to="/allsentences">Je veux voir toutes mes répliques dans la pièce  </Link></li>
                 <li onClick={toggleDrawer(false)}><Link className='p-2 m-3 font-bold rounded-2xl text-center bg-red-100 mx-auto w-[250px] block' to="/audio">Je veux travailler une scene en cachant mon texte </Link></li>
+                <li onClick={toggleDrawer(false)}><Link className='p-2 m-3 font-bold rounded-2xl text-center bg-red-100 mx-auto w-[250px] block' to="/training">Je veux m'entrainer à l'audio  </Link></li>
             </ul>
         </div>
       </Drawer>

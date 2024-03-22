@@ -40,6 +40,13 @@ function PlayAudioTraining() {
 
     }
 
+    const reload = () => {
+        console.log("reload")
+        setShowAudio(false)
+        setTimeout(()=>{setShowAudio(true)},2000)
+
+    }
+
     useEffect(() => {
         setCharacterPlay('')
         setScene('')
@@ -199,14 +206,14 @@ function PlayAudioTraining() {
     }
 
     return (<>
-        {scene != "" && <button className='fixed text-[30px] top-30 right-8 z-5 text-white bg-blue-800 rounded-xl p-2' onClick={Initial}>
+        {scene != "" && <button className='text-[30px] align-right text-white bg-blue-800 rounded-xl p-2' onClick={Initial}>
             <FaArrowLeft />
         </button>}
         {/* scene initialie */}
         {(characterPlay == '' && scene == "") && (
             <>
                 <div className='relative w-full'>
-                    <h1 className='text-center mt-6 mb-4 '>Choisissez votre scene :</h1>
+                    <h1 className='mt-[100px] text-center md:mt-6 mb-4 '>Choisissez votre scene :</h1>
                     <div className='w-full text-center mb-2'>
 
                         {!showPersonnage && <button className='text-white bg-blue-800 text-center mx-auto w-[200px] rounded-xl m-1 p-2' onClick={openPersonnage}>Personnage</button>}
@@ -253,7 +260,7 @@ function PlayAudioTraining() {
         )}
         {/* deuxieme étape */}
         {(characterPlay == "" && scene != "" && !continuer) && <>
-            <h3 className='text-center mt-6 mb-6'>Vous avez choisi la scène :
+            <h3 className='text-center mb-6'>Vous avez choisi la scène :
                 <span className='block text-center text-2xl '>{scene}</span>
                 <span className='block text-center text-xl '>{description}</span>
 
@@ -366,10 +373,10 @@ function PlayAudioTraining() {
 
                 <div className='p-5 rounded-lg mt-5 mx-[20%] flex flex-col text-center bg-white '>
                     
-                    <button className='border-2 p-2 rounded-md m-2'  onClick={() => setShowAudio(false)}>
+                    <button className='text-white bg-red-500 p-2 rounded-xl m-2'  onClick={() => setShowAudio(false)}>
                         sortir
                     </button>
-                    <RegisterSentence onclose={() => setShowAudio(false)} replique={replique} />
+                    <RegisterSentence ondef={reload} onclose={() => setShowAudio(false)} replique={replique} />
                 </div>
             </div>
         }
@@ -378,7 +385,7 @@ function PlayAudioTraining() {
 
                 <div className='p-5 rounded-lg mt-5 mx-[20%] flex flex-col text-center bg-white '>
                     
-                    <TrainingScene character={characterPlay} onclose={()=>setTraining(false)} repliques={specificScene} />
+                    <TrainingScene  character={characterPlay} onclose={()=>setTraining(false)} repliques={specificScene} />
                 </div>
             </div>
         }
