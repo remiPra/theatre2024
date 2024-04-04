@@ -376,7 +376,7 @@ function PlayAudioTraining() {
                     <button className='text-white bg-red-500 p-2 rounded-xl m-2'  onClick={() => setShowAudio(false)}>
                         sortir
                     </button>
-                    <RegisterSentence ondef={reload} onclose={() => setShowAudio(false)} replique={replique} />
+                    <RegisterSentence  ondef={reload} onclose={() => setShowAudio(false)} replique={replique} />
                 </div>
             </div>
         }

@@ -8,6 +8,11 @@ function RegisterSentence(props) {
         props.ondef()
     }
 
+    const leave = () => {
+        console.log("rere")
+        props.ondefleave()
+    }
+
     return (
         <div>
 
@@ -15,7 +20,7 @@ function RegisterSentence(props) {
                 la réplique est :  {props.replique.line}
             </p>
 
-            <AudioRecorder ononsortir={() => { simple() }} replique={props.replique} close={props.onclose} />
+            <AudioRecorder onleave={()=>{leave()}} ononsortir={() => { simple() }} replique={props.replique} close={props.onclose} />
         </div>
     )
 }

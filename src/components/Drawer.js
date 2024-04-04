@@ -35,6 +35,7 @@ export default function DrawerBasic() {
                 <li onClick={toggleDrawer(false)}><Link  className='font-bold p-2 m-3 rounded-2xl text-center bg-red-100 mx-auto w-[250px] block' to="/allsentences">Je veux voir toutes mes répliques dans la pièce  </Link></li>
                 <li onClick={toggleDrawer(false)}><Link className='p-2 m-3 font-bold rounded-2xl text-center bg-red-100 mx-auto w-[250px] block' to="/audio">Je veux travailler une scene en cachant mon texte </Link></li>
                 <li onClick={toggleDrawer(false)}><Link className='p-2 m-3 font-bold rounded-2xl text-center bg-red-100 mx-auto w-[250px] block' to="/training">Je veux m'entrainer à l'audio  </Link></li>
+                <li onClick={toggleDrawer(false)}><Link className='p-2 m-3 font-bold rounded-2xl text-center bg-red-100 mx-auto w-[250px] block' to="/secret">parler a Buddha  </Link></li>
             </ul>
         </div>
       </Drawer>

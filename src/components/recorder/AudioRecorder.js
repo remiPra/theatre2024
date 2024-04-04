@@ -72,6 +72,7 @@ const AudioRecorder = (props) => {
       getDownloadURL(snapshot.ref).then((downloadURL) => {
         setAudioURL(downloadURL);
         console.log('File available at', downloadURL);
+        props.close()
       });
     }).catch((error) => {
       console.error('Error uploading audio:', error);
@@ -81,7 +82,7 @@ const AudioRecorder = (props) => {
 
 
   const [durations,setDuration] = useState(0)
-
+  
 
   return (
     <div>

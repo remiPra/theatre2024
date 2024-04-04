@@ -20,6 +20,7 @@ import LoginPage from './LoginPage';
 import GroqApiComponent from './GroqApi';
 import Anthropic from './AnthropicApi';
 import PlayAudioTraining from './PlayAudioTraining';
+import Secretaire from './components/Secretaire';
 
 function App() {
   return (<>
@@ -54,8 +55,9 @@ function App() {
             </ProtectedRoute> */}
             <Route path="/allsentences" element={<AllReplique />} />
             {/* <Route path="/ollama" element={<Ollama />} /> */}
-            {/* <Route path="/groq" element={<GroqApiComponent />} />
-            <Route path="/anthro" element={<Anthropic />} /> */}
+            <Route path="/groq" element={<GroqApiComponent />} />
+            <Route path="/anthro" element={<Anthropic />} />
+            <Route path="/secret" element={<Secretaire />} />
             {/* Ajoutez d'autres routes ici */}
           </Routes>
         </div>
